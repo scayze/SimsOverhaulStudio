@@ -1,0 +1,10625 @@
+[
+ {
+  "first": "Sammy",
+  "last": "Garc\u00eda",
+  "household": "Sammy The Ring Bear",
+  "title": "Sammy_Garc\u00eda",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Nerd Brain",
+    "track": "Creativity B"
+   }
+  ],
+  "wiki_skills": {
+   "writing": 5
+  },
+  "tool_skills": {
+   "writing": 5
+  }
+ },
+ {
+  "first": "Elric",
+  "last": "DeMuray",
+  "household": "Attenberry",
+  "title": "Elric_DeMuray",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nature Nomad",
+    "track": "Nature Bohemian Style"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "gardening": 8,
+   "bartending": 6,
+   "nls": 7
+  },
+  "tool_skills": {
+   "gardening": 8,
+   "nls": 7,
+   "charisma": 3,
+   "bartending": 6
+  }
+ },
+ {
+  "first": "Todd",
+  "last": "Attenberry",
+  "household": "Attenberry",
+  "title": "Todd_Attenberry",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Elixir Enthusiast",
+    "track": "Knowledge Nature Meds"
+   }
+  ],
+  "wiki_skills": {
+   "apothecary": 10,
+   "gardening": 6,
+   "nls": 6
+  },
+  "tool_skills": {
+   "apothecary": 10,
+   "gardening": 6,
+   "nls": 6
+  }
+ },
+ {
+  "first": "Vladislaus",
+  "last": "Straud",
+  "household": "Count Vladislaus Straud IV",
+  "title": "Vladislaus_Straud",
+  "diffs": [
+   {
+    "kind": "skill_missing_tool",
+    "skill": "vampirelore",
+    "wiki": 10
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "Master Vampire",
+    "track": "Knowledge D"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 8,
+   "pipeorgan": 10,
+   "vampirelore": 10
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "pipeorgan": 10
+  }
+ },
+ {
+  "first": "Shigeru",
+  "last": "Nishidake",
+  "household": "Nishidake",
+  "title": "Shigeru_Nishidake",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Kaori Nishidake"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 5,
+   "fishing": 7,
+   "gardening": 5,
+   "mischief": 5,
+   "bartending": 6
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "gardening": 5,
+   "mischief": 5,
+   "bartending": 6,
+   "fishing": 7
+  }
+ },
+ {
+  "first": "Sachiko",
+  "last": "Nishidake",
+  "household": "Nishidake",
+  "title": "Sachiko_Nishidake",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Kaori Nishidake"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 5,
+   "homestylecooking": 5,
+   "gourmetcooking": 4,
+   "logic": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "gourmetcooking": 4,
+   "logic": 5,
+   "comedy": 5
+  }
+ },
+ {
+  "first": "Kaori",
+  "last": "Nishidake",
+  "household": "Nishidake",
+  "title": "Kaori_Nishidake",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Extreme Sports Enthusiast",
+    "track": "Athetic Extreme Sports Enthusiast"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Kiyoshi Ito"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandfather (maternal)",
+    "name": "Shigeru Nishidake"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (maternal)",
+    "name": "Sachiko Nishidake"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 5,
+   "fishing": 4,
+   "fitness": 5,
+   "snowboarding": 7
+  },
+  "tool_skills": {
+   "snowboarding": 7,
+   "comedy": 5,
+   "fitness": 5,
+   "fishing": 4
+  }
+ },
+ {
+  "first": "Jimmy",
+  "last": "Pond",
+  "household": "Pond",
+  "title": "Jimmy_Pond",
+  "diffs": [
+   {
+    "kind": "trait_extra_tool",
+    "trait": "selfassured"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "loner"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "snob"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Alaina Pond"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 8,
+   "logic": 5,
+   "programming": 5
+  },
+  "tool_skills": {
+   "programming": 5,
+   "logic": 5,
+   "fitness": 8,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Alaina",
+  "last": "Pond",
+  "household": "Pond",
+  "title": "Alaina_Pond",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Whiz Kid",
+    "track": "Mental"
+   }
+  ],
+  "wiki_skills": {
+   "childmental": 9
+  },
+  "tool_skills": {
+   "childmental": 9
+  }
+ },
+ {
+  "first": "Laxmi",
+  "last": "Kunal",
+  "household": "Laxmi Kunal",
+  "title": "Laxmi_Kunal",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Critter Hunter",
+    "track": "Nature Critter Hunter"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Raheel Kunal"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 7,
+   "gardening": 7,
+   "handiness": 6,
+   "bartending": 5,
+   "papercraft": 7
+  },
+  "tool_skills": {
+   "handiness": 6,
+   "fishing": 7,
+   "gardening": 7,
+   "papercraft": 7,
+   "bartending": 5
+  }
+ },
+ {
+  "first": "Radwan",
+  "last": "Gomes",
+  "household": "Gomes",
+  "title": "Radwan_Gomes",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Layne Coffin"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Zelmira Gomes"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 3,
+   "fitness": 3,
+   "logic": 4
+  },
+  "tool_skills": {
+   "logic": 4,
+   "fishing": 3,
+   "fitness": 3
+  }
+ },
+ {
+  "first": "Tziporah",
+  "last": "Gomes",
+  "household": "Gomes",
+  "title": "Tziporah_Gomes",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Esther Gomes"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Zelmira Gomes"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 5,
+   "writing": 8
+  },
+  "tool_skills": {
+   "writing": 8,
+   "fishing": 5
+  }
+ },
+ {
+  "first": "Zelmira",
+  "last": "Gomes",
+  "household": "Gomes",
+  "title": "Zelmira_Gomes",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "The Curator",
+    "track": "Nature C"
+   }
+  ],
+  "wiki_skills": {
+   "thanatology": 3,
+   "violin": 7
+  },
+  "tool_skills": {
+   "violin": 7,
+   "thanatology": 3
+  }
+ },
+ {
+  "first": "Bruno",
+  "last": "Hoffman",
+  "household": "Hoffman",
+  "title": "Bruno_Hoffman",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Esteemed Entrepreneur",
+    "track": "Athletic A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Felix Hoffman"
+   }
+  ],
+  "wiki_skills": {
+   "baking": 5,
+   "homestylecooking": 7,
+   "gourmetcooking": 8,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "homestylecooking": 7,
+   "gourmetcooking": 8,
+   "mischief": 3,
+   "baking": 5
+  }
+ },
+ {
+  "first": "Felix",
+  "last": "Hoffman",
+  "household": "Hoffman",
+  "title": "Felix_Hoffman",
+  "diffs": [
+   {
+    "kind": "skill_extra_tool",
+    "skill": "retailsales",
+    "tool": 2
+   },
+   {
+    "kind": "skill_extra_tool",
+    "skill": "retailworkethic",
+    "tool": 2
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "Master Chef",
+    "track": "Athletic A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandfather (maternal)",
+    "name": "Bruno Hoffman"
+   }
+  ],
+  "wiki_skills": {
+   "baking": 4,
+   "homestylecooking": 6,
+   "gourmetcooking": 3
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 3,
+   "baking": 4,
+   "retailsales": 2,
+   "retailworkethic": 2
+  }
+ },
+ {
+  "first": "Glen",
+  "last": "Nhoam",
+  "household": "Nhoam",
+  "title": "Glen_Nhoam",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "The Curator",
+    "track": "Nature C"
+   }
+  ],
+  "wiki_skills": {
+   "handiness": 8,
+   "writing": 10
+  },
+  "tool_skills": {
+   "handiness": 8,
+   "writing": 10
+  }
+ },
+ {
+  "first": "Keala",
+  "last": "Hoapili",
+  "household": "Hoapili",
+  "title": "Keala_Hoapili",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Freelance Botanist",
+    "track": "Nature A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Lia Hauata"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "gardening": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "gardening": 5
+  }
+ },
+ {
+  "first": "Lia",
+  "last": "Hauata",
+  "household": "Hoapili",
+  "title": "Lia_Hauata",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (maternal)",
+    "name": "Keala Hoapili"
+   }
+  ],
+  "wiki_skills": {
+   "guitar": 3,
+   "writing": 3
+  },
+  "tool_skills": {
+   "writing": 3,
+   "guitar": 3
+  }
+ },
+ {
+  "first": "Ekade",
+  "last": "Aether",
+  "household": "Aether",
+  "title": "Ekade_Aether",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Takama Aether"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "dancing": 5,
+   "logic": 4
+  },
+  "tool_skills": {
+   "logic": 4,
+   "charisma": 5,
+   "dancing": 5
+  }
+ },
+ {
+  "first": "Kai",
+  "last": "Aether",
+  "household": "Aether",
+  "title": "Kai_Aether",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Takama Aether"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "handiness": 5,
+   "logic": 6,
+   "writing": 4
+  },
+  "tool_skills": {
+   "logic": 6,
+   "charisma": 5,
+   "handiness": 5,
+   "writing": 4
+  }
+ },
+ {
+  "first": "Takama",
+  "last": "Aether",
+  "household": "Aether",
+  "title": "Takama_Aether",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Creativity"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "neutralconfidence"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Ukupanipo",
+  "last": "Hekekia",
+  "household": "Hekekia",
+  "title": "Ukupanipo_Hekekia",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "charisma",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Beach Life",
+    "track": "Location Beach Bum"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "hometurf"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 1,
+   "fishing": 4,
+   "fitness": 7
+  },
+  "tool_skills": {
+   "fitness": 7,
+   "fishing": 4
+  }
+ },
+ {
+  "first": "Raj",
+  "last": "Rasoya",
+  "household": "Rasoya",
+  "title": "Raj_Rasoya",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 10,
+   "gourmetcooking": 7
+  },
+  "tool_skills": {
+   "homestylecooking": 10,
+   "gourmetcooking": 7
+  }
+ },
+ {
+  "first": "Geeta",
+  "last": "Rasoya",
+  "household": "Rasoya",
+  "title": "Geeta_Rasoya",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Raj Rasoya"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 8,
+   "gardening": 3,
+   "writing": 6
+  },
+  "tool_skills": {
+   "gardening": 3,
+   "writing": 6,
+   "homestylecooking": 8
+  }
+ },
+ {
+  "first": "Celeste",
+  "last": "Michaelson",
+  "household": "Michaelson",
+  "title": "Celeste_Michaelson",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Sebastian Michaelson"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Atlas Michaelson"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Orion Michaelson"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "programming": 9
+  },
+  "tool_skills": {
+   "charisma": 6,
+   "programming": 9
+  }
+ },
+ {
+  "first": "Christopher",
+  "last": "Michaelson",
+  "household": "Michaelson",
+  "title": "Christopher_Michaelson",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Atlas Michaelson"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Orion Michaelson"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 7,
+   "programming": 5,
+   "painting": 8
+  },
+  "tool_skills": {
+   "painting": 8,
+   "programming": 5,
+   "charisma": 7
+  }
+ },
+ {
+  "first": "Atlas",
+  "last": "Michaelson",
+  "household": "Michaelson",
+  "title": "Atlas_Michaelson",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Playtime Captain",
+    "track": "Playtime Captain"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Care",
+  "last": "Ren",
+  "household": "Ren",
+  "title": "Care_Ren",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Grilled Cheese",
+    "track": "Popularity Friendly Neighbor"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "homestylecooking": 5,
+   "logic": 7
+  },
+  "tool_skills": {
+   "charisma": 6,
+   "homestylecooking": 5,
+   "logic": 7
+  }
+ },
+ {
+  "first": "Lady Ravendancer",
+  "last": "Goth",
+  "household": "Ravendancer Goth",
+  "title": "Lady_Ravendancer_Goth",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Ghost Historian",
+    "track": "Knowledge Ghost Whisperer"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "embracedbydeath"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "chasedbydeath"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 10,
+   "writing": 10
+  },
+  "tool_skills": {
+   "charisma": 10,
+   "writing": 10
+  }
+ },
+ {
+  "first": "Lerato",
+  "last": "Sarpong",
+  "household": "Sarpong",
+  "title": "Lerato_Sarpong",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Whiz Kid",
+    "track": "Playtime Captain"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 2,
+   "childmental": 5,
+   "childmotor": 3,
+   "childsocial": 4
+  },
+  "tool_skills": {
+   "childmental": 5,
+   "childcreativity": 2,
+   "childsocial": 4,
+   "childmotor": 3
+  }
+ },
+ {
+  "first": "Nia",
+  "last": "Sarpong",
+  "household": "Sarpong",
+  "title": "Nia_Sarpong",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Neighborhood Confidante",
+    "track": "Popularity Friendly Neighbor"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Lerato Sarpong"
+   }
+  ],
+  "wiki_skills": {
+   "painting": 7,
+   "parenting": 3,
+   "photography": 4,
+   "tattooing": 8
+  },
+  "tool_skills": {
+   "photography": 4,
+   "painting": 7,
+   "parenting": 3,
+   "tattooing": 8
+  }
+ },
+ {
+  "first": "Makoa",
+  "last": "Kealoha",
+  "household": "Kealoha",
+  "title": "Makoa_Kealoha",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Nani Kealoha"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 6,
+   "fitness": 4,
+   "logic": 3
+  },
+  "tool_skills": {
+   "fishing": 6,
+   "fitness": 4,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Lilliana",
+  "last": "Kealoha",
+  "household": "Kealoha",
+  "title": "Lilliana_Kealoha",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Nani Kealoha"
+   }
+  ],
+  "wiki_skills": {
+   "bartending": 5,
+   "homestylecooking": 3,
+   "charisma": 3
+  },
+  "tool_skills": {
+   "bartending": 5,
+   "homestylecooking": 3,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Duane",
+  "last": "Talla",
+  "household": "Kealoha",
+  "title": "Duane_Talla",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Angling Ace",
+    "track": "Nature B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Niece / Nephew",
+    "name": "Nani Kealoha"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 4,
+   "fishing": 3,
+   "mischief": 2
+  },
+  "tool_skills": {
+   "fitness": 4,
+   "fishing": 3,
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Nani",
+  "last": "Kealoha",
+  "household": "Kealoha",
+  "title": "Nani_Kealoha",
+  "diffs": [
+   {
+    "kind": "family_extra_link",
+    "relation": "Aunt / Uncle",
+    "name": "Duane Talla"
+   }
+  ],
+  "wiki_skills": {
+   "toddlercommunication": 3,
+   "toddlermovement": 2,
+   "toddlerthinking": 2
+  },
+  "tool_skills": {
+   "toddlercommunication": 3,
+   "toddlermovement": 2,
+   "toddlerthinking": 2
+  }
+ },
+ {
+  "first": "Akira",
+  "last": "Kibo",
+  "household": "Karaoke Legends",
+  "title": "Akira_Kibo",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "The Curator",
+    "track": "Nature C"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "singing": 7,
+   "videogaming": 6
+  },
+  "tool_skills": {
+   "singing": 7,
+   "homestylecooking": 2,
+   "videogaming": 6
+  }
+ },
+ {
+  "first": "Miko",
+  "last": "Ojo",
+  "household": "Karaoke Legends",
+  "title": "Miko_Ojo",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Serial Romantic",
+    "track": "Love B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 3,
+   "singing": 8
+  },
+  "tool_skills": {
+   "singing": 8,
+   "homestylecooking": 3,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Darling",
+  "last": "Walsh",
+  "household": "Karaoke Legends",
+  "title": "Darling_Walsh",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Chief of Mischief",
+    "track": "Deviance B"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 8,
+   "singing": 9,
+   "videogaming": 8
+  },
+  "tool_skills": {
+   "singing": 9,
+   "fitness": 8,
+   "videogaming": 8
+  }
+ },
+ {
+  "first": "Sienna",
+  "last": "Grove",
+  "household": "Sienna & Flapjack",
+  "title": "Sienna_Grove",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Championship Rider",
+    "track": "Animal Top Rider"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Umber Grove"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 2,
+   "charisma": 5,
+   "equestrianskill": 8
+  },
+  "tool_skills": {
+   "equestrianskill": 8,
+   "charisma": 5,
+   "fitness": 2
+  }
+ },
+ {
+  "first": "Ash",
+  "last": "Harjo",
+  "household": "Harjo",
+  "title": "Ash_Harjo",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Admired Icon",
+    "track": "Teen Admired Icon"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 2,
+   "entrepreneur": 3,
+   "painting": 4
+  },
+  "tool_skills": {
+   "painting": 4,
+   "entrepreneur": 3,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Ava",
+  "last": "Harjo",
+  "household": "Harjo",
+  "title": "Ava_Harjo",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Chef",
+    "track": "Food B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Noah Kane"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 2,
+   "homestylecooking": 6,
+   "gourmetcooking": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 4,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Lucha",
+  "last": "Harjo",
+  "household": "Harjo",
+  "title": "Lucha_Harjo",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Chef",
+    "track": "Food B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Ash Harjo"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 5,
+   "homestylecooking": 2
+  },
+  "tool_skills": {
+   "homestylecooking": 2,
+   "comedy": 5
+  }
+ },
+ {
+  "first": "Noah",
+  "last": "Kane",
+  "household": "Harjo",
+  "title": "Noah_Kane",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Chief of Mischief",
+    "track": "Deviance B"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 3,
+   "mischief": 4
+  },
+  "tool_skills": {
+   "mischief": 4,
+   "comedy": 3
+  }
+ },
+ {
+  "first": "Agnes",
+  "last": "Crumplebottom",
+  "household": "Crumplebottom",
+  "title": "Agnes_Crumplebottom",
+  "diffs": [
+   {
+    "kind": "skill_extra_tool",
+    "skill": "flowerarranging",
+    "tool": 5
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Freelance Botanist",
+    "track": "Nature A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Simon Crumplebottom"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Prudence Crumplebottom"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Cornelia Goth"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Roberto Crinkletop"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Erik Darling"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "crossstitch": 5,
+   "gardening": 6,
+   "painting": 3
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "painting": 3,
+   "gardening": 6,
+   "flowerarranging": 5,
+   "crossstitch": 5
+  }
+ },
+ {
+  "first": "Agatha",
+  "last": "Crumplebottom",
+  "household": "Crumplebottom",
+  "title": "Agatha_Crumplebottom",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Serial Romantic",
+    "track": "Love B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 7,
+   "homestylecooking": 6,
+   "gardening": 7,
+   "parenting": 8,
+   "piano": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "charisma": 7,
+   "gardening": 7,
+   "piano": 4,
+   "parenting": 8
+  }
+ },
+ {
+  "first": "Alika",
+  "last": "Kahananui",
+  "household": "Kahananui",
+  "title": "Alika_Kahananui",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "handiness": 4,
+   "logic": 3
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "handiness": 4,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Mele",
+  "last": "Kahananui",
+  "household": "Kahananui",
+  "title": "Mele_Kahananui",
+  "diffs": [
+   {
+    "kind": "career",
+    "wiki": "Business",
+    "tool": "Culinary"
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "charisma": 2,
+   "gourmetcooking": 2
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "gourmetcooking": 2,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Arun",
+  "last": "Bheeda",
+  "household": "Bheeda",
+  "title": "Arun_Bheeda",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "programming": 5,
+   "videogaming": 4,
+   "writing": 4
+  },
+  "tool_skills": {
+   "programming": 5,
+   "writing": 4,
+   "videogaming": 4
+  }
+ },
+ {
+  "first": "Jesminder",
+  "last": "Bheeda",
+  "household": "Bheeda",
+  "title": "Jesminder_Bheeda",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Mixologist",
+    "track": "Food A"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "bartending": 7,
+   "painting": 5
+  },
+  "tool_skills": {
+   "painting": 5,
+   "homestylecooking": 6,
+   "bartending": 7
+  }
+ },
+ {
+  "first": "Mother",
+  "last": "Nature",
+  "household": "Nature",
+  "title": "Mother_Nature",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Spruce Almighty"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 10,
+   "gardening": 10
+  },
+  "tool_skills": {
+   "gardening": 10,
+   "charisma": 10
+  }
+ },
+ {
+  "first": "Iris",
+  "last": "Ladipo",
+  "household": "Kishka",
+  "title": "Iris_Ladipo",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fairy Stories",
+    "track": "Fairy Fairy Stories Initiation"
+   }
+  ],
+  "wiki_skills": {
+   "apothecary": 4,
+   "charisma": 2,
+   "gardening": 3,
+   "nls": 2
+  },
+  "tool_skills": {
+   "charisma": 2,
+   "gardening": 3,
+   "apothecary": 4,
+   "nls": 2
+  }
+ },
+ {
+  "first": "Nadya",
+  "last": "Kishka",
+  "household": "Kishka",
+  "title": "Nadya_Kishka",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "disruptive"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultfairytyae"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "rogue"
+   }
+  ],
+  "wiki_skills": {
+   "guitar": 3,
+   "mischief": 7,
+   "piano": 2
+  },
+  "tool_skills": {
+   "piano": 2,
+   "guitar": 3,
+   "mischief": 7
+  }
+ },
+ {
+  "first": "Robin",
+  "last": "Banks",
+  "household": "Burglar",
+  "title": "Robin_Banks",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Chief of Mischief",
+    "track": "Knowledge Archaeology Scholar"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 8,
+   "mischief": 10
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "mischief": 10
+  }
+ },
+ {
+  "first": "Wayne",
+  "last": "The Boulder",
+  "household": "Body Builder",
+  "title": "Wayne_The_Boulder",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bodybuilder",
+    "track": "Athletic A"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "romantic"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "islandancestors"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "artlover"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jazz",
+  "last": "McFierce",
+  "household": "Broadway Actor",
+  "title": "Jazz_McFierce",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Joke Star",
+    "track": "Popularity A"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Farrah",
+  "last": "Nouvel",
+  "household": "Nouvel",
+  "title": "Farrah_Nouvel",
+  "diffs": [
+   {
+    "kind": "skill_missing_tool",
+    "skill": "homestylecooking",
+    "wiki": 2
+   },
+   {
+    "kind": "skill_missing_tool",
+    "skill": "painting",
+    "wiki": 3
+   },
+   {
+    "kind": "skill_extra_tool",
+    "skill": "charisma",
+    "tool": 1
+   },
+   {
+    "kind": "skill_extra_tool",
+    "skill": "fitness",
+    "tool": 1
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "painting": 3
+  },
+  "tool_skills": {
+   "charisma": 1,
+   "fitness": 1
+  }
+ },
+ {
+  "first": "Ted",
+  "last": "Roswell",
+  "household": "Roswell",
+  "title": "Ted_Roswell",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "gardening": 7,
+   "logic": 4
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "gardening": 7,
+   "logic": 4
+  }
+ },
+ {
+  "first": "Meredith",
+  "last": "Roswell",
+  "household": "Roswell",
+  "title": "Meredith_Roswell",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 7,
+   "gardening": 2,
+   "gourmetcooking": 3,
+   "handiness": 6
+  },
+  "tool_skills": {
+   "gardening": 2,
+   "gourmetcooking": 3,
+   "homestylecooking": 7,
+   "handiness": 6
+  }
+ },
+ {
+  "first": "Juliette",
+  "last": "Monty",
+  "household": "Monty",
+  "title": "Juliette_Monty",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Successful Lineage",
+    "track": "Fortune B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Caliban Capp"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Cordelia Capp"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Dante Monty"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 10,
+   "piano": 4,
+   "swordsmanship": 6
+  },
+  "tool_skills": {
+   "charisma": 10,
+   "swordsmanship": 6,
+   "piano": 4
+  }
+ },
+ {
+  "first": "Romeo",
+  "last": "Monty",
+  "household": "Monty",
+  "title": "Romeo_Monty",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Dante Monty"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 10,
+   "gourmetcooking": 8,
+   "bartending": 7,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "homestylecooking": 10,
+   "gourmetcooking": 8,
+   "bartending": 7,
+   "videogaming": 3
+  }
+ },
+ {
+  "first": "Dante",
+  "last": "Monty",
+  "household": "Monty",
+  "title": "Dante_Monty",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Joke Star",
+    "track": "Popularity A"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 5,
+   "videogaming": 8
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "videogaming": 8
+  }
+ },
+ {
+  "first": "Mila",
+  "last": "Munch",
+  "household": "Munch",
+  "title": "Mila_Munch",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Gunther Munch"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Wolfgang Munch"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Lucas Munch"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 8,
+   "bartending": 8
+  },
+  "tool_skills": {
+   "bartending": 8,
+   "gourmetcooking": 8,
+   "homestylecooking": 6
+  }
+ },
+ {
+  "first": "Gunther",
+  "last": "Munch",
+  "household": "Munch",
+  "title": "Gunther_Munch",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   }
+  ],
+  "wiki_skills": {
+   "writing": 7
+  },
+  "tool_skills": {
+   "writing": 7
+  }
+ },
+ {
+  "first": "Wolfgang",
+  "last": "Munch",
+  "household": "Munch",
+  "title": "Wolfgang_Munch",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Public Enemy",
+    "track": "Deviance A"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 3,
+   "mischief": 4
+  },
+  "tool_skills": {
+   "logic": 3,
+   "mischief": 4
+  }
+ },
+ {
+  "first": "Lucas",
+  "last": "Munch",
+  "household": "Munch",
+  "title": "Lucas_Munch",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Creativity"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 7,
+   "childmotor": 4
+  },
+  "tool_skills": {
+   "childmotor": 4,
+   "childcreativity": 7
+  }
+ },
+ {
+  "first": "Cannonball",
+  "last": "Coleman",
+  "household": "Urbane Housesharers",
+  "title": "Cannonball_Coleman",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Musical Genius",
+    "track": "Food A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 8,
+   "piano": 8,
+   "violin": 8,
+   "bartending": 6,
+   "guitar": 5,
+   "singing": 5,
+   "homestylecooking": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "piano": 8,
+   "violin": 8,
+   "charisma": 8,
+   "singing": 5,
+   "bartending": 6,
+   "guitar": 5
+  }
+ },
+ {
+  "first": "Crispin",
+  "last": "Black",
+  "household": "Urbane Housesharers",
+  "title": "Crispin_Black",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "charisma",
+    "wiki": 4,
+    "tool": 5
+   },
+   {
+    "kind": "skill_level",
+    "skill": "pottery",
+    "wiki": 4,
+    "tool": 5
+   },
+   {
+    "kind": "skill_level",
+    "skill": "violin",
+    "wiki": 5,
+    "tool": 4
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Esteemed Entrepreneur",
+    "track": "Popularity Esteemed Entrepreneur"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Ollie Mark"
+   }
+  ],
+  "wiki_skills": {
+   "parenting": 4,
+   "charisma": 4,
+   "pottery": 4,
+   "homestylecooking": 4,
+   "violin": 5,
+   "photography": 5,
+   "painting": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "painting": 5,
+   "pottery": 5,
+   "photography": 5,
+   "parenting": 4,
+   "violin": 4,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Ollie",
+  "last": "Mark",
+  "household": "Urbane Housesharers",
+  "title": "Ollie_Mark",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Jayde"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Skid Mark"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 5,
+   "videogaming": 5,
+   "programming": 4,
+   "homestylecooking": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "logic": 5,
+   "videogaming": 5,
+   "programming": 4
+  }
+ },
+ {
+  "first": "Nalani",
+  "last": "Mahi'ai",
+  "household": "Mahi'ai",
+  "title": "Nalani_Mahi'ai",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Beach Life",
+    "track": "Location Beach Bum"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "fitness": 5
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Judith",
+  "last": "Ward",
+  "household": "Ward",
+  "title": "Judith_Ward",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   }
+  ],
+  "wiki_skills": {
+   "acting": 7,
+   "gardening": 3,
+   "gourmetcooking": 5
+  },
+  "tool_skills": {
+   "acting": 7,
+   "gourmetcooking": 5,
+   "gardening": 3
+  }
+ },
+ {
+  "first": "Meekah",
+  "last": "Cragg",
+  "household": "Retirees",
+  "title": "Meekah_Cragg",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "The Curator",
+    "track": "Nature C"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "recycledisciple"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "good"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "bookworm"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jesse",
+  "last": "Cragg",
+  "household": "Retirees",
+  "title": "Jesse_Cragg",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fount of Tomarani Knowledge",
+    "track": "Location Multi Unit Fountain Of Local Knowledge"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "hometurf"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "slob"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "greenfiend"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "catlover"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Don",
+  "last": "Gooseman",
+  "household": "Gooseman",
+  "title": "Don_Gooseman",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "charisma",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Angling Ace",
+    "track": "Nature B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 1,
+   "fishing": 3,
+   "equestrianskill": 7
+  },
+  "tool_skills": {
+   "equestrianskill": 7,
+   "fishing": 3
+  }
+ },
+ {
+  "first": "Oliana",
+  "last": "Ngata",
+  "household": "Ngata",
+  "title": "Oliana_Ngata",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bodybuilder",
+    "track": "Athletic A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Tane Ngata"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 6,
+   "handiness": 2
+  },
+  "tool_skills": {
+   "fitness": 6,
+   "handiness": 2
+  }
+ },
+ {
+  "first": "Leila",
+  "last": "Illes",
+  "household": "Ngata",
+  "title": "Leila_Illes",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "photography",
+    "wiki": 2,
+    "tool": 3
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   }
+  ],
+  "wiki_skills": {
+   "painting": 4,
+   "photography": 2
+  },
+  "tool_skills": {
+   "painting": 4,
+   "photography": 3
+  }
+ },
+ {
+  "first": "Tane",
+  "last": "Ngata",
+  "household": "Ngata",
+  "title": "Tane_Ngata",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "childmotor",
+    "wiki": 3,
+    "tool": 2
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "Whiz Kid",
+    "track": "Mental"
+   }
+  ],
+  "wiki_skills": {
+   "childmental": 4,
+   "childmotor": 3,
+   "childcreativity": 2
+  },
+  "tool_skills": {
+   "childmental": 4,
+   "childmotor": 2,
+   "childcreativity": 2
+  }
+ },
+ {
+  "first": "Faiz",
+  "last": "Jaleel",
+  "household": "Jaleel",
+  "title": "Faiz_Jaleel",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "flowerarranging": 6,
+   "photography": 5,
+   "singing": 5
+  },
+  "tool_skills": {
+   "flowerarranging": 6,
+   "photography": 5,
+   "singing": 5,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Nancy",
+  "last": "Brock",
+  "household": "Single Mom",
+  "title": "Nancy_Brock",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Computer Whiz",
+    "track": "Family A"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "overachiever"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "loner"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "goofball"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Julie Brock"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Johnny Brock"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Julie",
+  "last": "Brock",
+  "household": "Single Mom",
+  "title": "Julie_Brock",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Johnny",
+  "last": "Brock",
+  "household": "Single Mom",
+  "title": "Johnny_Brock",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Layne",
+  "last": "Coffin",
+  "household": "Specter",
+  "title": "Layne_Coffin",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "charisma",
+    "wiki": 10,
+    "tool": 8
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Neighborhood Confidante",
+    "track": "Popularity Friendly Neighbor"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Radwan Gomes"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 10,
+   "guitar": 9,
+   "knitting": 10,
+   "piano": 9
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "piano": 9,
+   "guitar": 9,
+   "knitting": 10
+  }
+ },
+ {
+  "first": "Olive",
+  "last": "Specter",
+  "household": "Specter",
+  "title": "Olive_Specter",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "painting",
+    "wiki": 9,
+    "tool": 7
+   },
+   {
+    "kind": "skill_level",
+    "skill": "writing",
+    "wiki": 5,
+    "tool": 4
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "Serial Romantic",
+    "track": "Love B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Earl E. DeMise"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Hugh Thanasia"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Rigger Mortis"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Ichabod Specter"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Grim Reaper"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Nyon Specter"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 8,
+   "fitness": 5,
+   "logic": 7,
+   "painting": 9,
+   "writing": 5
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "fitness": 5,
+   "logic": 7,
+   "painting": 7,
+   "writing": 4
+  }
+ },
+ {
+  "first": "Geoffrey",
+  "last": "Landgraab",
+  "household": "Landgraab",
+  "title": "Geoffrey_Landgraab",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Malcolm Landgraab"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 1,
+   "fitness": 4,
+   "mischief": 6,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "mischief": 6,
+   "fitness": 4,
+   "charisma": 1,
+   "videogaming": 1
+  }
+ },
+ {
+  "first": "Nancy",
+  "last": "Landgraab",
+  "household": "Landgraab",
+  "title": "Nancy_Landgraab",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Malcolm Landgraab"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "comedy": 1,
+   "fitness": 3,
+   "programming": 2
+  },
+  "tool_skills": {
+   "fitness": 3,
+   "programming": 2,
+   "charisma": 4,
+   "comedy": 1
+  }
+ },
+ {
+  "first": "Malcolm",
+  "last": "Landgraab",
+  "household": "Landgraab",
+  "title": "Malcolm_Landgraab",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "charisma",
+    "wiki": 10,
+    "tool": 3
+   },
+   {
+    "kind": "skill_level",
+    "skill": "mischief",
+    "wiki": 10,
+    "tool": 3
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Public Enemy",
+    "track": "Deviance A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Johnny Zest"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 10,
+   "mischief": 10
+  },
+  "tool_skills": {
+   "mischief": 3,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Corey",
+  "last": "Nyhus",
+  "household": "Nyhus",
+  "title": "Corey_Nyhus",
+  "diffs": [
+   {
+    "kind": "skill_extra_tool",
+    "skill": "juicepong",
+    "tool": 2
+   },
+   {
+    "kind": "skill_extra_tool",
+    "skill": "pingpong",
+    "tool": 2
+   },
+   {
+    "kind": "skill_extra_tool",
+    "skill": "retailworkethic",
+    "tool": 2
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Deviance A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "graduatedwithhonors"
+   }
+  ],
+  "wiki_skills": {
+   "handiness": 2,
+   "bartending": 5,
+   "romance": 2,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "bartending": 5,
+   "retailworkethic": 2,
+   "juicepong": 2,
+   "pingpong": 2,
+   "videogaming": 3,
+   "handiness": 2,
+   "romance": 2
+  }
+ },
+ {
+  "first": "L.",
+  "last": "Faba",
+  "household": "Faba",
+  "title": "L._Faba",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Chief of Mischief",
+    "track": "Deviance B"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "witchoccultperksmotehound"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 3,
+   "homestylecooking": 5,
+   "gourmetcooking": 3,
+   "mischief": 9
+  },
+  "tool_skills": {
+   "mischief": 9,
+   "homestylecooking": 5,
+   "gourmetcooking": 3,
+   "comedy": 3
+  }
+ },
+ {
+  "first": "Johnny",
+  "last": "Zest",
+  "household": "Zest",
+  "title": "Johnny_Zest",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Joke Star",
+    "track": "Popularity A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Geoffrey Landgraab"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Nancy Landgraab"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Malcolm Landgraab"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 2
+  },
+  "tool_skills": {
+   "comedy": 2
+  }
+ },
+ {
+  "first": "Titania",
+  "last": "Summerdream",
+  "household": "Summerdream",
+  "title": "Titania_Summerdream",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Elixir Enthusiast",
+    "track": "Knowledge Nature Meds"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Mara Summerdream"
+   }
+  ],
+  "wiki_skills": {
+   "apothecary": 6,
+   "gardening": 3,
+   "nls": 6
+  },
+  "tool_skills": {
+   "apothecary": 6,
+   "nls": 6,
+   "gardening": 3
+  }
+ },
+ {
+  "first": "Oberon",
+  "last": "Summerdream",
+  "household": "Summerdream",
+  "title": "Oberon_Summerdream",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Mara Summerdream"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 7,
+   "gardening": 8,
+   "nls": 5
+  },
+  "tool_skills": {
+   "gardening": 8,
+   "fishing": 7,
+   "nls": 5
+  }
+ },
+ {
+  "first": "Mara",
+  "last": "Summerdream",
+  "household": "Summerdream",
+  "title": "Mara_Summerdream",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 2,
+   "childmental": 2
+  },
+  "tool_skills": {
+   "fishing": 2,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Catarina",
+  "last": "Lynx",
+  "household": "Lynx",
+  "title": "Catarina_Lynx",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the Animals",
+    "track": "Animal A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "animalaffection"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "fishing": 3,
+   "gardening": 4
+  },
+  "tool_skills": {
+   "gardening": 4,
+   "fishing": 3,
+   "homestylecooking": 3
+  }
+ },
+ {
+  "first": "Jess",
+  "last": "Sigworth",
+  "household": "Sigworth",
+  "title": "Jess_Sigworth",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Christie Sigworth"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "fitness": 5,
+   "handiness": 3
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "charisma": 3,
+   "handiness": 3
+  }
+ },
+ {
+  "first": "Dylan",
+  "last": "Sigworth",
+  "household": "Sigworth",
+  "title": "Dylan_Sigworth",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Christie Sigworth"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "gardening": 2,
+   "gourmetcooking": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 4,
+   "gardening": 2
+  }
+ },
+ {
+  "first": "Christie",
+  "last": "Sigworth",
+  "household": "Sigworth",
+  "title": "Christie_Sigworth",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Creativity"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 9,
+   "childmotor": 2,
+   "childsocial": 3
+  },
+  "tool_skills": {
+   "childsocial": 3,
+   "childmotor": 2,
+   "childcreativity": 9
+  }
+ },
+ {
+  "first": "Roberto",
+  "last": "Crinkletop",
+  "household": "Mysterious Rancher",
+  "title": "Roberto_Crinkletop",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Angling Ace",
+    "track": "Nature B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Agnes Crumplebottom"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "nectarmaking": 4,
+   "equestrianskill": 6
+  },
+  "tool_skills": {
+   "equestrianskill": 6,
+   "charisma": 4,
+   "nectarmaking": 4
+  }
+ },
+ {
+  "first": "Lana",
+  "last": "McKinnon",
+  "household": "Mc Kinnon",
+  "title": "Lana_McKinnon",
+  "diffs": [
+   {
+    "kind": "career",
+    "wiki": "Unemployed",
+    "tool": "NPC Professor NPC Science"
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   }
+  ],
+  "wiki_skills": {
+   "programming": 8,
+   "robotics": 8,
+   "rocketscience": 7
+  },
+  "tool_skills": {
+   "robotics": 8,
+   "programming": 8,
+   "rocketscience": 7
+  }
+ },
+ {
+  "first": "Adekoya",
+  "last": "Darong",
+  "household": "Darong",
+  "title": "Adekoya_Darong",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "morningsim"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "formernoblehustler"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Jawara Darong"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Amarachi Darong"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Obi Darong"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 9,
+   "painting": 4,
+   "swordsmanship": 8,
+   "writing": 10
+  },
+  "tool_skills": {
+   "writing": 10,
+   "painting": 4,
+   "swordsmanship": 8,
+   "charisma": 9
+  }
+ },
+ {
+  "first": "Jawara",
+  "last": "Darong",
+  "household": "Darong",
+  "title": "Jawara_Darong",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Big Happy Family",
+    "track": "Popularity B"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "regalromancer"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Afua Ananou"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Amarachi Darong"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Obi Darong"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 9,
+   "painting": 6,
+   "swordsmanship": 8,
+   "writing": 8
+  },
+  "tool_skills": {
+   "writing": 8,
+   "painting": 6,
+   "swordsmanship": 8,
+   "charisma": 9
+  }
+ },
+ {
+  "first": "Amarachi",
+  "last": "Darong",
+  "household": "Darong",
+  "title": "Amarachi_Darong",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandfather (maternal)",
+    "name": "Adekoya Darong"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "painting": 9,
+   "swordsmanship": 2,
+   "writing": 4
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "writing": 4,
+   "painting": 9,
+   "swordsmanship": 2
+  }
+ },
+ {
+  "first": "Obi",
+  "last": "Darong",
+  "household": "Darong",
+  "title": "Obi_Darong",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Whiz Kid",
+    "track": "Mental"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "morningsim"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandfather (maternal)",
+    "name": "Adekoya Darong"
+   }
+  ],
+  "wiki_skills": {
+   "childmental": 5,
+   "logic": 2,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "childmental": 5,
+   "videogaming": 2,
+   "logic": 2
+  }
+ },
+ {
+  "first": "Ian",
+  "last": "Moody",
+  "household": "Moody & Mc Millan",
+  "title": "Ian_Moody",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "dancing",
+    "wiki": 4,
+    "tool": 3
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "acting": 4,
+   "charisma": 8,
+   "comedy": 5,
+   "dancing": 4,
+   "handiness": 2,
+   "mischief": 2,
+   "piano": 5,
+   "singing": 6
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "comedy": 5,
+   "handiness": 2,
+   "mischief": 2,
+   "piano": 5,
+   "dancing": 3,
+   "singing": 6,
+   "acting": 4
+  }
+ },
+ {
+  "first": "Derek",
+  "last": "McMillan",
+  "household": "Moody & Mc Millan",
+  "title": "Derek_McMillan",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "writing",
+    "wiki": 5,
+    "tool": 6
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 9,
+   "crossstitch": 4,
+   "gardening": 6,
+   "gourmetcooking": 5,
+   "herbalism": 5,
+   "pettraining": 5,
+   "vampirelore": 2,
+   "writing": 5
+  },
+  "tool_skills": {
+   "crossstitch": 4,
+   "homestylecooking": 9,
+   "gourmetcooking": 5,
+   "writing": 6,
+   "gardening": 6,
+   "herbalism": 5,
+   "pettraining": 5,
+   "vampirelore": 2
+  }
+ },
+ {
+  "first": "Nyssa",
+  "last": "Landry",
+  "household": "Landry",
+  "title": "Nyssa_Landry",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "charisma",
+    "wiki": 1
+   },
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "mischief",
+    "wiki": 1
+   },
+   {
+    "kind": "skill_level",
+    "skill": "piano",
+    "wiki": 1,
+    "tool": 5
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Ava Landry"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Eddie Landry"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Lila Landry"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 1,
+   "homestylecooking": 8,
+   "gardening": 8,
+   "mischief": 1,
+   "piano": 1,
+   "writing": 5
+  },
+  "tool_skills": {
+   "gardening": 8,
+   "writing": 5,
+   "homestylecooking": 8,
+   "piano": 5
+  }
+ },
+ {
+  "first": "Ava",
+  "last": "Landry",
+  "household": "Landry",
+  "title": "Ava_Landry",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Nyssa Landry"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 3,
+   "mischief": 5
+  },
+  "tool_skills": {
+   "mischief": 5,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Eddie",
+  "last": "Landry",
+  "household": "Landry",
+  "title": "Eddie_Landry",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "charisma",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Nyssa Landry"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 1,
+   "bartending": 5,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "bartending": 5,
+   "videogaming": 3
+  }
+ },
+ {
+  "first": "Lila",
+  "last": "Landry",
+  "household": "Landry",
+  "title": "Lila_Landry",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Nyssa Landry"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "guitar": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 3,
+   "guitar": 5
+  }
+ },
+ {
+  "first": "Bua",
+  "last": "Bun Ma",
+  "household": "Bun Ma",
+  "title": "Bua_Bun_Ma",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "The Curator",
+    "track": "Nature C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Kasem Bun Ma"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Sud Bun Ma"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Kasem",
+  "last": "Bun Ma",
+  "household": "Bun Ma",
+  "title": "Kasem_Bun_Ma",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Sud Bun Ma"
+   }
+  ],
+  "wiki_skills": {
+   "programming": 8,
+   "charisma": 3
+  },
+  "tool_skills": {
+   "programming": 8,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Nin",
+  "last": "Bun Ma",
+  "household": "Bun Ma",
+  "title": "Nin_Bun_Ma",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fount of Tomarani Knowledge",
+    "track": "Location Multi Unit Fountain Of Local Knowledge"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "childofthevillage"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "childoftheocean"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Sud Bun Ma"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 7
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "fitness": 7
+  }
+ },
+ {
+  "first": "Sud",
+  "last": "Bun Ma",
+  "household": "Bun Ma",
+  "title": "Sud_Bun_Ma",
+  "diffs": [
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Bua Bun Ma"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Cameron",
+  "last": "Fletcher",
+  "household": "Fletcher",
+  "title": "Cameron_Fletcher",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   }
+  ],
+  "wiki_skills": {
+   "programming": 4,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "programming": 4,
+   "videogaming": 3
+  }
+ },
+ {
+  "first": "Jacques",
+  "last": "Villareal",
+  "household": "Villareal",
+  "title": "Jacques_Villareal",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Public Enemy",
+    "track": "Deviance A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Luna Villareal"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Hugo Villareal"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Max Villareal"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 9
+  },
+  "tool_skills": {
+   "logic": 9
+  }
+ },
+ {
+  "first": "Luna",
+  "last": "Villareal",
+  "household": "Villareal",
+  "title": "Luna_Villareal",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5
+  },
+  "tool_skills": {
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Hugo",
+  "last": "Villareal",
+  "household": "Villareal",
+  "title": "Hugo_Villareal",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Chef",
+    "track": "Food B"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 7
+  },
+  "tool_skills": {
+   "homestylecooking": 7
+  }
+ },
+ {
+  "first": "Max",
+  "last": "Villareal",
+  "household": "Villareal",
+  "title": "Max_Villareal",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Rambunctious Scamp",
+    "track": "Motor"
+   }
+  ],
+  "wiki_skills": {
+   "childmotor": 6
+  },
+  "tool_skills": {
+   "childmotor": 6
+  }
+ },
+ {
+  "first": "Spruce",
+  "last": "Almighty",
+  "household": "Natural",
+  "title": "Spruce_Almighty",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nature Nomad",
+    "track": "Nature Bohemian Style"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Mother Nature"
+   }
+  ],
+  "wiki_skills": {
+   "gardening": 8
+  },
+  "tool_skills": {
+   "gardening": 8
+  }
+ },
+ {
+  "first": "Dirk",
+  "last": "Dreamer",
+  "household": "Dreamer",
+  "title": "Dirk_Dreamer",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Darren Dreamer"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Darleen Dreamer"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 4,
+   "programming": 5,
+   "videogaming": 4
+  },
+  "tool_skills": {
+   "programming": 5,
+   "videogaming": 4,
+   "logic": 4
+  }
+ },
+ {
+  "first": "Janae",
+  "last": "Price",
+  "household": "Price",
+  "title": "Janae_Price",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Jayden Price"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Savannah Price"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Sidney Price"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 5,
+   "programming": 5
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "programming": 5,
+   "fitness": 5
+  }
+ },
+ {
+  "first": "Marcel",
+  "last": "Price",
+  "household": "Price",
+  "title": "Marcel_Price",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Jayden Price"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Savannah Price"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Sidney Price"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "logic": 3,
+   "writing": 7
+  },
+  "tool_skills": {
+   "writing": 7,
+   "homestylecooking": 4,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Jayden",
+  "last": "Price",
+  "household": "Price",
+  "title": "Jayden_Price",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 2,
+   "childsocial": 2
+  },
+  "tool_skills": {
+   "childsocial": 2,
+   "childcreativity": 2
+  }
+ },
+ {
+  "first": "Savannah",
+  "last": "Price",
+  "household": "Price",
+  "title": "Savannah_Price",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   }
+  ],
+  "wiki_skills": {
+   "programming": 3,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "videogaming": 2,
+   "programming": 3
+  }
+ },
+ {
+  "first": "Sidney",
+  "last": "Price",
+  "household": "Price",
+  "title": "Sidney_Price",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Liam Beckett"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 3
+  },
+  "tool_skills": {
+   "fitness": 3,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Kevin",
+  "last": "Puri",
+  "household": "Price",
+  "title": "Kevin_Puri",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Goal Oriented",
+    "track": "Teen Goal Oriented"
+   }
+  ],
+  "wiki_skills": {
+   "handiness": 4,
+   "rocketscience": 3
+  },
+  "tool_skills": {
+   "handiness": 4,
+   "rocketscience": 3
+  }
+ },
+ {
+  "first": "Steven",
+  "last": "Pawn",
+  "household": "Secluded Writer",
+  "title": "Steven_Pawn",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "commitmentissues"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "active"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "kleptomaniac"
+   }
+  ],
+  "wiki_skills": {
+   "writing": 7
+  },
+  "tool_skills": {
+   "writing": 7
+  }
+ },
+ {
+  "first": "Morgyn",
+  "last": "Ember",
+  "household": "Ember",
+  "title": "Morgyn_Ember",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Spellcraft & Sorcery",
+    "track": "Knowledge Spellcraft"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "witchoccultperksmotehound"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Cletus",
+  "last": "Harris",
+  "household": "Harris",
+  "title": "Cletus_Harris",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Jeb Harris"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Gideon Harris"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 5,
+   "guitar": 2
+  },
+  "tool_skills": {
+   "fishing": 5,
+   "guitar": 2
+  }
+ },
+ {
+  "first": "Faye",
+  "last": "Harris",
+  "household": "Harris",
+  "title": "Faye_Harris",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Chef",
+    "track": "Food B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Jeb Harris"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Gideon Harris"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 7,
+   "gourmetcooking": 4,
+   "bartending": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 7,
+   "gourmetcooking": 4,
+   "bartending": 4
+  }
+ },
+ {
+  "first": "Jeb",
+  "last": "Harris",
+  "household": "Harris",
+  "title": "Jeb_Harris",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Creativity B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Francine Spencer"
+   }
+  ],
+  "wiki_skills": {
+   "handiness": 3,
+   "piano": 4
+  },
+  "tool_skills": {
+   "piano": 4,
+   "handiness": 3
+  }
+ },
+ {
+  "first": "Gideon",
+  "last": "Harris",
+  "household": "Harris",
+  "title": "Gideon_Harris",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Francine Spencer"
+   }
+  ],
+  "wiki_skills": {
+   "childsocial": 5
+  },
+  "tool_skills": {
+   "childsocial": 5
+  }
+ },
+ {
+  "first": "Francine",
+  "last": "Spencer",
+  "household": "Harris",
+  "title": "Francine_Spencer",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Serial Romantic",
+    "track": "Creativity Maker"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Cletus Harris"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Jeb Harris"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Gideon Harris"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 7,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "charisma": 7,
+   "mischief": 3
+  }
+ },
+ {
+  "first": "Eva",
+  "last": "Capricciosa",
+  "household": "Partihaus",
+  "title": "Eva_Capricciosa",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Serial Romantic",
+    "track": "Love B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5
+  },
+  "tool_skills": {
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Jade",
+  "last": "Rosa",
+  "household": "Partihaus",
+  "title": "Jade_Rosa",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "dancing": 3
+  },
+  "tool_skills": {
+   "dancing": 3,
+   "charisma": 6
+  }
+ },
+ {
+  "first": "Marcus",
+  "last": "Flex",
+  "household": "Partihaus",
+  "title": "Marcus_Flex",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 7
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "fitness": 7
+  }
+ },
+ {
+  "first": "Paolo",
+  "last": "Rocca",
+  "household": "Partihaus",
+  "title": "Paolo_Rocca",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bodybuilder",
+    "track": "Athletic A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 2,
+   "djmixing": 6,
+   "fitness": 3
+  },
+  "tool_skills": {
+   "charisma": 2,
+   "djmixing": 6,
+   "fitness": 3
+  }
+ },
+ {
+  "first": "Akachi",
+  "last": "Onoja",
+  "household": "Onoja",
+  "title": "Akachi_Onoja",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Bodybuilder",
+    "track": "Location Strangerville"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "regalromancer"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "fitness": 7,
+   "swordsmanship": 9
+  },
+  "tool_skills": {
+   "swordsmanship": 9,
+   "fitness": 7,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Diego",
+  "last": "Lobo",
+  "household": "Lobo",
+  "title": "Diego_Lobo",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 8,
+   "gourmetcooking": 5,
+   "writing": 5
+  },
+  "tool_skills": {
+   "comedy": 8,
+   "gourmetcooking": 5,
+   "writing": 5
+  }
+ },
+ {
+  "first": "Vanesha",
+  "last": "Cahyaputri",
+  "household": "Cahyaputri",
+  "title": "Vanesha_Cahyaputri",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Five-Star Property Owner",
+    "track": "Fortune Multi Unit Legendary Landlord"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "childofthevillage"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "childoftheocean"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Zhafira",
+  "last": "Cahyaputri",
+  "household": "Cahyaputri",
+  "title": "Zhafira_Cahyaputri",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Seeker of Secrets",
+    "track": "Deviance Multi Unit Seeker Of Secrets"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Cecilia",
+  "last": "Kang",
+  "household": "New Start",
+  "title": "Cecilia_Kang",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Country Caretaker",
+    "track": "Nature Country Caretaker"
+   }
+  ],
+  "wiki_skills": {
+   "baking": 3,
+   "homestylecooking": 2,
+   "crossstitch": 2,
+   "gardening": 5,
+   "logic": 6,
+   "programming": 6,
+   "rockclimbing": 2
+  },
+  "tool_skills": {
+   "gardening": 5,
+   "crossstitch": 2,
+   "programming": 6,
+   "logic": 6,
+   "baking": 3,
+   "homestylecooking": 2,
+   "rockclimbing": 2
+  }
+ },
+ {
+  "first": "Kayla",
+  "last": "Flemming",
+  "household": "Flemming",
+  "title": "Kayla_Flemming",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bodybuilder",
+    "track": "Athletic A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 3,
+   "fitness": 7
+  },
+  "tool_skills": {
+   "fitness": 7,
+   "charisma": 4,
+   "homestylecooking": 3
+  }
+ },
+ {
+  "first": "Becca",
+  "last": "Clarke",
+  "household": "Best of Friends",
+  "title": "Becca_Clarke",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Academic",
+    "track": "Knowledge Academic"
+   }
+  ],
+  "wiki_skills": {
+   "programming": 3,
+   "writing": 5
+  },
+  "tool_skills": {
+   "writing": 5,
+   "programming": 3
+  }
+ },
+ {
+  "first": "Julia",
+  "last": "Wright",
+  "household": "Best of Friends",
+  "title": "Julia_Wright",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "logic": 5
+  },
+  "tool_skills": {
+   "logic": 5,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Sunja",
+  "last": "Lee",
+  "household": "Generational",
+  "title": "Sunja_Lee",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Minsung Lee"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Daesung Lee"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Yuri Lee"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Minsung",
+  "last": "Lee",
+  "household": "Generational",
+  "title": "Minsung_Lee",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Daesung Lee"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Yuri Lee"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Daesung",
+  "last": "Lee",
+  "household": "Generational",
+  "title": "Daesung_Lee",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Rambunctious Scamp",
+    "track": "Motor"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Sunja Lee"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Yuri",
+  "last": "Lee",
+  "household": "Generational",
+  "title": "Yuri_Lee",
+  "diffs": [
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Sunja Lee"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Thi",
+  "last": "Linh",
+  "household": "Linh",
+  "title": "Thi_Linh",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Discerning Dweller",
+    "track": "Popularity Multi Unit Discerning Dweller"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Arturo Linh"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Ch\u00e1nh Linh"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Li\u00ean Sadya"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "logic": 5
+  },
+  "tool_skills": {
+   "logic": 5,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Kyle",
+  "last": "Kyleson",
+  "household": "Kyleson",
+  "title": "Kyle_Kyleson",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Party Animal",
+    "track": "Popularity C"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 6,
+   "knitting": 9
+  },
+  "tool_skills": {
+   "knitting": 9,
+   "comedy": 6
+  }
+ },
+ {
+  "first": "Ekene",
+  "last": "Ananou",
+  "household": "Ananou",
+  "title": "Ekene_Ananou",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Nerd Brain",
+    "track": "Star Wars Scoundrel"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "comedy": 6,
+   "handiness": 10,
+   "mischief": 6
+  },
+  "tool_skills": {
+   "mischief": 6,
+   "handiness": 10,
+   "charisma": 4,
+   "comedy": 6
+  }
+ },
+ {
+  "first": "Afua",
+  "last": "Ananou",
+  "household": "Ananou",
+  "title": "Afua_Ananou",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Social Butterfly",
+    "track": "Playtime Captain"
+   }
+  ],
+  "wiki_skills": {
+   "mischief": 7,
+   "childsocial": 2
+  },
+  "tool_skills": {
+   "mischief": 7,
+   "childsocial": 2
+  }
+ },
+ {
+  "first": "M\u00f3nica",
+  "last": "L\u00f3pez",
+  "household": "L\u00f3pez",
+  "title": "M\u00f3nica_L\u00f3pez",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Romantic Explorer",
+    "track": "Love D"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Manuel Aguilar"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Carlos L\u00f3pez"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Luz L\u00f3pez"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "gourmetcooking": 4,
+   "rocketscience": 8,
+   "romance": 3
+  },
+  "tool_skills": {
+   "romance": 3,
+   "gourmetcooking": 4,
+   "homestylecooking": 3,
+   "rocketscience": 8
+  }
+ },
+ {
+  "first": "Carlos",
+  "last": "L\u00f3pez",
+  "household": "L\u00f3pez",
+  "title": "Carlos_L\u00f3pez",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bodybuilder",
+    "track": "Athletic A"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 4
+  },
+  "tool_skills": {
+   "fitness": 4
+  }
+ },
+ {
+  "first": "Luz",
+  "last": "L\u00f3pez",
+  "household": "L\u00f3pez",
+  "title": "Luz_L\u00f3pez",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   }
+  ],
+  "wiki_skills": {
+   "painting": 3,
+   "videogaming": 5
+  },
+  "tool_skills": {
+   "videogaming": 5,
+   "painting": 3
+  }
+ },
+ {
+  "first": "Zoe",
+  "last": "Patel",
+  "household": "Roomies",
+  "title": "Zoe_Patel",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 2,
+   "mischief": 1
+  },
+  "tool_skills": {
+   "charisma": 2,
+   "mischief": 1
+  }
+ },
+ {
+  "first": "Mitchell",
+  "last": "Kalani",
+  "household": "Roomies",
+  "title": "Mitchell_Kalani",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Joke Star",
+    "track": "Popularity A"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 2,
+   "bartending": 2
+  },
+  "tool_skills": {
+   "comedy": 2,
+   "bartending": 2
+  }
+ },
+ {
+  "first": "Gavin",
+  "last": "Richards",
+  "household": "Roomies",
+  "title": "Gavin_Richards",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   }
+  ],
+  "wiki_skills": {
+   "writing": 3
+  },
+  "tool_skills": {
+   "writing": 3
+  }
+ },
+ {
+  "first": "Joaquin",
+  "last": "Le Chien",
+  "household": "Bro",
+  "title": "Joaquin_Le_Chien",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "djmixing": 6,
+   "dancing": 5
+  },
+  "tool_skills": {
+   "dancing": 5,
+   "djmixing": 6
+  }
+ },
+ {
+  "first": "Sergio",
+  "last": "Romeo",
+  "household": "Bro",
+  "title": "Sergio_Romeo",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5
+  },
+  "tool_skills": {
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Dara",
+  "last": "Kham",
+  "household": "Kham",
+  "title": "Dara_Kham",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Party Animal",
+    "track": "Popularity C"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Rita",
+  "last": "Coombes",
+  "household": "Coombes",
+  "title": "Rita_Coombes",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "The Curator",
+    "track": "Nature C"
+   }
+  ],
+  "wiki_skills": {
+   "gardening": 2,
+   "logic": 6,
+   "writing": 5
+  },
+  "tool_skills": {
+   "logic": 6,
+   "writing": 5,
+   "gardening": 2
+  }
+ },
+ {
+  "first": "Venessa",
+  "last": "Jeong",
+  "household": "Jeong",
+  "title": "Venessa_Jeong",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "World-Famous Celebrity",
+    "track": "Popularity World Famous Celebrity"
+   }
+  ],
+  "wiki_skills": {
+   "acting": 3,
+   "bartending": 4
+  },
+  "tool_skills": {
+   "acting": 3,
+   "bartending": 4
+  }
+ },
+ {
+  "first": "Zain",
+  "last": "Amri",
+  "household": "Amri",
+  "title": "Zain_Amri",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "djmixing": 2,
+   "guitar": 4,
+   "piano": 4,
+   "singing": 5,
+   "violin": 2,
+   "wellness": 2
+  },
+  "tool_skills": {
+   "guitar": 4,
+   "piano": 4,
+   "charisma": 3,
+   "violin": 2,
+   "singing": 5,
+   "djmixing": 2,
+   "wellness": 2
+  }
+ },
+ {
+  "first": "Buddy",
+  "last": "Scoop",
+  "household": "Scoop",
+  "title": "Buddy_Scoop",
+  "diffs": [
+   {
+    "kind": "skill_extra_tool",
+    "skill": "childmotor",
+    "tool": 7
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "Rambunctious Scamp",
+    "track": "Motor"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "competitivespiritbad"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedcamper"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {
+   "childmotor": 7
+  }
+ },
+ {
+  "first": "Yuki",
+  "last": "Behr",
+  "household": "Behr",
+  "title": "Yuki_Behr",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   }
+  ],
+  "wiki_skills": {
+   "videogaming": 6
+  },
+  "tool_skills": {
+   "videogaming": 6
+  }
+ },
+ {
+  "first": "Candy",
+  "last": "Behr",
+  "household": "Behr",
+  "title": "Candy_Behr",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Party Animal",
+    "track": "Popularity C"
+   }
+  ],
+  "wiki_skills": {
+   "djmixing": 6,
+   "dancing": 5
+  },
+  "tool_skills": {
+   "dancing": 5,
+   "djmixing": 6
+  }
+ },
+ {
+  "first": "Lilith",
+  "last": "Vatore",
+  "household": "Vatore",
+  "title": "Lilith_Vatore",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Vampire Family",
+    "track": "Family C"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Caleb",
+  "last": "Vatore",
+  "household": "Vatore",
+  "title": "Caleb_Vatore",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Good Vampire",
+    "track": "Popularity D"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Nova",
+  "last": "Curious",
+  "household": "Curious",
+  "title": "Nova_Curious",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "fitness",
+    "wiki": 4,
+    "tool": 5
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "happytoddler"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Vidcund Curious"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Lazlo Curious"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 4,
+   "fitness": 4,
+   "logic": 6,
+   "mischief": 3,
+   "programming": 3,
+   "videogaming": 5
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "logic": 6,
+   "programming": 3,
+   "videogaming": 5,
+   "mischief": 3,
+   "homestylecooking": 4,
+   "fitness": 5
+  }
+ },
+ {
+  "first": "Serena",
+  "last": "Bhamra",
+  "household": "Bhamra",
+  "title": "Serena_Bhamra",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "robotics",
+    "wiki": 7,
+    "tool": 8
+   },
+   {
+    "kind": "career",
+    "wiki": "Unemployed",
+    "tool": "NPC Professor NPC Science"
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Public Enemy",
+    "track": "Deviance A"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 8,
+   "programming": 6,
+   "robotics": 7
+  },
+  "tool_skills": {
+   "robotics": 8,
+   "programming": 6,
+   "logic": 8
+  }
+ },
+ {
+  "first": "Katrina",
+  "last": "Caliente",
+  "household": "Caliente",
+  "title": "Katrina_Caliente",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Dina Caliente"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Nina Caliente"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 2,
+   "fitness": 2,
+   "piano": 2
+  },
+  "tool_skills": {
+   "fitness": 2,
+   "comedy": 2,
+   "piano": 2
+  }
+ },
+ {
+  "first": "Dina",
+  "last": "Caliente",
+  "household": "Caliente",
+  "title": "Dina_Caliente",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 2,
+   "bartending": 2
+  },
+  "tool_skills": {
+   "fitness": 2,
+   "bartending": 2
+  }
+ },
+ {
+  "first": "Nina",
+  "last": "Caliente",
+  "household": "Caliente",
+  "title": "Nina_Caliente",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Villainous Valentine",
+    "track": "Deviance Heartbreaker"
+   }
+  ],
+  "wiki_skills": {
+   "mischief": 2
+  },
+  "tool_skills": {
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Don",
+  "last": "Lothario",
+  "household": "Caliente",
+  "title": "Don_Lothario",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Serial Romantic",
+    "track": "Love B"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 3
+  },
+  "tool_skills": {
+   "fitness": 3
+  }
+ },
+ {
+  "first": "Luna",
+  "last": "Shadows",
+  "household": "Ying Yang Duo",
+  "title": "Luna_Shadows",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Seeker of Secrets",
+    "track": "Deviance Multi Unit Seeker Of Secrets"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Gretchen",
+  "last": "Wolf",
+  "household": "Ying Yang Duo",
+  "title": "Gretchen_Wolf",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Rita",
+  "last": "Riviera",
+  "household": "Riviera",
+  "title": "Rita_Riviera",
+  "diffs": [
+   {
+    "kind": "trait_extra_tool",
+    "trait": "unflirty"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "materialistic"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "erratic"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 5,
+   "handiness": 7,
+   "painting": 7
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "painting": 7,
+   "handiness": 7
+  }
+ },
+ {
+  "first": "Memphis",
+  "last": "Waters",
+  "household": "Riviera",
+  "title": "Memphis_Waters",
+  "diffs": [
+   {
+    "kind": "trait_extra_tool",
+    "trait": "musiclover"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "gloomy"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "commitmentissues"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "guitar": 4,
+   "piano": 4
+  },
+  "tool_skills": {
+   "piano": 4,
+   "guitar": 4,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Tina",
+  "last": "Tinker",
+  "household": "Tinker",
+  "title": "Tina_Tinker",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Maker",
+    "track": "Creativity Maker"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "mastercrafter"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Olive Tinker"
+   }
+  ],
+  "wiki_skills": {
+   "fabrication": 7,
+   "handiness": 5
+  },
+  "tool_skills": {
+   "fabrication": 7,
+   "handiness": 5
+  }
+ },
+ {
+  "first": "Yasemin",
+  "last": "Tinker",
+  "household": "Tinker",
+  "title": "Yasemin_Tinker",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Olive Tinker"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "writing": 8
+  },
+  "tool_skills": {
+   "writing": 8,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Olive",
+  "last": "Tinker",
+  "household": "Tinker",
+  "title": "Olive_Tinker",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Mental"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 4,
+   "childmental": 2
+  },
+  "tool_skills": {
+   "childcreativity": 4,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Wolfgang",
+  "last": "Wilder",
+  "household": "Wilder",
+  "title": "Wolfgang_Wilder",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfhadfirsttransformation"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentshatesbeingwet"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentssensitivehearing"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsgrumpywolf"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 5,
+   "photography": 4,
+   "vampirelore": 2,
+   "writing": 7
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "writing": 7,
+   "photography": 4,
+   "vampirelore": 2
+  }
+ },
+ {
+  "first": "Darin",
+  "last": "Jacobs",
+  "household": "Jacobs",
+  "title": "Darin_Jacobs",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bodybuilder",
+    "track": "Athletic A"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jaycee",
+  "last": "Beyer",
+  "household": "Jacobs",
+  "title": "Jaycee_Beyer",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Villainous Valentine",
+    "track": "Deviance Heartbreaker"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Waylon",
+  "last": "Warez",
+  "household": "Warez",
+  "title": "Waylon_Warez",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Ghost Historian",
+    "track": "Knowledge Ghost Whisperer"
+   }
+  ],
+  "wiki_skills": {
+   "mischief": 5,
+   "writing": 6
+  },
+  "tool_skills": {
+   "writing": 6,
+   "mischief": 5
+  }
+ },
+ {
+  "first": "Bjorn",
+  "last": "Bjergsen",
+  "household": "Bjergsen",
+  "title": "Bjorn_Bjergsen",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Sofia Bjergsen"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Elsa Bjergsen"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 8,
+   "logic": 5
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "fitness": 8,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Clara",
+  "last": "Bjergsen",
+  "household": "Bjergsen",
+  "title": "Clara_Bjergsen",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Sofia Bjergsen"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Elsa Bjergsen"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 6
+  },
+  "tool_skills": {
+   "homestylecooking": 6
+  }
+ },
+ {
+  "first": "Sofia",
+  "last": "Bjergsen",
+  "household": "Bjergsen",
+  "title": "Sofia_Bjergsen",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "guitar": 8
+  },
+  "tool_skills": {
+   "charisma": 6,
+   "guitar": 8
+  }
+ },
+ {
+  "first": "Elsa",
+  "last": "Bjergsen",
+  "household": "Bjergsen",
+  "title": "Elsa_Bjergsen",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Whiz Kid",
+    "track": "Mental"
+   }
+  ],
+  "wiki_skills": {
+   "childmental": 10
+  },
+  "tool_skills": {
+   "childmental": 10
+  }
+ },
+ {
+  "first": "Angela",
+  "last": "Pleasant",
+  "household": "Pleasant",
+  "title": "Angela_Pleasant",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "painting": 5,
+   "writing": 2
+  },
+  "tool_skills": {
+   "writing": 2,
+   "painting": 5,
+   "homestylecooking": 4
+  }
+ },
+ {
+  "first": "Lilith",
+  "last": "Pleasant",
+  "household": "Pleasant",
+  "title": "Lilith_Pleasant",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Public Enemy",
+    "track": "Deviance A"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "mischief": 4,
+   "painting": 5
+  },
+  "tool_skills": {
+   "painting": 5,
+   "mischief": 4,
+   "homestylecooking": 3
+  }
+ },
+ {
+  "first": "Ignacio",
+  "last": "Robles",
+  "household": "Robles",
+  "title": "Ignacio_Robles",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Serial Romantic",
+    "track": "Love B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Bernice Robles"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Aurelio Robles"
+   }
+  ],
+  "wiki_skills": {
+   "gourmetcooking": 8,
+   "homestylecooking": 8,
+   "logic": 7
+  },
+  "tool_skills": {
+   "gourmetcooking": 8,
+   "logic": 7,
+   "homestylecooking": 8
+  }
+ },
+ {
+  "first": "Bernice",
+  "last": "Robles",
+  "household": "Robles",
+  "title": "Bernice_Robles",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Angling Ace",
+    "track": "Nature B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Aurelio Robles"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 6,
+   "logic": 5,
+   "piano": 5,
+   "fishing": 8
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "piano": 5,
+   "fishing": 8,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Ian",
+  "last": "Robles",
+  "household": "Robles",
+  "title": "Ian_Robles",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Aurelio Robles"
+   }
+  ],
+  "wiki_skills": {
+   "handiness": 6,
+   "writing": 9,
+   "fishing": 7
+  },
+  "tool_skills": {
+   "handiness": 6,
+   "writing": 9,
+   "fishing": 7
+  }
+ },
+ {
+  "first": "Aurelio",
+  "last": "Robles",
+  "household": "Robles",
+  "title": "Aurelio_Robles",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Unborn baby Robles"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandfather (maternal)",
+    "name": "Ignacio Robles"
+   }
+  ],
+  "wiki_skills": {
+   "violin": 6
+  },
+  "tool_skills": {
+   "violin": 6
+  }
+ },
+ {
+  "first": "Cordelia",
+  "last": "Thebe V",
+  "household": "Thebe",
+  "title": "Cordelia_Thebe_V",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "The Curator",
+    "track": "Nature C"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "regalromancer"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Fia Acosta"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 9,
+   "fishing": 3,
+   "fitness": 6,
+   "handiness": 3,
+   "logic": 6,
+   "mischief": 4,
+   "swordsmanship": 8
+  },
+  "tool_skills": {
+   "fishing": 3,
+   "handiness": 3,
+   "swordsmanship": 8,
+   "mischief": 4,
+   "charisma": 9,
+   "fitness": 6,
+   "logic": 6
+  }
+ },
+ {
+  "first": "Thiago",
+  "last": "Abrantes",
+  "household": "Thebe",
+  "title": "Thiago_Abrantes",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "regalromancer"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Ermelinda Abrantes"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 8,
+   "logic": 7,
+   "swordsmanship": 5
+  },
+  "tool_skills": {
+   "logic": 7,
+   "swordsmanship": 5,
+   "charisma": 8
+  }
+ },
+ {
+  "first": "Erwin",
+  "last": "Pries",
+  "household": "Pries",
+  "title": "Erwin_Pries",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   }
+  ],
+  "wiki_skills": {
+   "mischief": 2,
+   "comedy": 6,
+   "logic": 7
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "logic": 7,
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Aloisio",
+  "last": "Romualdo",
+  "household": "Romualdo",
+  "title": "Aloisio_Romualdo",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Public Enemy",
+    "track": "Athletic A"
+   }
+  ],
+  "wiki_skills": {
+   "mischief": 8,
+   "swordsmanship": 8
+  },
+  "tool_skills": {
+   "swordsmanship": 8,
+   "mischief": 8
+  }
+ },
+ {
+  "first": "Mateo",
+  "last": "Markovic",
+  "household": "Markovic",
+  "title": "Mateo_Markovic",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Tomi Markovic"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 6,
+   "piano": 7,
+   "singing": 5
+  },
+  "tool_skills": {
+   "piano": 7,
+   "singing": 5,
+   "fishing": 6
+  }
+ },
+ {
+  "first": "Lucia",
+  "last": "Markovic",
+  "household": "Markovic",
+  "title": "Lucia_Markovic",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Tomi Markovic"
+   }
+  ],
+  "wiki_skills": {
+   "baking": 5,
+   "guitar": 5,
+   "singing": 6
+  },
+  "tool_skills": {
+   "guitar": 5,
+   "singing": 6,
+   "baking": 5
+  }
+ },
+ {
+  "first": "Tomi",
+  "last": "Markovic",
+  "household": "Markovic",
+  "title": "Tomi_Markovic",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Creativity"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 5,
+   "childmental": 3,
+   "childmotor": 5
+  },
+  "tool_skills": {
+   "childcreativity": 5,
+   "childmental": 3,
+   "childmotor": 5
+  }
+ },
+ {
+  "first": "Dustin",
+  "last": "Broke",
+  "household": "Broke",
+  "title": "Dustin_Broke",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Skip Broke"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 2,
+   "logic": 4,
+   "mediaproduction": 2,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "logic": 4,
+   "mischief": 3,
+   "mediaproduction": 2,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Amy",
+  "last": "Prescott",
+  "household": "Prescott",
+  "title": "Amy_Prescott",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Rambunctious Scamp",
+    "track": "Motor"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandfather (maternal)",
+    "name": "Tai Lum"
+   }
+  ],
+  "wiki_skills": {
+   "childmotor": 4,
+   "childsocial": 2
+  },
+  "tool_skills": {
+   "childmotor": 4,
+   "childsocial": 2
+  }
+ },
+ {
+  "first": "Mei",
+  "last": "Prescott",
+  "household": "Prescott",
+  "title": "Mei_Prescott",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Amy Prescott"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Molly Prescott"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "logic": 5,
+   "piano": 5
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "piano": 5,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Molly",
+  "last": "Prescott",
+  "household": "Prescott",
+  "title": "Molly_Prescott",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandfather (maternal)",
+    "name": "Tai Lum"
+   }
+  ],
+  "wiki_skills": {
+   "guitar": 4,
+   "logic": 5,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "guitar": 4,
+   "mischief": 3,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Tai",
+  "last": "Lum",
+  "household": "Prescott",
+  "title": "Tai_Lum",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Angling Ace",
+    "track": "Nature B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Amy Prescott"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Molly Prescott"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 4,
+   "handiness": 7
+  },
+  "tool_skills": {
+   "fishing": 4,
+   "handiness": 7
+  }
+ },
+ {
+  "first": "Kado",
+  "last": "Akiyama",
+  "household": "Akiyama",
+  "title": "Kado_Akiyama",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mt. Komorebi Sightseer",
+    "track": "Location Mountain World Sightseer"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "charismaticcrooner"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Megumi Ito"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Taku Akiyama"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Miki Akiyama"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "fishing": 4,
+   "handiness": 5,
+   "rockclimbing": 5
+  },
+  "tool_skills": {
+   "rockclimbing": 5,
+   "homestylecooking": 4,
+   "handiness": 5,
+   "fishing": 4
+  }
+ },
+ {
+  "first": "Jenna",
+  "last": "Akiyama",
+  "household": "Akiyama",
+  "title": "Jenna_Akiyama",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mt. Komorebi Sightseer",
+    "track": "Location Mountain World Sightseer"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "charismaticcrooner"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Taku Akiyama"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Miki Akiyama"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 6,
+   "rockclimbing": 4,
+   "snowboarding": 4,
+   "videogaming": 4
+  },
+  "tool_skills": {
+   "snowboarding": 4,
+   "rockclimbing": 4,
+   "fitness": 6,
+   "videogaming": 4
+  }
+ },
+ {
+  "first": "Taku",
+  "last": "Akiyama",
+  "household": "Akiyama",
+  "title": "Taku_Akiyama",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Creativity"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 5,
+   "childmental": 5
+  },
+  "tool_skills": {
+   "childcreativity": 5,
+   "childmental": 5
+  }
+ },
+ {
+  "first": "Miki",
+  "last": "Akiyama",
+  "household": "Akiyama",
+  "title": "Miki_Akiyama",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   }
+  ],
+  "wiki_skills": {
+   "childmotor": 5,
+   "childsocial": 5
+  },
+  "tool_skills": {
+   "childmotor": 5,
+   "childsocial": 5
+  }
+ },
+ {
+  "first": "Umber",
+  "last": "Grove",
+  "household": "The Grove Family",
+  "title": "Umber_Grove",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "charisma",
+    "wiki": 1
+   },
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "selvadoradianculture",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Sienna Grove"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Wren Grove"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 4,
+   "guitar": 4,
+   "charisma": 1,
+   "selvadoradianculture": 1
+  },
+  "tool_skills": {
+   "guitar": 4,
+   "gourmetcooking": 4,
+   "homestylecooking": 6
+  }
+ },
+ {
+  "first": "Juniper",
+  "last": "Grove",
+  "household": "The Grove Family",
+  "title": "Juniper_Grove",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "charisma",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Freelance Botanist",
+    "track": "Nature A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Wren Grove"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 1,
+   "gardening": 2,
+   "fitness": 5,
+   "handiness": 6,
+   "equestrianskill": 6
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "gardening": 2,
+   "handiness": 6,
+   "equestrianskill": 6
+  }
+ },
+ {
+  "first": "Wren",
+  "last": "Grove",
+  "household": "The Grove Family",
+  "title": "Wren_Grove",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "childsocial",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "Rambunctious Scamp",
+    "track": "Motor"
+   }
+  ],
+  "wiki_skills": {
+   "equestrianskill": 7,
+   "childsocial": 1
+  },
+  "tool_skills": {
+   "equestrianskill": 7
+  }
+ },
+ {
+  "first": "Ermelinda",
+  "last": "Abrantes",
+  "household": "Abrantes",
+  "title": "Ermelinda_Abrantes",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "regalromancer"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Sofia Abrantes"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 8,
+   "logic": 7,
+   "swordsmanship": 5
+  },
+  "tool_skills": {
+   "logic": 7,
+   "swordsmanship": 5,
+   "charisma": 8
+  }
+ },
+ {
+  "first": "Bess",
+  "last": "Sterling",
+  "household": "Sterling Rico",
+  "title": "Bess_Sterling",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "handiness": 3,
+   "juicefizzing": 4,
+   "logic": 5
+  },
+  "tool_skills": {
+   "logic": 5,
+   "handiness": 3,
+   "charisma": 6,
+   "juicefizzing": 4
+  }
+ },
+ {
+  "first": "Jules",
+  "last": "Rico",
+  "household": "Sterling Rico",
+  "title": "Jules_Rico",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "photography": 2,
+   "writing": 4
+  },
+  "tool_skills": {
+   "writing": 4,
+   "photography": 2,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Kim",
+  "last": "Goldbloom",
+  "household": "Goldbloom",
+  "title": "Kim_Goldbloom",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "homestylecooking": 6,
+   "gardening": 3,
+   "mischief": 2
+  },
+  "tool_skills": {
+   "gardening": 3,
+   "homestylecooking": 6,
+   "charisma": 6,
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Dahlia",
+  "last": "Loden",
+  "household": "Loden",
+  "title": "Dahlia_Loden",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Erik Loden"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Freya Loden"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "homestylecooking": 3,
+   "logic": 3,
+   "writing": 8
+  },
+  "tool_skills": {
+   "homestylecooking": 3,
+   "writing": 8,
+   "charisma": 3,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Erik",
+  "last": "Loden",
+  "household": "Loden",
+  "title": "Erik_Loden",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Creativity"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (maternal)",
+    "name": "Gramma Hattie Loden"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 4,
+   "childmental": 2,
+   "childmotor": 2,
+   "childsocial": 2,
+   "pottery": 2
+  },
+  "tool_skills": {
+   "childcreativity": 4,
+   "childmotor": 2,
+   "childmental": 2,
+   "childsocial": 2,
+   "pottery": 2
+  }
+ },
+ {
+  "first": "Freya",
+  "last": "Loden",
+  "household": "Loden",
+  "title": "Freya_Loden",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "fitness",
+    "wiki": 3,
+    "tool": 5
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bodybuilder",
+    "track": "Athletic A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (maternal)",
+    "name": "Gramma Hattie Loden"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "dancing": 5,
+   "fitness": 3,
+   "wellness": 2
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "homestylecooking": 3,
+   "dancing": 5,
+   "wellness": 2
+  }
+ },
+ {
+  "first": "Gramma Hattie",
+  "last": "Loden",
+  "household": "Loden",
+  "title": "Gramma_Hattie_Loden",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Successful Lineage",
+    "track": "Knowledge D"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Erik Loden"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Freya Loden"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Nora Loden"
+   }
+  ],
+  "wiki_skills": {
+   "baking": 8,
+   "charisma": 3,
+   "homestylecooking": 8,
+   "gourmetcooking": 2,
+   "parenting": 3
+  },
+  "tool_skills": {
+   "gourmetcooking": 2,
+   "charisma": 3,
+   "homestylecooking": 8,
+   "baking": 8,
+   "parenting": 3
+  }
+ },
+ {
+  "first": "Nora",
+  "last": "Loden",
+  "household": "Loden",
+  "title": "Nora_Loden",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Esteemed Entrepreneur",
+    "track": "Athletic A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Erik Loden"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Freya Loden"
+   }
+  ],
+  "wiki_skills": {
+   "baking": 5,
+   "homestylecooking": 5,
+   "gourmetcooking": 5,
+   "handiness": 4,
+   "bartending": 2,
+   "parenting": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "gourmetcooking": 5,
+   "bartending": 2,
+   "parenting": 4,
+   "baking": 5,
+   "handiness": 4
+  }
+ },
+ {
+  "first": "Brytani",
+  "last": "Cho",
+  "household": "Cho",
+  "title": "Brytani_Cho",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Joke Star",
+    "track": "Popularity A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 2,
+   "comedy": 6,
+   "mischief": 4
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "mischief": 4,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Joe",
+  "last": "Trader",
+  "household": "Trader",
+  "title": "Joe_Trader",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Chief of Mischief",
+    "track": "Deviance B"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "disruptive"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "rogue"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 10,
+   "mischief": 7
+  },
+  "tool_skills": {
+   "mischief": 7,
+   "charisma": 10
+  }
+ },
+ {
+  "first": "Felix",
+  "last": "Psyded",
+  "household": "Townie Ghost",
+  "title": "Felix_Psyded",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 7,
+   "comedy": 4,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "charisma": 7,
+   "mischief": 3,
+   "comedy": 4
+  }
+ },
+ {
+  "first": "Denzel",
+  "last": "Reevera",
+  "household": "Hot Professional",
+  "title": "Denzel_Reevera",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "cringe"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "outgoing"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "neat"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6
+  },
+  "tool_skills": {
+   "charisma": 6
+  }
+ },
+ {
+  "first": "Lavina",
+  "last": "Chopra",
+  "household": "Chopra",
+  "title": "Lavina_Chopra",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Rahul Chopra"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "homestylecooking": 6,
+   "crossstitch": 2,
+   "handiness": 5,
+   "parenting": 6,
+   "photography": 3
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "homestylecooking": 6,
+   "handiness": 5,
+   "photography": 3,
+   "parenting": 6,
+   "crossstitch": 2
+  }
+ },
+ {
+  "first": "Rahul",
+  "last": "Chopra",
+  "household": "Chopra",
+  "title": "Rahul_Chopra",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   }
+  ],
+  "wiki_skills": {
+   "baking": 3,
+   "fishing": 2,
+   "fitness": 4,
+   "logic": 2
+  },
+  "tool_skills": {
+   "fitness": 4,
+   "logic": 2,
+   "fishing": 2,
+   "baking": 3
+  }
+ },
+ {
+  "first": "Bob",
+  "last": "Pancakes",
+  "household": "Pancakes",
+  "title": "Bob_Pancakes",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Chef",
+    "track": "Food B"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "bartending": 3,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "videogaming": 1,
+   "homestylecooking": 3,
+   "bartending": 3
+  }
+ },
+ {
+  "first": "Eliza",
+  "last": "Pancakes",
+  "household": "Pancakes",
+  "title": "Eliza_Pancakes",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 3
+  },
+  "tool_skills": {
+   "fitness": 3
+  }
+ },
+ {
+  "first": "Xochitl",
+  "last": "Luna",
+  "household": "Luna-Sullivan",
+  "title": "Xochitl_Luna",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Karmine Luna"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 6,
+   "handiness": 7
+  },
+  "tool_skills": {
+   "handiness": 7,
+   "fitness": 6
+  }
+ },
+ {
+  "first": "Eleanor",
+  "last": "Sullivan",
+  "household": "Luna-Sullivan",
+  "title": "Eleanor_Sullivan",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Chief of Mischief",
+    "track": "Deviance B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Karmine Luna"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 6,
+   "mischief": 7
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "mischief": 7
+  }
+ },
+ {
+  "first": "Karmine",
+  "last": "Luna",
+  "household": "Luna-Sullivan",
+  "title": "Karmine_Luna",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Creative Genius",
+    "track": "Creative Genius"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "creative"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Eleanor Sullivan"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Salim",
+  "last": "Benali",
+  "household": "Benali",
+  "title": "Salim_Benali",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "videogaming": 4,
+   "writing": 8
+  },
+  "tool_skills": {
+   "writing": 8,
+   "homestylecooking": 3,
+   "videogaming": 4
+  }
+ },
+ {
+  "first": "Eloise",
+  "last": "Hiddlestix",
+  "household": "Hiddlestix",
+  "title": "Eloise_Hiddlestix",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "entrepreneur": 2
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "entrepreneur": 2
+  }
+ },
+ {
+  "first": "Camille",
+  "last": "Soto",
+  "household": "Sotos",
+  "title": "Camille_Soto",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "crossstitch": 2,
+   "gardening": 3,
+   "logic": 6,
+   "writing": 6
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "crossstitch": 2,
+   "writing": 6,
+   "logic": 6,
+   "gardening": 3
+  }
+ },
+ {
+  "first": "Dominique",
+  "last": "Soto",
+  "household": "Sotos",
+  "title": "Dominique_Soto",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "dancing": 3,
+   "handiness": 2,
+   "painting": 8
+  },
+  "tool_skills": {
+   "dancing": 3,
+   "homestylecooking": 6,
+   "painting": 8,
+   "handiness": 2
+  }
+ },
+ {
+  "first": "Teruna",
+  "last": "Zaki",
+  "household": "Roomies",
+  "title": "Teruna_Zaki",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "ambitious"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "horselover"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "goofball"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 4
+  },
+  "tool_skills": {
+   "logic": 4
+  }
+ },
+ {
+  "first": "Leila",
+  "last": "Anh",
+  "household": "Roomies",
+  "title": "Leila_Anh",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Chief of Mischief",
+    "track": "Popularity Friendly Neighbor"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "highmaintenance"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "childish"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "sociallyawkward"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Kennith",
+  "last": "Houston",
+  "household": "Roomies",
+  "title": "Kennith_Houston",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Discerning Dweller",
+    "track": "Popularity Multi Unit Discerning Dweller"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "creative"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "genius"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "slob"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Yena",
+  "last": "Azad",
+  "household": "Roomies",
+  "title": "Yena_Azad",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fount of Tomarani Knowledge",
+    "track": "Location Multi Unit Fountain Of Local Knowledge"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "good"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "active"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "doglover"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Freeda",
+  "last": "Perry",
+  "household": "Perry",
+  "title": "Freeda_Perry",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bodybuilder",
+    "track": "Athletic A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedretreathost"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Dougie Perry"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 8,
+   "homestylecooking": 8,
+   "fitness": 6,
+   "bartending": 6,
+   "papercraft": 5,
+   "piano": 9
+  },
+  "tool_skills": {
+   "papercraft": 5,
+   "piano": 9,
+   "fitness": 6,
+   "homestylecooking": 8,
+   "charisma": 8,
+   "bartending": 6
+  }
+ },
+ {
+  "first": "Dougie",
+  "last": "Perry",
+  "household": "Perry",
+  "title": "Dougie_Perry",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Whiz Kid",
+    "track": "Mental"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (maternal)",
+    "name": "Freeda Perry"
+   }
+  ],
+  "wiki_skills": {
+   "childmental": 5
+  },
+  "tool_skills": {
+   "childmental": 5
+  }
+ },
+ {
+  "first": "Thomas",
+  "last": "Jabari",
+  "household": "Jabari",
+  "title": "Thomas_Jabari",
+  "diffs": [
+   {
+    "kind": "skill_extra_tool",
+    "skill": "researchdebate",
+    "tool": 8
+   },
+   {
+    "kind": "career",
+    "wiki": "Unemployed",
+    "tool": "NPC Professor NPC Arts"
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   }
+  ],
+  "wiki_skills": {
+   "painting": 7,
+   "piano": 7
+  },
+  "tool_skills": {
+   "researchdebate": 8,
+   "painting": 7,
+   "piano": 7
+  }
+ },
+ {
+  "first": "Simeon",
+  "last": "Silversweater",
+  "household": "Silversweater",
+  "title": "Simeon_Silversweater",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "witchoccultperksmotehound"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 8,
+   "programming": 8,
+   "videogaming": 8
+  },
+  "tool_skills": {
+   "logic": 8,
+   "videogaming": 8,
+   "programming": 8
+  }
+ },
+ {
+  "first": "Tybalt",
+  "last": "Capp",
+  "household": "Capp",
+  "title": "Tybalt_Capp",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "swordsmanship",
+    "wiki": 2,
+    "tool": 7
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "regalromancer"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Caliban Capp"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Cordelia Capp"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Beatrice Capp"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Celeste Capp"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Virgilio Capp"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 9,
+   "painting": 8,
+   "piano": 6,
+   "swordsmanship": 2
+  },
+  "tool_skills": {
+   "painting": 8,
+   "piano": 6,
+   "swordsmanship": 7,
+   "charisma": 9
+  }
+ },
+ {
+  "first": "Beatrice",
+  "last": "Capp",
+  "household": "Capp",
+  "title": "Beatrice_Capp",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 9,
+   "painting": 6,
+   "piano": 9,
+   "swordsmanship": 7,
+   "writing": 5
+  },
+  "tool_skills": {
+   "painting": 6,
+   "piano": 9,
+   "swordsmanship": 7,
+   "charisma": 9,
+   "writing": 5
+  }
+ },
+ {
+  "first": "Celeste",
+  "last": "Capp",
+  "household": "Capp",
+  "title": "Celeste_Capp",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Creativity C"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "alluring"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 9,
+   "guitar": 4,
+   "painting": 8,
+   "piano": 6,
+   "swordsmanship": 6,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "painting": 8,
+   "piano": 6,
+   "swordsmanship": 6,
+   "charisma": 9,
+   "guitar": 4,
+   "videogaming": 2
+  }
+ },
+ {
+  "first": "Virgilio",
+  "last": "Capp",
+  "household": "Capp",
+  "title": "Virgilio_Capp",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Chief of Mischief",
+    "track": "Deviance B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 9,
+   "logic": 2,
+   "mischief": 6,
+   "painting": 2,
+   "piano": 2,
+   "swordsmanship": 5
+  },
+  "tool_skills": {
+   "painting": 2,
+   "piano": 2,
+   "swordsmanship": 5,
+   "charisma": 9,
+   "mischief": 6,
+   "logic": 2
+  }
+ },
+ {
+  "first": "Thorne",
+  "last": "Bailey",
+  "household": "Bailey-Moon",
+  "title": "Thorne_Bailey",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "violin",
+    "wiki": 3,
+    "tool": 2
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "Musical Genius",
+    "track": "Deviance B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Orange Bailey-Moon"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "guitar": 5,
+   "piano": 3,
+   "violin": 3
+  },
+  "tool_skills": {
+   "guitar": 5,
+   "piano": 3,
+   "charisma": 3,
+   "violin": 2
+  }
+ },
+ {
+  "first": "Octavia",
+  "last": "Moon",
+  "household": "Bailey-Moon",
+  "title": "Octavia_Moon",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Orange Bailey-Moon"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 4,
+   "writing": 6
+  },
+  "tool_skills": {
+   "writing": 6,
+   "comedy": 4
+  }
+ },
+ {
+  "first": "Orange",
+  "last": "Bailey-Moon",
+  "household": "Bailey-Moon",
+  "title": "Orange_Bailey-Moon",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 4,
+   "childmental": 2,
+   "childmotor": 3,
+   "childsocial": 6
+  },
+  "tool_skills": {
+   "childsocial": 6,
+   "childcreativity": 4,
+   "childmotor": 3,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Greta",
+  "last": "Laurent",
+  "household": "Laurent",
+  "title": "Greta_Laurent",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Freelance Botanist",
+    "track": "Nature A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandparent",
+    "name": "Arnessa Thebe"
+   }
+  ],
+  "wiki_skills": {
+   "handiness": 6,
+   "painting": 10
+  },
+  "tool_skills": {
+   "painting": 10,
+   "handiness": 6
+  }
+ },
+ {
+  "first": "Hector",
+  "last": "Laurent",
+  "household": "Laurent",
+  "title": "Hector_Laurent",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Mixologist",
+    "track": "Food A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Greta Laurent"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Jace Laurent"
+   }
+  ],
+  "wiki_skills": {
+   "djmixing": 5,
+   "dancing": 3,
+   "bartending": 3,
+   "parenting": 6
+  },
+  "tool_skills": {
+   "bartending": 3,
+   "djmixing": 5,
+   "parenting": 6,
+   "dancing": 3
+  }
+ },
+ {
+  "first": "Hilary",
+  "last": "Laurent",
+  "household": "Laurent",
+  "title": "Hilary_Laurent",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "fishing",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Chef",
+    "track": "Food B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Greta Laurent"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Jace Laurent"
+   }
+  ],
+  "wiki_skills": {
+   "baking": 5,
+   "comedy": 2,
+   "homestylecooking": 5,
+   "fishing": 1,
+   "gourmetcooking": 7
+  },
+  "tool_skills": {
+   "gourmetcooking": 7,
+   "baking": 5,
+   "comedy": 2,
+   "homestylecooking": 5
+  }
+ },
+ {
+  "first": "Jace",
+  "last": "Laurent",
+  "household": "Laurent",
+  "title": "Jace_Laurent",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandparent",
+    "name": "Arnessa Thebe"
+   }
+  ],
+  "wiki_skills": {
+   "childmental": 5,
+   "childmotor": 2,
+   "childsocial": 3
+  },
+  "tool_skills": {
+   "childmental": 5,
+   "childmotor": 2,
+   "childsocial": 3
+  }
+ },
+ {
+  "first": "Arnessa",
+  "last": "Thebe",
+  "household": "Laurent",
+  "title": "Arnessa_Thebe",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Hector Laurent"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Greta Laurent"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Jace Laurent"
+   }
+  ],
+  "wiki_skills": {
+   "painting": 5,
+   "piano": 8
+  },
+  "tool_skills": {
+   "painting": 5,
+   "piano": 8
+  }
+ },
+ {
+  "first": "Toshie",
+  "last": "Akamine",
+  "household": "Akamine",
+  "title": "Toshie_Akamine",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 7,
+   "fishing": 5,
+   "painting": 5,
+   "writing": 9
+  },
+  "tool_skills": {
+   "fishing": 5,
+   "charisma": 7,
+   "writing": 9,
+   "painting": 5
+  }
+ },
+ {
+  "first": "Lily",
+  "last": "Feng",
+  "household": "Feng",
+  "title": "Lily_Feng",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 9,
+   "mischief": 2,
+   "violin": 3
+  },
+  "tool_skills": {
+   "violin": 3,
+   "logic": 9,
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Victor",
+  "last": "Feng",
+  "household": "Feng",
+  "title": "Victor_Feng",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 7,
+   "logic": 6
+  },
+  "tool_skills": {
+   "logic": 6,
+   "charisma": 7
+  }
+ },
+ {
+  "first": "Izzy",
+  "last": "Fabulous",
+  "household": "Fabulous",
+  "title": "Izzy_Fabulous",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Party Animal",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "photography": 2
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "photography": 2
+  }
+ },
+ {
+  "first": "Imran",
+  "last": "Watson",
+  "household": "Watson Family",
+  "title": "Imran_Watson",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Rambunctious Scamp",
+    "track": "Creativity"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 5,
+   "childmental": 2,
+   "childmotor": 2
+  },
+  "tool_skills": {
+   "childcreativity": 5,
+   "childmental": 2,
+   "childmotor": 2
+  }
+ },
+ {
+  "first": "Maira",
+  "last": "Watson",
+  "household": "Watson Family",
+  "title": "Maira_Watson",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Motor"
+   }
+  ],
+  "wiki_skills": {
+   "childmental": 2,
+   "childmotor": 7,
+   "childsocial": 5
+  },
+  "tool_skills": {
+   "childmotor": 7,
+   "childsocial": 5,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Rahmi",
+  "last": "Watson",
+  "household": "Watson Family",
+  "title": "Rahmi_Watson",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "The Curator",
+    "track": "Nature C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Imran Watson"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Maira Watson"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Rashidah Watson"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 2,
+   "homestylecooking": 8,
+   "gardening": 6,
+   "gourmetcooking": 3,
+   "parenting": 6
+  },
+  "tool_skills": {
+   "gardening": 6,
+   "comedy": 2,
+   "homestylecooking": 8,
+   "gourmetcooking": 3,
+   "parenting": 6
+  }
+ },
+ {
+  "first": "Rashidah",
+  "last": "Watson",
+  "household": "Watson Family",
+  "title": "Rashidah_Watson",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "mischief": 3,
+   "videogaming": 3,
+   "writing": 2
+  },
+  "tool_skills": {
+   "homestylecooking": 2,
+   "mischief": 3,
+   "videogaming": 3,
+   "writing": 2
+  }
+ },
+ {
+  "first": "Thomas",
+  "last": "Watson",
+  "household": "Watson Family",
+  "title": "Thomas_Watson",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Country Caretaker",
+    "track": "Nature Country Caretaker"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Imran Watson"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Maira Watson"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Rashidah Watson"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 6,
+   "gardening": 6,
+   "parenting": 2,
+   "singing": 3,
+   "violin": 2
+  },
+  "tool_skills": {
+   "fitness": 6,
+   "gardening": 6,
+   "violin": 2,
+   "singing": 3,
+   "parenting": 2
+  }
+ },
+ {
+  "first": "Knox",
+  "last": "Greenburg",
+  "household": "Greenburg",
+  "title": "Knox_Greenburg",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Eco Innovator",
+    "track": "Nature A"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 5,
+   "gardening": 3
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "gardening": 3
+  }
+ },
+ {
+  "first": "Mary",
+  "last": "Greenburg",
+  "household": "Greenburg",
+  "title": "Mary_Greenburg",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Freelance Botanist",
+    "track": "Nature A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Knox Greenburg"
+   }
+  ],
+  "wiki_skills": {
+   "gardening": 4,
+   "juicefizzing": 3
+  },
+  "tool_skills": {
+   "gardening": 4,
+   "juicefizzing": 3
+  }
+ },
+ {
+  "first": "Blossom",
+  "last": "Greenburg",
+  "household": "Greenburg",
+  "title": "Blossom_Greenburg",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Maker",
+    "track": "Creativity Maker"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Knox Greenburg"
+   }
+  ],
+  "wiki_skills": {
+   "painting": 4,
+   "fabrication": 2
+  },
+  "tool_skills": {
+   "fabrication": 2,
+   "painting": 4
+  }
+ },
+ {
+  "first": "Collin",
+  "last": "Robertson",
+  "household": "Mid Age",
+  "title": "Collin_Robertson",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "nosy"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "glutton"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "outgoing"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jilliana",
+  "last": "Sage",
+  "household": "Multi Babies",
+  "title": "Jilliana_Sage",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Xavier Sage"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Zehava Sage"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Owen",
+  "last": "Sage",
+  "household": "Multi Babies",
+  "title": "Owen_Sage",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Xavier Sage"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Zehava Sage"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Bella",
+  "last": "Goth",
+  "household": "Goth",
+  "title": "Bella_Goth",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Party Animal",
+    "track": "Popularity C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Cassandra Goth"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Alexander Goth"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 2,
+   "fitness": 2,
+   "programming": 2
+  },
+  "tool_skills": {
+   "charisma": 2,
+   "fitness": 2,
+   "programming": 2
+  }
+ },
+ {
+  "first": "Mortimer",
+  "last": "Goth",
+  "household": "Goth",
+  "title": "Mortimer_Goth",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Cornelia Goth"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Cassandra Goth"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Alexander Goth"
+   }
+  ],
+  "wiki_skills": {
+   "writing": 4
+  },
+  "tool_skills": {
+   "writing": 4
+  }
+ },
+ {
+  "first": "Cassandra",
+  "last": "Goth",
+  "household": "Goth",
+  "title": "Cassandra_Goth",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   }
+  ],
+  "wiki_skills": {
+   "violin": 2
+  },
+  "tool_skills": {
+   "violin": 2
+  }
+ },
+ {
+  "first": "Alexander",
+  "last": "Goth",
+  "household": "Goth",
+  "title": "Alexander_Goth",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "childcreativity",
+    "wiki": 1
+   },
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "childmental",
+    "wiki": 1
+   },
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "childmotor",
+    "wiki": 1
+   },
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "childsocial",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "Whiz Kid",
+    "track": "Mental"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 1,
+   "childmental": 1,
+   "childmotor": 1,
+   "childsocial": 1
+  },
+  "tool_skills": {}
+ },
+ {
+  "first": "Dominic",
+  "last": "Fyres",
+  "household": "Fyres",
+  "title": "Dominic_Fyres",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "dancing",
+    "wiki": 4,
+    "tool": 3
+   },
+   {
+    "kind": "skill_level",
+    "skill": "djmixing",
+    "wiki": 8,
+    "tool": 6
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Siobhan Fyres"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Morgan Fyres"
+   }
+  ],
+  "wiki_skills": {
+   "djmixing": 8,
+   "dancing": 4
+  },
+  "tool_skills": {
+   "dancing": 3,
+   "djmixing": 6
+  }
+ },
+ {
+  "first": "Moira",
+  "last": "Fyres",
+  "household": "Fyres",
+  "title": "Moira_Fyres",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "gardening",
+    "wiki": 9,
+    "tool": 5
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Freelance Botanist",
+    "track": "Nature A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Siobhan Fyres"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Morgan Fyres"
+   }
+  ],
+  "wiki_skills": {
+   "gardening": 9
+  },
+  "tool_skills": {
+   "gardening": 5
+  }
+ },
+ {
+  "first": "Siobhan",
+  "last": "Fyres",
+  "household": "Fyres",
+  "title": "Siobhan_Fyres",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "charisma",
+    "wiki": 6,
+    "tool": 4
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Leader of the Pack",
+    "track": "Popularity Leader Of The Pack"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6
+  },
+  "tool_skills": {
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Morgan",
+  "last": "Fyres",
+  "household": "Fyres",
+  "title": "Morgan_Fyres",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Party Animal",
+    "track": "Popularity C"
+   }
+  ],
+  "wiki_skills": {
+   "mischief": 4
+  },
+  "tool_skills": {
+   "mischief": 4
+  }
+ },
+ {
+  "first": "Ayo",
+  "last": "Ladipo",
+  "household": "Ladipo",
+  "title": "Ayo_Ladipo",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "logic": 2,
+   "programming": 8
+  },
+  "tool_skills": {
+   "programming": 8,
+   "charisma": 3,
+   "logic": 2
+  }
+ },
+ {
+  "first": "Flora",
+  "last": "Ladipo",
+  "household": "Ladipo",
+  "title": "Flora_Ladipo",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 4,
+   "painting": 7,
+   "programming": 5
+  },
+  "tool_skills": {
+   "programming": 5,
+   "logic": 4,
+   "painting": 7
+  }
+ },
+ {
+  "first": "Penny",
+  "last": "Pizzazz",
+  "household": "Pizzazz",
+  "title": "Penny_Pizzazz",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "comedy",
+    "wiki": 7,
+    "tool": 6
+   },
+   {
+    "kind": "aspiration",
+    "wiki": "City Native",
+    "track": "Location A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 8,
+   "comedy": 7,
+   "homestylecooking": 7,
+   "programming": 5,
+   "videogaming": 7
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "programming": 5,
+   "homestylecooking": 7,
+   "videogaming": 7,
+   "charisma": 8
+  }
+ },
+ {
+  "first": "Celene",
+  "last": "L\u00f3pez",
+  "household": "L\u00f3pez",
+  "title": "Celene_L\u00f3pez",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Neighborhood Confidante",
+    "track": "Popularity Friendly Neighbor"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "homestylecooking": 4,
+   "herbalism": 2,
+   "bartending": 7
+  },
+  "tool_skills": {
+   "bartending": 7,
+   "homestylecooking": 4,
+   "charisma": 3,
+   "herbalism": 2
+  }
+ },
+ {
+  "first": "Lewis",
+  "last": "Sancho",
+  "household": "Sancho",
+  "title": "Lewis_Sancho",
+  "diffs": [
+   {
+    "kind": "career",
+    "wiki": "Unemployed",
+    "tool": "Tech Guru"
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Party Animal",
+    "track": "Popularity C"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "materialistic"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "selfassured"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "ambitious"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "neat"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Lily",
+  "last": "Powers",
+  "household": "Powers",
+  "title": "Lily_Powers",
+  "diffs": [
+   {
+    "kind": "trait_extra_tool",
+    "trait": "unflirty"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "neat"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "jealous"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Kennedy Powers"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 9,
+   "homestylecooking": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "charisma": 9
+  }
+ },
+ {
+  "first": "Randy",
+  "last": "Powers",
+  "household": "Powers",
+  "title": "Randy_Powers",
+  "diffs": [
+   {
+    "kind": "trait_extra_tool",
+    "trait": "slob"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "materialistic"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "romantic"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Kennedy Powers"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "homestylecooking": 4,
+   "logic": 8
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "logic": 8,
+   "charisma": 6
+  }
+ },
+ {
+  "first": "Kennedy",
+  "last": "Powers",
+  "household": "Powers",
+  "title": "Kennedy_Powers",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   }
+  ],
+  "wiki_skills": {
+   "childsocial": 4
+  },
+  "tool_skills": {
+   "childsocial": 4
+  }
+ },
+ {
+  "first": "Kristopher",
+  "last": "Volkov",
+  "household": "Volkov",
+  "title": "Kristopher_Volkov",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentslunarnightmark"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentswrackedwithguilt"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfimmortalwolf"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsgrumpywolf"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfnaturalhealing"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsmustbeclean"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfhadfirsttransformation"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Jacob Volkov"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 8,
+   "gardening": 6,
+   "handiness": 3,
+   "logic": 5,
+   "parenting": 3,
+   "programming": 5
+  },
+  "tool_skills": {
+   "fitness": 8,
+   "gardening": 6,
+   "logic": 5,
+   "handiness": 3,
+   "programming": 5,
+   "parenting": 3
+  }
+ },
+ {
+  "first": "Jacob",
+  "last": "Volkov",
+  "household": "Volkov",
+  "title": "Jacob_Volkov",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Emissary of the Collective",
+    "track": "Werewolf Initiation"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "lunarconfidant"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfinitiationbonustrait"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentshungrylikethewolf"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentseasyexcitable"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfhadfirsttransformation"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "fitness": 5,
+   "guitar": 4,
+   "handiness": 2
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "guitar": 4,
+   "homestylecooking": 3,
+   "handiness": 2
+  }
+ },
+ {
+  "first": "Lily",
+  "last": "Zhu",
+  "household": "Volkov",
+  "title": "Lily_Zhu",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentssurvivalinstincts"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfimmortalwolf"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsrestlessanimal"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfnaturalhealing"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsanticapitalistcanine"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsmustbeclean"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfhadfirsttransformation"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "fishing": 4,
+   "fitness": 5,
+   "handiness": 3,
+   "vampirelore": 3
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "fishing": 4,
+   "homestylecooking": 4,
+   "vampirelore": 3,
+   "handiness": 3
+  }
+ },
+ {
+  "first": "Aziz",
+  "last": "Nadir",
+  "household": "Nadir",
+  "title": "Aziz_Nadir",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "romance": 7,
+   "writing": 5
+  },
+  "tool_skills": {
+   "romance": 7,
+   "writing": 5,
+   "homestylecooking": 3
+  }
+ },
+ {
+  "first": "Valentina",
+  "last": "Nadir",
+  "household": "Nadir",
+  "title": "Valentina_Nadir",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 7,
+   "romance": 6
+  },
+  "tool_skills": {
+   "romance": 6,
+   "charisma": 7
+  }
+ },
+ {
+  "first": "Pruella",
+  "last": "Preener",
+  "household": "Cryptid",
+  "title": "Pruella_Preener",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Critter Hunter",
+    "track": "Nature Critter Hunter"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 10,
+   "fishing": 10,
+   "handiness": 10,
+   "singing": 10
+  },
+  "tool_skills": {
+   "charisma": 10,
+   "singing": 10,
+   "handiness": 10,
+   "fishing": 10
+  }
+ },
+ {
+  "first": "Zhaleh",
+  "last": "Amani",
+  "household": "Amani",
+  "title": "Zhaleh_Amani",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Harmonious Fairy",
+    "track": "Nature B"
+   }
+  ],
+  "wiki_skills": {
+   "apothecary": 7,
+   "nls": 7
+  },
+  "tool_skills": {
+   "apothecary": 7,
+   "nls": 7
+  }
+ },
+ {
+  "first": "Supriya",
+  "last": "Delgato",
+  "household": "Delgato",
+  "title": "Supriya_Delgato",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the Animals",
+    "track": "Animal A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "animalaffection"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Evie Delgato"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Pierce Delgato"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "piano": 2,
+   "veterinarian": 4
+  },
+  "tool_skills": {
+   "veterinarian": 4,
+   "homestylecooking": 3,
+   "piano": 2
+  }
+ },
+ {
+  "first": "Justin",
+  "last": "Delgato",
+  "household": "Delgato",
+  "title": "Justin_Delgato",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Evie Delgato"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Pierce Delgato"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "comedy": 3,
+   "logic": 2
+  },
+  "tool_skills": {
+   "logic": 2,
+   "comedy": 3,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Pierce",
+  "last": "Delgato",
+  "household": "Delgato",
+  "title": "Pierce_Delgato",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   }
+  ],
+  "wiki_skills": {
+   "childmental": 2,
+   "childsocial": 3
+  },
+  "tool_skills": {
+   "childsocial": 3,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Mickie",
+  "last": "Yarmellino",
+  "household": "Punk Rocker",
+  "title": "Mickie_Yarmellino",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "loyal"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "squeamish"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "bro"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Alex",
+  "last": "Moyer",
+  "household": "Moyer",
+  "title": "Alex_Moyer",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 2,
+   "homestylecooking": 3,
+   "handiness": 2
+  },
+  "tool_skills": {
+   "homestylecooking": 3,
+   "handiness": 2,
+   "comedy": 2
+  }
+ },
+ {
+  "first": "Fia",
+  "last": "Acosta",
+  "household": "Acosta",
+  "title": "Fia_Acosta",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Public Enemy",
+    "track": "Deviance A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Cordelia Thebe V"
+   }
+  ],
+  "wiki_skills": {
+   "archery": 4,
+   "charisma": 5,
+   "fishing": 4,
+   "fitness": 9,
+   "handiness": 5,
+   "mischief": 9,
+   "bartending": 8,
+   "swordsmanship": 10
+  },
+  "tool_skills": {
+   "swordsmanship": 10,
+   "fitness": 9,
+   "bartending": 8,
+   "charisma": 5,
+   "fishing": 4,
+   "handiness": 5,
+   "mischief": 9,
+   "archery": 4
+  }
+ },
+ {
+  "first": "Travis",
+  "last": "Scott",
+  "household": "BFF",
+  "title": "Travis_Scott",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   }
+  ],
+  "wiki_skills": {
+   "programming": 2,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "programming": 2,
+   "videogaming": 2
+  }
+ },
+ {
+  "first": "Liberty",
+  "last": "Lee",
+  "household": "BFF",
+  "title": "Liberty_Lee",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 2
+  },
+  "tool_skills": {
+   "logic": 2
+  }
+ },
+ {
+  "first": "Summer",
+  "last": "Holiday",
+  "household": "BFF",
+  "title": "Summer_Holiday",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "bartending": 2,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "bartending": 2,
+   "homestylecooking": 2,
+   "videogaming": 1
+  }
+ },
+ {
+  "first": "Kitty",
+  "last": "Lu",
+  "household": "Lu",
+  "title": "Kitty_Lu",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Public Enemy",
+    "track": "Popularity D"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jane",
+  "last": "Addam",
+  "household": "Addam",
+  "title": "Jane_Addam",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Mixologist",
+    "track": "Food A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedromantichost"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "homestylecooking": 8,
+   "fitness": 2,
+   "gourmetcooking": 7,
+   "handiness": 3,
+   "bartending": 5
+  },
+  "tool_skills": {
+   "handiness": 3,
+   "charisma": 3,
+   "fitness": 2,
+   "homestylecooking": 8,
+   "gourmetcooking": 7,
+   "bartending": 5
+  }
+ },
+ {
+  "first": "Star",
+  "last": "Addam",
+  "household": "Addam",
+  "title": "Star_Addam",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedromantichost"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 7,
+   "fishing": 6,
+   "logic": 6,
+   "piano": 7
+  },
+  "tool_skills": {
+   "charisma": 7,
+   "logic": 6,
+   "fishing": 6,
+   "piano": 7
+  }
+ },
+ {
+  "first": "Skip",
+  "last": "Broke",
+  "household": "Addam",
+  "title": "Skip_Broke",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedfitnessretreatguest"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedromanticsingle"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 7,
+   "fitness": 7,
+   "gourmetcooking": 8,
+   "handiness": 5,
+   "logic": 6,
+   "violin": 5
+  },
+  "tool_skills": {
+   "handiness": 5,
+   "charisma": 7,
+   "fitness": 7,
+   "violin": 5,
+   "gourmetcooking": 8,
+   "logic": 6
+  }
+ },
+ {
+  "first": "Agora",
+  "last": "Tchotchke",
+  "household": "Addam",
+  "title": "Agora_Tchotchke",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Chief of Mischief",
+    "track": "Deviance A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedromanticsingle"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "homestylecooking": 2,
+   "fishing": 4
+  },
+  "tool_skills": {
+   "fishing": 4,
+   "charisma": 5,
+   "homestylecooking": 2
+  }
+ },
+ {
+  "first": "George",
+  "last": "Cahill",
+  "household": "Cahill",
+  "title": "George_Cahill",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Public Enemy",
+    "track": "Deviance A"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 2,
+   "writing": 3
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "writing": 3,
+   "fitness": 2
+  }
+ },
+ {
+  "first": "Lou",
+  "last": "Howell",
+  "household": "Howell",
+  "title": "Lou_Howell",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Werewolf Initiate",
+    "track": "Werewolf Initiation"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "lunarconfidant"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfhadfirsttransformation"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsnightwolf"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfinitiationbonustrait"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 3,
+   "fishing": 3,
+   "fitness": 5,
+   "handiness": 2,
+   "mischief": 3,
+   "singing": 2
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "fishing": 3,
+   "handiness": 2,
+   "comedy": 3,
+   "mischief": 3,
+   "singing": 2
+  }
+ },
+ {
+  "first": "Tia",
+  "last": "Bailey",
+  "household": "Newlyweds",
+  "title": "Tia_Bailey",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Haru",
+  "last": "Matsuda",
+  "household": "Newlyweds",
+  "title": "Haru_Matsuda",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Mixologist",
+    "track": "Food A"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Marissa",
+  "last": "Tracey",
+  "household": "The Nectar Making Duo",
+  "title": "Marissa_Tracey",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "videogaming",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Fabulously Wealthy",
+    "track": "Fortune A"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 6,
+   "charisma": 5,
+   "photography": 3,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "comedy": 6,
+   "photography": 3
+  }
+ },
+ {
+  "first": "Dani",
+  "last": "Davila",
+  "household": "The Nectar Making Duo",
+  "title": "Dani_Davila",
+  "diffs": [
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "charisma",
+    "wiki": 1
+   },
+   {
+    "kind": "skill_level1_unlisted",
+    "skill": "fishing",
+    "wiki": 1
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Expert Nectar Maker",
+    "track": "Food Nectar"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 1,
+   "fishing": 1,
+   "gardening": 7,
+   "violin": 5,
+   "nectarmaking": 3
+  },
+  "tool_skills": {
+   "nectarmaking": 3,
+   "gardening": 7,
+   "violin": 5
+  }
+ },
+ {
+  "first": "Panya",
+  "last": "Li",
+  "household": "Panya",
+  "title": "Panya_Li",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Five-Star Property Owner",
+    "track": "Fortune Multi Unit Legendary Landlord"
+   }
+  ],
+  "wiki_skills": {
+   "gardening": 7,
+   "handiness": 6
+  },
+  "tool_skills": {
+   "handiness": 6,
+   "gardening": 7
+  }
+ },
+ {
+  "first": "Sara",
+  "last": "Scott",
+  "household": "Scott",
+  "title": "Sara_Scott",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Party Animal",
+    "track": "Popularity C"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "fitness": 5,
+   "flowerarranging": 3,
+   "bartending": 10,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "bartending": 10,
+   "charisma": 6,
+   "fitness": 5,
+   "videogaming": 2,
+   "flowerarranging": 3
+  }
+ },
+ {
+  "first": "Simon",
+  "last": "Scott",
+  "household": "Scott",
+  "title": "Simon_Scott",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "comedy": 2,
+   "homestylecooking": 5,
+   "dancing": 3,
+   "bartending": 3
+  },
+  "tool_skills": {
+   "bartending": 3,
+   "homestylecooking": 5,
+   "charisma": 6,
+   "dancing": 3,
+   "comedy": 2
+  }
+ },
+ {
+  "first": "Jay",
+  "last": "Robles",
+  "household": "Robles-Ruano",
+  "title": "Jay_Robles",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Chef",
+    "track": "Food B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Ignacio Robles"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Tala Ruano"
+   }
+  ],
+  "wiki_skills": {
+   "gourmetcooking": 7,
+   "logic": 5
+  },
+  "tool_skills": {
+   "gourmetcooking": 7,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Doli",
+  "last": "Ruano",
+  "household": "Robles-Ruano",
+  "title": "Doli_Ruano",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Tala Ruano"
+   }
+  ],
+  "wiki_skills": {
+   "bartending": 9
+  },
+  "tool_skills": {
+   "bartending": 9
+  }
+ },
+ {
+  "first": "Tala",
+  "last": "Ruano",
+  "household": "Robles-Ruano",
+  "title": "Tala_Ruano",
+  "diffs": [
+   {
+    "kind": "trait_extra_tool",
+    "trait": "hometurf"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Gert",
+  "last": "Koopman",
+  "household": "Koopman",
+  "title": "Gert_Koopman",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 8,
+   "homestylecooking": 3,
+   "handiness": 3,
+   "knitting": 3,
+   "parenting": 5,
+   "pottery": 5
+  },
+  "tool_skills": {
+   "pottery": 5,
+   "parenting": 5,
+   "knitting": 3,
+   "homestylecooking": 3,
+   "handiness": 3,
+   "charisma": 8
+  }
+ },
+ {
+  "first": "Jolanda",
+  "last": "Koopman",
+  "household": "Koopman",
+  "title": "Jolanda_Koopman",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Master Mentor",
+    "track": "Creativity A"
+   }
+  ],
+  "wiki_skills": {
+   "flowerarranging": 2,
+   "gardening": 4,
+   "handiness": 4,
+   "pottery": 10
+  },
+  "tool_skills": {
+   "pottery": 10,
+   "handiness": 4,
+   "flowerarranging": 2,
+   "gardening": 4
+  }
+ },
+ {
+  "first": "Nigel",
+  "last": "Chavez-Ralston",
+  "household": "Gomes Ralston",
+  "title": "Nigel_Chavez-Ralston",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedcampdirector"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Merrilyn Ralston"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Aeris Chavez-Ralston"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Erin Chavez-Ralston"
+   }
+  ],
+  "wiki_skills": {
+   "archery": 5,
+   "charisma": 8,
+   "diving": 3,
+   "fishing": 5,
+   "guitar": 5,
+   "painting": 5,
+   "papercraft": 4
+  },
+  "tool_skills": {
+   "papercraft": 4,
+   "charisma": 8,
+   "fishing": 5,
+   "painting": 5,
+   "guitar": 5,
+   "archery": 5,
+   "diving": 3
+  }
+ },
+ {
+  "first": "Sara",
+  "last": "Chavez-Ralston",
+  "household": "Gomes Ralston",
+  "title": "Sara_Chavez-Ralston",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Critter Hunter",
+    "track": "Family B"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedcampcounselor"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Aeris Chavez-Ralston"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Erin Chavez-Ralston"
+   }
+  ],
+  "wiki_skills": {
+   "archery": 2,
+   "charisma": 9,
+   "gardening": 6,
+   "handiness": 2,
+   "logic": 8,
+   "painting": 4,
+   "papercraft": 7
+  },
+  "tool_skills": {
+   "handiness": 2,
+   "painting": 4,
+   "papercraft": 7,
+   "gardening": 6,
+   "charisma": 9,
+   "logic": 8,
+   "archery": 2
+  }
+ },
+ {
+  "first": "Aeris",
+  "last": "Chavez-Ralston",
+  "household": "Gomes Ralston",
+  "title": "Aeris_Chavez-Ralston",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Creativity"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedcamper"
+   }
+  ],
+  "wiki_skills": {
+   "childcreativity": 4
+  },
+  "tool_skills": {
+   "childcreativity": 4
+  }
+ },
+ {
+  "first": "Erin",
+  "last": "Chavez-Ralston",
+  "household": "Gomes Ralston",
+  "title": "Erin_Chavez-Ralston",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Cool Kid on the Block",
+    "track": "Social Cool Kid"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "competitivespiritbad"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "seasonedcamper"
+   }
+  ],
+  "wiki_skills": {
+   "childsocial": 4
+  },
+  "tool_skills": {
+   "childsocial": 4
+  }
+ },
+ {
+  "first": "Raheel",
+  "last": "Kunal",
+  "household": "Raheel Kunal",
+  "title": "Raheel_Kunal",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Angling Ace",
+    "track": "Nature B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Laxmi Kunal"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 7,
+   "fitness": 5,
+   "handiness": 9,
+   "bartending": 8,
+   "papercraft": 9,
+   "writing": 4
+  },
+  "tool_skills": {
+   "handiness": 9,
+   "writing": 4,
+   "fitness": 5,
+   "fishing": 7,
+   "papercraft": 9,
+   "bartending": 8
+  }
+ },
+ {
+  "first": "Eric",
+  "last": "Lewis",
+  "household": "Spencer-Kim-Lewis",
+  "title": "Eric_Lewis",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Mansion Baron",
+    "track": "Fortune B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Olivia Spencer-Kim"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 1,
+   "programming": 3,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "programming": 3,
+   "videogaming": 1,
+   "logic": 1
+  }
+ },
+ {
+  "first": "Vivian",
+  "last": "Lewis",
+  "household": "Spencer-Kim-Lewis",
+  "title": "Vivian_Lewis",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Big Happy Family",
+    "track": "Family B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Eric Lewis"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Olivia Spencer-Kim"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 1,
+   "homestylecooking": 4,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "comedy": 1,
+   "homestylecooking": 4,
+   "videogaming": 1
+  }
+ },
+ {
+  "first": "Alice",
+  "last": "Spencer-Kim",
+  "household": "Spencer-Kim-Lewis",
+  "title": "Alice_Spencer-Kim",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Olivia Spencer-Kim"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 1,
+   "comedy": 1,
+   "homestylecooking": 1,
+   "mischief": 1,
+   "painting": 4,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "comedy": 1,
+   "painting": 4,
+   "homestylecooking": 1,
+   "mischief": 1,
+   "videogaming": 1,
+   "charisma": 1
+  }
+ },
+ {
+  "first": "Dennis",
+  "last": "Kim",
+  "household": "Spencer-Kim-Lewis",
+  "title": "Dennis_Kim",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Alice Spencer-Kim"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Olivia Spencer-Kim"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 1,
+   "gardening": 4,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "comedy": 1,
+   "gardening": 4,
+   "videogaming": 1
+  }
+ },
+ {
+  "first": "Mark",
+  "last": "Eggleston",
+  "household": "Eclectic Arts Household",
+  "title": "Mark_Eggleston",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "gardening": 2,
+   "logic": 4,
+   "painting": 2
+  },
+  "tool_skills": {
+   "painting": 2,
+   "gardening": 2,
+   "logic": 4
+  }
+ },
+ {
+  "first": "Alice",
+  "last": "Martin",
+  "household": "Eclectic Arts Household",
+  "title": "Alice_Martin",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   }
+  ],
+  "wiki_skills": {
+   "guitar": 3,
+   "piano": 6,
+   "violin": 6
+  },
+  "tool_skills": {
+   "guitar": 3,
+   "piano": 6,
+   "violin": 6
+  }
+ },
+ {
+  "first": "Leslie",
+  "last": "Holland",
+  "household": "Eclectic Arts Household",
+  "title": "Leslie_Holland",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   }
+  ],
+  "wiki_skills": {
+   "comedy": 4,
+   "logic": 5,
+   "programming": 5
+  },
+  "tool_skills": {
+   "logic": 5,
+   "comedy": 4,
+   "programming": 5
+  }
+ },
+ {
+  "first": "Carmen",
+  "last": "Ortega",
+  "household": "Dynamic Daters",
+  "title": "Carmen_Ortega",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Friend of the World",
+    "track": "Popularity B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "romance": 7
+  },
+  "tool_skills": {
+   "charisma": 6,
+   "romance": 7
+  }
+ },
+ {
+  "first": "Elia",
+  "last": "Cruz",
+  "household": "Dynamic Daters",
+  "title": "Elia_Cruz",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Chef",
+    "track": "Food B"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 7,
+   "gourmetcooking": 6,
+   "bartending": 2
+  },
+  "tool_skills": {
+   "gourmetcooking": 6,
+   "homestylecooking": 7,
+   "bartending": 2,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Manuel",
+  "last": "Aguilar",
+  "household": "Dynamic Daters",
+  "title": "Manuel_Aguilar",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Paragon Partner",
+    "track": "Love B"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "lovebug"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "lovestruck"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "M\u00f3nica L\u00f3pez"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "comedy": 3,
+   "fitness": 2,
+   "guitar": 6,
+   "romance": 5
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "comedy": 3,
+   "romance": 5,
+   "guitar": 6,
+   "fitness": 2
+  }
+ },
+ {
+  "first": "Yoltic",
+  "last": "Xicot\u00e9ncatl",
+  "household": "Dynamic Daters",
+  "title": "Yoltic_Xicot\u00e9ncatl",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   }
+  ],
+  "wiki_skills": {
+   "logic": 4,
+   "piano": 7,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "logic": 4,
+   "piano": 7,
+   "videogaming": 3
+  }
+ },
+ {
+  "first": "Ekram",
+  "last": "Elderberry",
+  "household": "Elderberry",
+  "title": "Ekram_Elderberry",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Angling Ace",
+    "track": "Nature B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Eleanore Elderberry"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Rohan Elderberry"
+   }
+  ],
+  "wiki_skills": {
+   "fishing": 8,
+   "handiness": 3
+  },
+  "tool_skills": {
+   "fishing": 8,
+   "handiness": 3
+  }
+ },
+ {
+  "first": "Rohan",
+  "last": "Elderberry",
+  "household": "Elderberry",
+  "title": "Rohan_Elderberry",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Academic",
+    "track": "Knowledge Academic"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandmother (paternal)",
+    "name": "Eleanor Elderberry"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandfather (paternal)",
+    "name": "Ekram Elderberry"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 2,
+   "writing": 3
+  },
+  "tool_skills": {
+   "writing": 3,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Aqua",
+  "last": "Song",
+  "household": "Broke Artist",
+  "title": "Aqua_Song",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "childofthevillage"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "childoftheocean"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "loner"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "gloomy"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "rancher"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Consort",
+  "last": "Capp",
+  "household": "Capp (Townie)",
+  "title": "Consort_Capp",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "formernoblehustler"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Hector Thebe"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Andromache Thebe"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Contessa Capp"
+   }
+  ],
+  "wiki_skills": {
+   "painting": 7,
+   "piano": 6,
+   "swordsmanship": 8
+  },
+  "tool_skills": {
+   "piano": 6,
+   "painting": 7,
+   "swordsmanship": 8
+  }
+ },
+ {
+  "first": "Michael",
+  "last": "Bell",
+  "household": "Bell",
+  "title": "Michael_Bell",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Country Caretaker",
+    "track": "Nature Country Caretaker"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "fishing": 5,
+   "gardening": 6,
+   "herbalism": 8,
+   "knitting": 5,
+   "painting": 2,
+   "writing": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 3,
+   "fishing": 5,
+   "gardening": 6,
+   "painting": 2,
+   "writing": 4,
+   "herbalism": 8,
+   "knitting": 5
+  }
+ },
+ {
+  "first": "Naoki",
+  "last": "Ito",
+  "household": "Ito",
+  "title": "Naoki_Ito",
+  "diffs": [
+   {
+    "kind": "skill_level",
+    "skill": "mischief",
+    "wiki": 3,
+    "tool": 4
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Successful Lineage",
+    "track": "Family A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Kiyoshi Ito"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Nanami Ito"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 7,
+   "mischief": 3,
+   "skiing": 9
+  },
+  "tool_skills": {
+   "skiing": 9,
+   "fitness": 7,
+   "mischief": 4
+  }
+ },
+ {
+  "first": "Megumi",
+  "last": "Ito",
+  "household": "Ito",
+  "title": "Megumi_Ito",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Extreme Sports Enthusiast",
+    "track": "Athetic Extreme Sports Enthusiast"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Kado Akiyama"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Kiyoshi Ito"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Nanami Ito"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 7,
+   "logic": 4,
+   "skiing": 10
+  },
+  "tool_skills": {
+   "skiing": 10,
+   "fitness": 7,
+   "logic": 4
+  }
+ },
+ {
+  "first": "Kiyoshi",
+  "last": "Ito",
+  "household": "Ito",
+  "title": "Kiyoshi_Ito",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Extreme Sports Enthusiast",
+    "track": "Athetic Extreme Sports Enthusiast"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Kaori Nishidake"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 5,
+   "guitar": 5,
+   "snowboarding": 6
+  },
+  "tool_skills": {
+   "snowboarding": 6,
+   "guitar": 5,
+   "fitness": 5
+  }
+ },
+ {
+  "first": "Nanami",
+  "last": "Ito",
+  "household": "Ito",
+  "title": "Nanami_Ito",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Rambunctious Scamp",
+    "track": "Motor"
+   }
+  ],
+  "wiki_skills": {
+   "childmotor": 5,
+   "childsocial": 5
+  },
+  "tool_skills": {
+   "childmotor": 5,
+   "childsocial": 5
+  }
+ },
+ {
+  "first": "Connie",
+  "last": "Fidential",
+  "household": "Fidential",
+  "title": "Connie_Fidential",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Bestselling Author",
+    "track": "Knowledge D"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Holly",
+  "last": "Alto",
+  "household": "Alto",
+  "title": "Holly_Alto",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Nick Alto"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "parents",
+    "name": "Vita Alto"
+   }
+  ],
+  "wiki_skills": {
+   "handiness": 2,
+   "painting": 6
+  },
+  "tool_skills": {
+   "painting": 6,
+   "handiness": 2
+  }
+ },
+ {
+  "first": "Rory",
+  "last": "Oaklow",
+  "household": "Oaklow",
+  "title": "Rory_Oaklow",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfimmortalwolf"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsrestlessanimal"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsbigbadwolf"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentsprideful"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfnaturalhealing"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolfhadfirsttransformation"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "occultwerewolftemperamentshatesbeingwet"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "dancing": 3,
+   "fitness": 9,
+   "handiness": 3,
+   "knitting": 2,
+   "violin": 4
+  },
+  "tool_skills": {
+   "fitness": 9,
+   "charisma": 3,
+   "handiness": 3,
+   "violin": 4,
+   "dancing": 3,
+   "knitting": 2
+  }
+ },
+ {
+  "first": "Anaya",
+  "last": "Jang",
+  "household": "Jang",
+  "title": "Anaya_Jang",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Billie Jang"
+   }
+  ],
+  "wiki_skills": {
+   "guitar": 4,
+   "painting": 5,
+   "singing": 5
+  },
+  "tool_skills": {
+   "singing": 5,
+   "guitar": 4,
+   "painting": 5
+  }
+ },
+ {
+  "first": "Baako",
+  "last": "Jang",
+  "household": "Jang",
+  "title": "Baako_Jang",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Joke Star",
+    "track": "Popularity A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Billie Jang"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "guitar": 4,
+   "piano": 4
+  },
+  "tool_skills": {
+   "piano": 4,
+   "guitar": 4,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Billie",
+  "last": "Jang",
+  "household": "Jang",
+  "title": "Billie_Jang",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Social Butterfly",
+    "track": "Social"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Maaike",
+  "last": "Haas",
+  "household": "Free Spirits",
+  "title": "Maaike_Haas",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Bestselling Author",
+    "track": "Creativity B"
+   }
+  ],
+  "wiki_skills": {
+   "writing": 5
+  },
+  "tool_skills": {
+   "writing": 5
+  }
+ },
+ {
+  "first": "Ulrike",
+  "last": "Faust",
+  "household": "Free Spirits",
+  "title": "Ulrike_Faust",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   }
+  ],
+  "wiki_skills": {
+   "mischief": 5,
+   "painting": 5
+  },
+  "tool_skills": {
+   "painting": 5,
+   "mischief": 5
+  }
+ },
+ {
+  "first": "Esther",
+  "last": "Gomes",
+  "household": "Izadi-Gomes",
+  "title": "Esther_Gomes",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Ghost Historian",
+    "track": "Knowledge Ghost Whisperer"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Tziporah Gomes"
+   }
+  ],
+  "wiki_skills": {
+   "thanatology": 5,
+   "writing": 9
+  },
+  "tool_skills": {
+   "writing": 9,
+   "thanatology": 5
+  }
+ },
+ {
+  "first": "Zuleika",
+  "last": "Izadi",
+  "household": "Izadi-Gomes",
+  "title": "Zuleika_Izadi",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Freelance Botanist",
+    "track": "Nature A"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "isghost"
+   }
+  ],
+  "wiki_skills": {
+   "flowerarranging": 7,
+   "gardening": 5,
+   "bartending": 5
+  },
+  "tool_skills": {
+   "gardening": 5,
+   "bartending": 5,
+   "flowerarranging": 7
+  }
+ },
+ {
+  "first": "Brant",
+  "last": "Hecking",
+  "household": "Hecking",
+  "title": "Brant_Hecking",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "The Curator",
+    "track": "Nature C"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 4,
+   "bartending": 3,
+   "photography": 2
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "fitness": 4,
+   "bartending": 3,
+   "photography": 2
+  }
+ },
+ {
+  "first": "Brent",
+  "last": "Hecking",
+  "household": "Hecking",
+  "title": "Brent_Hecking",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 3,
+   "handiness": 3,
+   "painting": 4,
+   "pettraining": 2
+  },
+  "tool_skills": {
+   "fitness": 3,
+   "painting": 4,
+   "handiness": 3,
+   "pettraining": 2
+  }
+ },
+ {
+  "first": "Anjelo",
+  "last": "Morlind",
+  "household": "Morlind",
+  "title": "Anjelo_Morlind",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Renaissance Sim",
+    "track": "Knowledge A"
+   }
+  ],
+  "wiki_skills": {
+   "guitar": 2,
+   "logic": 4,
+   "painting": 3,
+   "programming": 4
+  },
+  "tool_skills": {
+   "logic": 4,
+   "guitar": 2,
+   "painting": 3,
+   "programming": 4
+  }
+ },
+ {
+  "first": "Ch\u00e1nh",
+  "last": "Linh",
+  "household": "Linh-Sadya",
+  "title": "Ch\u00e1nh_Linh",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Angling Ace",
+    "track": "Nature B"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Li\u00ean Sadya"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Arturo",
+  "last": "Linh",
+  "household": "Linh-Sadya",
+  "title": "Arturo_Linh",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Li\u00ean Sadya"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandchild",
+    "name": "Cam Sadya"
+   }
+  ],
+  "wiki_skills": {
+   "fitness": 2,
+   "logic": 3
+  },
+  "tool_skills": {
+   "fitness": 2,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Li\u00ean",
+  "last": "Sadya",
+  "household": "Linh-Sadya",
+  "title": "Li\u00ean_Sadya",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Neighborhood Confidante",
+    "track": "Popularity Friendly Neighbor"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "siblings",
+    "name": "Thi Linh"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Cam Sadya"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 6,
+   "painting": 5,
+   "writing": 7
+  },
+  "tool_skills": {
+   "painting": 5,
+   "charisma": 6,
+   "writing": 7
+  }
+ },
+ {
+  "first": "Alon",
+  "last": "Sadya",
+  "household": "Linh-Sadya",
+  "title": "Alon_Sadya",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Freelance Botanist",
+    "track": "Nature A"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Cam Sadya"
+   }
+  ],
+  "wiki_skills": {
+   "programming": 5
+  },
+  "tool_skills": {
+   "programming": 5
+  }
+ },
+ {
+  "first": "Cam",
+  "last": "Sadya",
+  "household": "Linh-Sadya",
+  "title": "Cam_Sadya",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Artistic Prodigy",
+    "track": "Creativity"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Grandfather (maternal)",
+    "name": "Arturo Linh"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jing",
+  "last": "Fen",
+  "household": "Fen",
+  "title": "Jing_Fen",
+  "diffs": [
+   {
+    "kind": "skill_extra_tool",
+    "skill": "researchdebate",
+    "tool": 7
+   },
+   {
+    "kind": "career",
+    "wiki": "Unemployed",
+    "tool": "NPC Professor NPC Arts"
+   },
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Chief of Mischief",
+    "track": "Deviance B"
+   }
+  ],
+  "wiki_skills": {
+   "violin": 8,
+   "writing": 8
+  },
+  "tool_skills": {
+   "researchdebate": 7,
+   "violin": 8,
+   "writing": 8
+  }
+ },
+ {
+  "first": "Cassidy",
+  "last": "Purdue",
+  "household": "Purdue",
+  "title": "Cassidy_Purdue",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Musical Genius",
+    "track": "Creativity C"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Ollie",
+  "last": "Purdue",
+  "household": "Purdue",
+  "title": "Ollie_Purdue",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Painter Extraordinaire",
+    "track": "Creativity A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Sophia Jordan"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Babs L'Amour"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Andre",
+  "last": "DaSilva",
+  "household": "Da Silva",
+  "title": "Andre_DaSilva",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Computer Whiz",
+    "track": "Knowledge B"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Babs",
+  "last": "L'Amour",
+  "household": "L'Amour",
+  "title": "Babs_L'Amour",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Serial Romantic",
+    "track": "Love B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Ollie Purdue"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Bjorn Tu'Rock"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Raj Khemlani"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Steve",
+  "last": "Fogel",
+  "household": "Fogel",
+  "title": "Steve_Fogel",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Joke Star",
+    "track": "Popularity A"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "June Kay"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "June",
+  "last": "Kay",
+  "household": "Kay",
+  "title": "June_Kay",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Master Chef",
+    "track": "Food B"
+   },
+   {
+    "kind": "family_missing_link",
+    "relation": "spouse",
+    "name": "Steve Fogel"
+   }
+  ],
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Grace",
+  "last": "Anansi",
+  "household": "Amicable Acolytes",
+  "title": "Grace_Anansi",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Purveyor of Potions",
+    "track": "Nature Potions"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "logic": 2,
+   "mischief": 2,
+   "bartending": 2
+  },
+  "tool_skills": {
+   "mischief": 2,
+   "homestylecooking": 3,
+   "bartending": 2,
+   "logic": 2
+  }
+ },
+ {
+  "first": "Tomax",
+  "last": "Collette",
+  "household": "Amicable Acolytes",
+  "title": "Tomax_Collette",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Spellcraft & Sorcery",
+    "track": "Knowledge Spellcraft"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "fishing": 3,
+   "gardening": 2,
+   "writing": 2
+  },
+  "tool_skills": {
+   "writing": 2,
+   "fishing": 3,
+   "gardening": 2,
+   "homestylecooking": 2
+  }
+ },
+ {
+  "first": "Minerva",
+  "last": "Charm",
+  "household": "Charm Family",
+  "title": "Minerva_Charm",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Nerd Brain",
+    "track": "Knowledge C"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "strongbloodline"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "witchoccultperksmotehound"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Gemma Charm"
+   },
+   {
+    "kind": "family_extra_link",
+    "relation": "Child",
+    "name": "Darrel Charm"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 2,
+   "handiness": 2,
+   "logic": 6,
+   "writing": 2
+  },
+  "tool_skills": {
+   "logic": 6,
+   "charisma": 4,
+   "homestylecooking": 2,
+   "handiness": 2,
+   "writing": 2
+  }
+ },
+ {
+  "first": "Gemma",
+  "last": "Charm",
+  "household": "Charm Family",
+  "title": "Gemma_Charm",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Spellcraft & Sorcery",
+    "track": "Knowledge Spellcraft"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "strongbloodline"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 3,
+   "comedy": 2,
+   "logic": 2,
+   "mischief": 5,
+   "painting": 3
+  },
+  "tool_skills": {
+   "charisma": 3,
+   "comedy": 2,
+   "logic": 2,
+   "mischief": 5,
+   "painting": 3
+  }
+ },
+ {
+  "first": "Darrel",
+  "last": "Charm",
+  "household": "Charm Family",
+  "title": "Darrel_Charm",
+  "diffs": [
+   {
+    "kind": "aspiration",
+    "wiki": "Soulmate",
+    "track": "Love A"
+   },
+   {
+    "kind": "trait_missing_tool",
+    "trait": "strongbloodline"
+   },
+   {
+    "kind": "trait_extra_tool",
+    "trait": "witchoccultperksmotehound"
+   }
+  ],
+  "wiki_skills": {
+   "charisma": 5,
+   "homestylecooking": 4,
+   "fishing": 2,
+   "fitness": 4
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "fitness": 4,
+   "fishing": 2,
+   "homestylecooking": 4
+  }
+ },
+ {
+  "first": "Emilia",
+  "last": "Ernest",
+  "household": "Charm Family",
+  "title": "Emilia_Ernest",
+  "diffs": [
+   {
+    "kind": "aspiration_track_only",
+    "wiki": "Purveyor of Potions",
+    "track": "Nature Potions"
+   }
+  ],
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "logic": 2,
+   "bartending": 4,
+   "videogaming": 3,
+   "violin": 4
+  },
+  "tool_skills": {
+   "bartending": 4,
+   "homestylecooking": 4,
+   "logic": 2,
+   "videogaming": 3,
+   "violin": 4
+  }
+ }
+]

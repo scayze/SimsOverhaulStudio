@@ -1,0 +1,3 @@
+[submodule "SimsDataSDK"]
+	path = SimsDataSDK
+	url = https://github.com/scayze/SimsDataSDK.git

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sim Overhaul Studio</title>
+  <link rel="stylesheet" href="/ui/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="plumbob" aria-hidden="true"></span>
+        <div>
+          <div class="brand-title">SIM OVERHAUL STUDIO</div>
+          <div class="brand-sub">Body Shop Clean UI · New Save Overhaul</div>
+        </div>
+      </div>
+
+      <div class="project-chip">
+        <span class="dot"></span>
+        <input id="project-name" value="My Sim Overhaul" aria-label="Project name" />
+      </div>
+
+      <div class="top-actions">
+        <button class="btn ghost" id="new-project-btn" title="Start a new overhaul project" aria-label="Start a new overhaul project">
+          <img class="btn-ico" src="/icons/Relative New.png" alt="" />
+          New Overhaul
+        </button>
+        <button class="btn ghost" data-open="saves" title="Browse saves" aria-label="Browse saves">
+          <img class="btn-ico" src="/icons/x_hood.png" alt="" />
+          Saves
+        </button>
+        <button class="btn ghost" data-open="tray" title="Browse Tray library" aria-label="Browse Tray library">
+          <img class="btn-ico" src="/icons/x_community1.png" alt="" />
+          Tray
+        </button>
+        <button class="btn ghost" id="scan-btn" data-open="scan" title="Scan game content" aria-label="Scan game content">
+          <img class="btn-ico" src="/icons/buy_lightning.png" alt="" />
+          Scan Content
+        </button>
+        <button class="btn primary" id="export-btn" title="Export overhaul mod" aria-label="Export overhaul mod">
+          <img class="btn-ico" src="/icons/buy_etc_storage.png" alt="" />
+          Export Mod
+        </button>
+      </div>
+    </header>
+
+    <div id="banner" class="banner hidden"></div>
+
+    <main class="workspace">
+      <aside class="panel sidebar">
+        <div class="panel-head">
+          <h2>SIMS</h2>
+          <span class="count-pill" id="sim-count">0</span>
+        </div>
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m16 16 4 4"/></svg>
+          <input id="sim-search" placeholder="Search sims…" />
+          <button class="search-clear" id="sim-search-clear" title="Clear search" aria-label="Clear search">×</button>
+        </div>
+
+        <div class="sidebar-tools">
+          <button class="mini" data-open="saves">+ From Saves</button>
+          <button class="mini" data-open="tray">+ From Tray</button>
+          <button class="mini subtle" id="clear-project">Clear</button>
+        </div>
+
+        <div id="sim-list" class="sim-list"></div>
+
+        <div class="sidebar-empty" id="sidebar-empty">
+          <span class="plumbob small"></span>
+          <p>Add sims from a <strong>save</strong> or your <strong>Tray</strong> library to begin.</p>
+        </div>
+      </aside>
+
+      <section class="stage">
+        <div class="stage-art" id="stage-art"></div>
+        <div class="stage-head">
+          <div class="avatar-wrap">
+            <div class="avatar" id="avatar">
+              <img id="avatar-img" class="avatar-img" alt="" />
+              <span id="avatar-initials">?</span>
+              <span class="avatar-plumbob" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="identity">
+            <div class="eyebrow" id="sim-household">No sim selected</div>
+            <h1 id="sim-name">Choose a sim</h1>
+            <div class="badges" id="sim-badges">
+              <span class="badge">—</span>
+            </div>
+          </div>
+          <div class="stage-stats" id="stage-stats">
+            <div class="stat"><img src="/icons/Aspiration2.png" alt="" /><span>Funds</span><strong>—</strong></div>
+            <div class="stat"><img src="/icons/Aspiration.ico" alt="" /><span>Traits</span><strong>0</strong></div>
+            <div class="stat"><img src="/icons/buy_hobbies_knowledge.png" alt="" /><span>Skills</span><strong>0</strong></div>
+          </div>
+        </div>
+
+        <nav class="tabs" id="tabs">
+          <button class="tab active" data-tab="identity"><img class="tab-ico" src="/icons/Aspiration3.png" alt="" />Identity</button>
+          <button class="tab" data-tab="traits"><img class="tab-ico" src="/icons/Aspiration.ico" alt="" />Traits &amp; Aspiration</button>
+          <button class="tab" data-tab="skills"><img class="tab-ico" src="/icons/buy_hobbies_knowledge.png" alt="" />Skills</button>
+          <button class="tab" data-tab="career"><img class="tab-ico" src="/icons/Job.png" alt="" />Career &amp; Degrees</button>
+          <button class="tab" data-tab="relationships"><img class="tab-ico" src="/icons/Aspiration5.png" alt="" />Relationships</button>
+          <button class="tab" data-tab="life"><img class="tab-ico" src="/icons/Aspiration6.png" alt="" />Milestones &amp; Likes</button>
+        </nav>
+
+        <div class="editor" id="editor"></div>
+      </section>
+
+      <aside class="panel inspector">
+        <div class="panel-head"><h2>Project</h2></div>
+        <div id="summary" class="summary"></div>
+
+        <div class="inspector-block">
+          <h3>Export as an overhaul mod</h3>
+          <p class="muted">Builds a <code>.ts4script</code> that applies this overhaul when a zone loads. Sims are matched by name and household. Use it on a new save, or load an existing save and run <code>simoverhaul.apply</code> in the cheat console to update that save.</p>
+          <button class="btn primary wide" id="export-btn-2"><img class="btn-ico" src="/icons/buy_etc_storage.png" alt="" />Export Overhaul Mod</button>
+        </div>
+
+        <div class="inspector-block tip">
+          <h3>Studio tips</h3>
+          <ul>
+            <li>Tray files are read-only. Nothing in your library is overwritten.</li>
+            <li><img class="mod-icon" src="/icons/x_mods.png" alt="MOD" /> entries come from your own Mods folder.</li>
+            <li>Batuu content is hidden by default in the catalogs.</li>
+            <li>Export writes to the <code>exports</code> folder next to this app.</li>
+          </ul>
+        </div>
+
+        <div class="paths" id="paths"></div>
+      </aside>
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-backdrop hidden" id="modal">
+    <div class="modal" id="modal-box">
+      <div class="modal-head">
+        <h2 id="modal-title">Browser</h2>
+        <button class="icon-btn" id="modal-close">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-foot" id="modal-foot"></div>
+    </div>
+  </div>
+
+  <div class="toast hidden" id="toast"></div>
+
+  <script src="/ui/app.js"></script>
+</body>
+</html>

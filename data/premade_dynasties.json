@@ -1,0 +1,585 @@
+{
+ "source": "PremadeSimTemplate.dynasty / DynastySeed / TunablePremadeAncestor",
+ "dynasties": [
+  {
+   "id": 491054,
+   "name": "Abrantes",
+   "description": "The Abrantes have risen through the ranks to be known as the most refined Dynasty in Verdemar. But don't be misled by appearances: they always know how to get what they want.",
+   "ideals": [
+    "Connoisseur",
+    "Devious"
+   ],
+   "skills": [
+    "Mischief"
+   ],
+   "perks": [
+    "465952",
+    "467042",
+    "465948",
+    "465887",
+    "465953",
+    "467053",
+    "467052",
+    "465950",
+    "465957"
+   ],
+   "allies": [
+    "Thebe",
+    "Landgraab"
+   ],
+   "rivals": [],
+   "members": [
+    {
+     "sim": "SofiaAbrantes",
+     "seed": 491054,
+     "role": "heir"
+    },
+    {
+     "sim": "ErmelindaAbrantes",
+     "seed": 491054,
+     "role": "head"
+    }
+   ],
+   "ancestors": []
+  },
+  {
+   "id": 491062,
+   "name": "Alto",
+   "description": "Passionate, loving...and toxic. That's the Alto trademark.",
+   "ideals": [
+    "Passionate",
+    "Connoisseur",
+    "Devious"
+   ],
+   "skills": [
+    "Charisma"
+   ],
+   "perks": [
+    "465961",
+    "465887",
+    "465960",
+    "467044",
+    "465950"
+   ],
+   "allies": [],
+   "rivals": [
+    "Landgraab"
+   ],
+   "members": [
+    {
+     "sim": "EnzoAlto",
+     "seed": 491062,
+     "role": "head"
+    }
+   ],
+   "ancestors": []
+  },
+  {
+   "id": 491061,
+   "name": "Capp",
+   "description": "Everyone in Bellacorde admires the Capps and their family words, Bound By Honor. Theirs is an illustrious Dynasty known by many as romantic, chivalrous and proud. Some would also describe them as vain, elitist and melodramatic.",
+   "ideals": [
+    "Connoisseur",
+    "Artistic",
+    "Diplomatic"
+   ],
+   "skills": [
+    "Piano"
+   ],
+   "perks": [
+    "465961",
+    "467040",
+    "467041",
+    "465955",
+    "467048",
+    "467049",
+    "465957",
+    "465886",
+    "465887",
+    "465948",
+    "465951"
+   ],
+   "allies": [],
+   "rivals": [
+    "Monty"
+   ],
+   "members": [
+    {
+     "sim": "TybaltCapp",
+     "seed": 491061,
+     "role": "head"
+    },
+    {
+     "sim": "ConsortCapp",
+     "seed": 491061,
+     "role": ""
+    },
+    {
+     "sim": "CelesteCapp",
+     "seed": 491061,
+     "role": ""
+    },
+    {
+     "sim": "VirgilioCapp",
+     "seed": 491061,
+     "role": "black sheep"
+    },
+    {
+     "sim": "BeatriceCapp",
+     "seed": 491061,
+     "role": "heir"
+    }
+   ],
+   "ancestors": [
+    {
+     "sim": "Caliban Capp",
+     "surname": "Capp",
+     "gender": "MALE",
+     "death": "Fire",
+     "title": "",
+     "region": "",
+     "template": "premadeAncestor_EP21_CalibanCapp"
+    },
+    {
+     "sim": "Cordelia Capp",
+     "surname": "Capp",
+     "gender": "FEMALE",
+     "death": "Fire",
+     "title": "Grand Duchess",
+     "region": "Ondarion",
+     "template": "premadeAncestor_EP21_CordeliaCapp"
+    },
+    {
+     "sim": "Contessa Capp",
+     "surname": "Capp",
+     "gender": "FEMALE",
+     "death": "Old Age",
+     "title": "",
+     "region": "",
+     "template": "premadeAncestor_EP21_ContessaCapp"
+    }
+   ]
+  },
+  {
+   "id": 491055,
+   "name": "Darong",
+   "description": "The Darongs are a philanthropic Dynasty who have worked tirelessly over generations to bring Dambele into a golden age of flourishing arts and wealth. Their family words are spoken throughout Dambele: Strength Through Union.",
+   "ideals": [
+    "Caring",
+    "Artistic",
+    "Scholarly"
+   ],
+   "skills": [
+    "Writing",
+    "Painting"
+   ],
+   "perks": [
+    "465952",
+    "467042",
+    "467043",
+    "465948",
+    "465886",
+    "465949",
+    "467050",
+    "465955",
+    "467048",
+    "465961",
+    "465959",
+    "465956"
+   ],
+   "allies": [],
+   "rivals": [],
+   "members": [
+    {
+     "sim": "ObiDarong",
+     "seed": 491055,
+     "role": ""
+    },
+    {
+     "sim": "AmarachiDarong",
+     "seed": 491055,
+     "role": ""
+    },
+    {
+     "sim": "AdekoyaDarong",
+     "seed": 491055,
+     "role": "head"
+    },
+    {
+     "sim": "JawaraDarong",
+     "seed": 491055,
+     "role": "heir"
+    }
+   ],
+   "ancestors": []
+  },
+  {
+   "id": 495910,
+   "name": "Goth",
+   "description": "The Goths are an aristocratic family with a dreary aura and more than one skeleton in the closet. Perhaps it is their familiarity with death that fuel their deep passion?",
+   "ideals": [
+    "Mysterious",
+    "Passionate"
+   ],
+   "skills": [
+    "Writing",
+    "Charisma"
+   ],
+   "perks": [
+    "465952",
+    "465960",
+    "465949",
+    "465948",
+    "465959"
+   ],
+   "allies": [],
+   "rivals": [],
+   "members": [],
+   "ancestors": []
+  },
+  {
+   "id": 495911,
+   "name": "Landgraab",
+   "description": "The Landgraabs seem like the perfect family; wealthy, well-mannered, brilliant. Yet, under that polished surface, they hide internal conflicts and a cut-throat agenda.",
+   "ideals": [
+    "Devious",
+    "Connoisseur"
+   ],
+   "skills": [
+    "Charisma",
+    "Mischief"
+   ],
+   "perks": [
+    "465957",
+    "465886",
+    "465887",
+    "465950",
+    "465961",
+    "465951",
+    "467046",
+    "465955",
+    "465953",
+    "467052"
+   ],
+   "allies": [],
+   "rivals": [],
+   "members": [],
+   "ancestors": []
+  },
+  {
+   "id": 491052,
+   "name": "Monty",
+   "description": "After generations of drama and conflict with the Capps, the Montys are ready to rise from the ashes and claim back their power.",
+   "ideals": [
+    "Hardworking",
+    "Passionate"
+   ],
+   "skills": [
+    "Gourmet Cooking"
+   ],
+   "perks": [],
+   "allies": [],
+   "rivals": [],
+   "members": [
+    {
+     "sim": "DanteMonty",
+     "seed": 491052,
+     "role": "heir"
+    },
+    {
+     "sim": "JulietteMonty",
+     "seed": 491052,
+     "role": "head"
+    },
+    {
+     "sim": "RomeoMonty",
+     "seed": 491052,
+     "role": ""
+    }
+   ],
+   "ancestors": []
+  },
+  {
+   "id": 491053,
+   "name": "Thebe",
+   "description": "Strong as the tides, fierce as the sea, the Thebe are recognized by their family words: We Ride The Storm. This Dynasty is proud of their adventures and the treasures they've collected. Theirs is a mixed lineage which counts both princesses and pirates in their ancestry.",
+   "ideals": [
+    "Bold",
+    "Nature",
+    "Jolly"
+   ],
+   "skills": [
+    "Logic",
+    "Bartending",
+    "Swordsmanship"
+   ],
+   "perks": [
+    "465951",
+    "467046",
+    "467047",
+    "465886",
+    "465949",
+    "467050",
+    "467051",
+    "465950",
+    "467038",
+    "465960",
+    "467044",
+    "467045",
+    "465958"
+   ],
+   "allies": [],
+   "rivals": [],
+   "members": [
+    {
+     "sim": "CordeliaThebe V",
+     "seed": 491053,
+     "role": "head"
+    },
+    {
+     "sim": "ThiagoAbrantes",
+     "seed": 491053,
+     "role": "heir"
+    }
+   ],
+   "ancestors": [
+    {
+     "sim": "Eetion Thebe",
+     "surname": "Thebe",
+     "gender": "MALE",
+     "death": "Old Age",
+     "title": "Duke",
+     "region": "Ondarion",
+     "template": "premadeAncestor_EP21_EethionThebe"
+    },
+    {
+     "sim": "Cordelia Thebe III",
+     "surname": "Thebe",
+     "gender": "FEMALE",
+     "death": "Fire",
+     "title": "Marchioness",
+     "region": "Ondarion",
+     "template": "premadeAncestor_EP21_CordeliaThebeTheIII"
+    },
+    {
+     "sim": "Hector Thebe",
+     "surname": "Thebe",
+     "gender": "MALE",
+     "death": "Cowplant",
+     "title": "",
+     "region": "",
+     "template": "premadeAncestor_EP21_HectorThebe"
+    },
+    {
+     "sim": "Cordelia Thebe II",
+     "surname": "Thebe",
+     "gender": "FEMALE",
+     "death": "Drown",
+     "title": "Grand Duchess",
+     "region": "Ondarion",
+     "template": "premadeAncestor_EP21_CordeliaThebeTheII"
+    },
+    {
+     "sim": "Cordelia Thebe IV",
+     "surname": "Thebe",
+     "gender": "FEMALE",
+     "death": "Drown",
+     "title": "Grand Duchess",
+     "region": "Ondarion",
+     "template": "premadeAncestor_EP21_CordeliaThebeTheIV"
+    },
+    {
+     "sim": "Andromache Thebe",
+     "surname": "Thebe",
+     "gender": "FEMALE",
+     "death": "Electrocution",
+     "title": "Grand Duchess",
+     "region": "Ondarion",
+     "template": "premadeAncestor_EP21_AndromacheThebe"
+    }
+   ]
+  }
+ ],
+ "ancestors": [
+  {
+   "sim": "Eetion Thebe",
+   "surname": "Thebe",
+   "gender": "MALE",
+   "death": "Old Age",
+   "title": "Duke",
+   "region": "Ondarion",
+   "template": "premadeAncestor_EP21_EethionThebe"
+  },
+  {
+   "sim": "Caliban Capp",
+   "surname": "Capp",
+   "gender": "MALE",
+   "death": "Fire",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP21_CalibanCapp"
+  },
+  {
+   "sim": "Cordelia Thebe III",
+   "surname": "Thebe",
+   "gender": "FEMALE",
+   "death": "Fire",
+   "title": "Marchioness",
+   "region": "Ondarion",
+   "template": "premadeAncestor_EP21_CordeliaThebeTheIII"
+  },
+  {
+   "sim": "Aghata Ananou",
+   "surname": "Ananou",
+   "gender": "FEMALE",
+   "death": "Fire",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP21_Aghata_Ananou"
+  },
+  {
+   "sim": "John Wilson Beard Beard",
+   "surname": "Beard",
+   "gender": "MALE",
+   "death": "Meteorite",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP21_JWBB"
+  },
+  {
+   "sim": "Hector Thebe",
+   "surname": "Thebe",
+   "gender": "MALE",
+   "death": "Cowplant",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP21_HectorThebe"
+  },
+  {
+   "sim": "Cordelia Thebe II",
+   "surname": "Thebe",
+   "gender": "FEMALE",
+   "death": "Drown",
+   "title": "Grand Duchess",
+   "region": "Ondarion",
+   "template": "premadeAncestor_EP21_CordeliaThebeTheII"
+  },
+  {
+   "sim": "Cordelia Capp",
+   "surname": "Capp",
+   "gender": "FEMALE",
+   "death": "Fire",
+   "title": "Grand Duchess",
+   "region": "Ondarion",
+   "template": "premadeAncestor_EP21_CordeliaCapp"
+  },
+  {
+   "sim": "Contessa Capp",
+   "surname": "Capp",
+   "gender": "FEMALE",
+   "death": "Old Age",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP21_ContessaCapp"
+  },
+  {
+   "sim": "Cordelia Thebe IV",
+   "surname": "Thebe",
+   "gender": "FEMALE",
+   "death": "Drown",
+   "title": "Grand Duchess",
+   "region": "Ondarion",
+   "template": "premadeAncestor_EP21_CordeliaThebeTheIV"
+  },
+  {
+   "sim": "Andromache Thebe",
+   "surname": "Thebe",
+   "gender": "FEMALE",
+   "death": "Electrocution",
+   "title": "Grand Duchess",
+   "region": "Ondarion",
+   "template": "premadeAncestor_EP21_AndromacheThebe"
+  },
+  {
+   "sim": "Manu Kealoha",
+   "surname": "Kealoha",
+   "gender": "",
+   "death": "Old Age",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP07_ManuKealoha"
+  },
+  {
+   "sim": "Tallulah Grove",
+   "surname": "Grove",
+   "gender": "FEMALE",
+   "death": "Old Age",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP14_TallulahGrove"
+  },
+  {
+   "sim": "Wulan Ibu",
+   "surname": "Ibu",
+   "gender": "FEMALE",
+   "death": "Electrocution",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP15_WulanIbu"
+  },
+  {
+   "sim": "Cahya Bapak",
+   "surname": "Bapak",
+   "gender": "",
+   "death": "Electrocution",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP15_CahyaBapak"
+  },
+  {
+   "sim": "Orodueynna Gomes",
+   "surname": "Gomes",
+   "gender": "FEMALE",
+   "death": "Old Age",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP17_OrodueynnaGomes"
+  },
+  {
+   "sim": "Pranav Kunal",
+   "surname": "Kunal",
+   "gender": "",
+   "death": "Old Age",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_EP20_PranavKunal"
+  },
+  {
+   "sim": "Vittorio Pasquale",
+   "surname": "Pasquale",
+   "gender": "",
+   "death": "Old Age",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_GP04_VittorioPasquale"
+  },
+  {
+   "sim": "Gioia Vatore",
+   "surname": "Vatore",
+   "gender": "FEMALE",
+   "death": "Old Age",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_GP04_GioiaVatore"
+  },
+  {
+   "sim": "Fiorenza Zhu",
+   "surname": "Zhu",
+   "gender": "FEMALE",
+   "death": "Old Age",
+   "title": "",
+   "region": "",
+   "template": "premadeAncestor_GP12_FiorenzaZhu"
+  }
+ ]
+}

@@ -1,0 +1,2115 @@
+{
+ "source": "PremadeHouseholdTemplate._household_relationship",
+ "households": {
+  "HH_Template_Fyres": {
+   "members": {
+    "household_member_1": "DominicFyres",
+    "household_member_2": "MoiraFyres",
+    "household_member_3": "SiobhanFyres",
+    "household_member_4": "MorganFyres"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_Lovebirds"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-disliked"
+     ]
+    }
+   ]
+  },
+  "HH_Template_Bjergsen": {
+   "members": {
+    "household_member_1": "BjornBjergsen",
+    "household_member_2": "ClaraBjergsen",
+    "household_member_3": "SofiaBjergsen",
+    "household_member_4": "ElsaBjergsen"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_Lovebirds"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "HH_Template_Bro": {
+   "members": {
+    "household_member_1": "JoaquinLe Chien",
+    "household_member_2": "SergioRomeo"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "living_roommate"
+     ]
+    }
+   ]
+  },
+  "HH_Template_Villareal": {
+   "members": {
+    "household_member_1": "JacquesVillareal",
+    "household_member_2": "LunaVillareal",
+    "household_member_3": "HugoVillareal",
+    "household_member_4": "MaxVillareal"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "HH_Template_Bohemian": {
+   "members": {
+    "household_member_1": "MaaikeHaas",
+    "household_member_2": "UlrikeFaust"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "living_roommate"
+     ]
+    }
+   ]
+  },
+  "HH_Template_Partihaus": {
+   "members": {
+    "household_member_1": "EvaCapricciosa",
+    "household_member_2": "JadeRosa",
+    "household_member_3": "MarcusFlex",
+    "household_member_4": "PaoloRocca"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "living_roommate"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [
+      "RomanticCombo_Lovers",
+      "living_roommate"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [
+      "RomanticCombo_ItsComplicated",
+      "living_roommate"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [
+      "RomanticCombo_ItsComplicated",
+      "living_roommate"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [
+      "RomanticCombo_Lovers"
+     ]
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [
+      "living_roommate"
+     ]
+    }
+   ]
+  },
+  "HH_Template_Munch": {
+   "members": {
+    "household_member_1": "MilaMunch",
+    "household_member_2": "GuntherMunch",
+    "household_member_3": "WolfgangMunch",
+    "household_member_4": "LucasMunch"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "hH_Template_Hu": {
+   "members": {
+    "household_member_1": "PatriciaHu",
+    "household_member_2": "VictorHu"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "relbit_SocialContext_Romance_Amorous"
+     ]
+    }
+   ]
+  },
+  "HH_Template_Bheeda": {
+   "members": {
+    "household_member_2": "JesminderBheeda"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_Lovebirds"
+     ]
+    }
+   ]
+  },
+  "hH_Template_Rasoya": {
+   "members": {
+    "household_member_1": "RajRasoya",
+    "household_member_2": "GeetaRasoya"
+   },
+   "relationships": [
+    {
+     "a": "household_member_2",
+     "b": "household_member_1",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "hH_Template_Pond": {
+   "members": {
+    "household_member_1": "JimmyPond",
+    "household_member_2": "AlainaPond"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "hH_Template_Riviera": {
+   "members": {
+    "household_member_1": "RitaRiviera",
+    "household_member_2": "MemphisWaters"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_HotAndCold",
+      "living_roommate"
+     ]
+    }
+   ]
+  },
+  "hH_Template_Powers": {
+   "members": {
+    "household_member_1": "PatriciaPowers",
+    "household_member_2": "RandyPowers",
+    "household_member_3": "KennedyPowers"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_Disliked"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "HH_Template_Jang": {
+   "members": {
+    "household_member_1": "AnayaJang",
+    "household_member_2": "BaakoJang",
+    "household_member_3": "BillieJang"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "relbit_SocialContext_Romance_Steamy"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "hH_Template_Kibo": {
+   "members": {
+    "household_member_1": "AkiraKibo",
+    "household_member_2": "MikoOjo",
+    "household_member_3": "DarlingWalsh"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "relbit_SocialContext_Friendship_Friendly",
+      "living_roommate"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Lynx": {
+   "members": {
+    "household_member_1": "CatarinaLynx",
+    "household_member_2": "premadeSimTemplate_Doc",
+    "household_member_3": "premadeSimTemplate_Josie",
+    "household_member_4": "premadeSimTemplate_Sphynx",
+    "household_member_5": "Bartholomew A.Bittlebun, Jr."
+   },
+   "relationships": [
+    {
+     "a": "household_member_3",
+     "b": "household_member_5",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Delgato": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_SupriyaDelgato",
+    "household_member_2": "premadeSimTemplate_JustinDelgato",
+    "household_member_3": "premadeSimTemplate_EvieDelgato",
+    "household_member_4": "premadeSimTemplate_PierceDelgato",
+    "household_member_5": "premadeSimTemplate_Blue"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_BaileyMoon": {
+   "members": {
+    "household_member_1": "ThorneBailey",
+    "household_member_2": "OctaviaMoon",
+    "household_member_3": "OrangeBailey-Moon"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Kealoha": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_MakoaKealoha",
+    "household_member_2": "premadeSimTemplate_LillianaKealoha",
+    "household_member_3": "DuaneTalla",
+    "household_member_4": "premadeSimTemplate_NaniKealoha"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [
+      "family_Target_IsBrotherSisterOf_Actor"
+     ]
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [
+      "family_Target_IsAuntUncleOf_Actor"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Hoapili": {
+   "members": {
+    "household_member_1": "KealaHoapili",
+    "household_member_2": "LiaHauata"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Ngata": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_OlianaNgata",
+    "household_member_2": "LeilaIlles",
+    "household_member_3": "premadeSimTemplate_TaneNgata"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [
+      "friendship-good_friends"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP08_ElderlyCouple": {
+   "members": {
+    "household_member_1": "EleanorElderberry",
+    "household_member_2": "EkramElderberry",
+    "household_member_3": "RohanElderberry"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": []
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP08_BFFs": {
+   "members": {
+    "household_member_1": "BeccaClarke"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "friendship-bff"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_1",
+     "bits": [
+      "friendship-bff"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP08_OddTwins": {
+   "members": {
+    "household_member_2": "LilithPleasant"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "family_Target_IsBrotherSisterOf_Actor"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Harris": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_CletusHarris",
+    "household_member_2": "premadeSimTemplate_FayeHarris",
+    "household_member_3": "premadeSimTemplate_JebHarris",
+    "household_member_4": "premadeSimTemplate_GideonHarris",
+    "household_member_5": "FrancineSpencer"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-good_friends",
+      "friendship-bff"
+     ],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-acquaintances"
+     ]
+    },
+    {
+     "a": "household_member_5",
+     "b": "household_member_1",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_5",
+     "bits": [
+      "friendship-good_friends"
+     ]
+    },
+    {
+     "a": "household_member_5",
+     "b": "household_member_3",
+     "bits": []
+    },
+    {
+     "a": "household_member_5",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-good_friends"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Entrepreneur": {
+   "members": {
+    "household_member_1": "BessSterling",
+    "household_member_2": "JulesRico"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "friendship-good_friends",
+      "romantic_FirstKiss",
+      "RomanticCombo_Sweethearts",
+      "romantic-HaveDoneWooHoo"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Ecomaster": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_KnoxGreenburg",
+    "household_member_2": "premadeSimTemplate_MaryGreenburg",
+    "household_member_3": "premadeSimTemplate_BlossomGreenburg"
+   },
+   "relationships": [
+    {
+     "a": "household_member_2",
+     "b": "household_member_1",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_1",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Maker": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_TinaTinker",
+    "household_member_2": "premadeSimTemplate_YaseminTinker",
+    "household_member_3": "premadeSimTemplate_OliveTinker"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [
+      "friendship-friend"
+     ],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [
+      "friendship-good_friends"
+     ],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP10_Commuter": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP10_Commuter_Father",
+    "household_member_2": "premadeSimTemplate_EP10_Commuter_Mother",
+    "household_member_3": "premadeSimTemplate_EP10_Commuter_ChildC1",
+    "household_member_4": "premadeSimTemplate_EP10_Commuter_ChildC2"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP10_Elder": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP10_Elder_Gfather",
+    "household_member_2": "premadeSimTemplate_EP10_Elder_Gmother",
+    "household_member_3": "premadeSimTemplate_EP10_Elder_GchildT"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": []
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP10_Affluent": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP10_Affluent_Father",
+    "household_member_2": "premadeSimTemplate_EP10_Affluent_Mother",
+    "household_member_3": "premadeSimTemplate_EP10_Affluent_ChildT",
+    "household_member_4": "premadeSimTemplate_EP10_Affluent_ChildC"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP11_Chopra": {
+   "members": {
+    "household_member_1": "LavinaChopra",
+    "household_member_2": "RahulChopra"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_HS_Prescott": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_HS_AmyPrescott",
+    "household_member_2": "premadeSimTemplate_HS_MeiPrescott",
+    "household_member_3": "premadeSimTemplate_HS_MollyPrescott",
+    "household_member_4": "TaiLum"
+   },
+   "relationships": [
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_1",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_4",
+     "b": "household_member_3",
+     "bits": []
+    },
+    {
+     "a": "household_member_4",
+     "b": "household_member_1",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_HS_Price": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_HS_JanaePrice",
+    "household_member_2": "premadeSimTemplate_HS_MarcelPrice",
+    "household_member_3": "premadeSimTemplate_HS_JaydenPrice",
+    "household_member_4": "premadeSimTemplate_HS_SavannahPrice",
+    "household_member_5": "premadeSimTemplate_HS_SidneyPrice",
+    "household_member_6": "KevinPuri"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_Soulmates"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_5",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_5",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_6",
+     "b": "household_member_5",
+     "bits": [
+      "friendship-bff"
+     ]
+    },
+    {
+     "a": "household_member_6",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-friend"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_HS_Harjo": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_HS_AshHarjo",
+    "household_member_2": "premadeSimTemplate_HS_AvaHarjo",
+    "household_member_3": "premadeSimTemplate_HS_LuchaHarjo",
+    "household_member_4": "NoahKane"
+   },
+   "relationships": [
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_1",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Ep13_BayArea_RoblesRuano": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP13_RoblesRuano_JayRobles",
+    "household_member_2": "premadeSimTemplate_EP13_RoblesRuano_DoliRuano",
+    "household_member_3": "premadeSimTemplate_EP13_RoblesRuano_TalaRuano"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_Lovebirds"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Ep13_BayArea_LunaSullivan": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP13_LunaSullivan_XochitilLuna",
+    "household_member_2": "EleanorSullivan",
+    "household_member_3": "premadeSimTemplate_EP13_LunaSullivan_KarmineLuna"
+   },
+   "relationships": [
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": []
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Ep13_BayArea_Michaelson": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP13_MichaelsonTrent_AdharaMichaelson",
+    "household_member_2": "premadeSimTemplate_EP13_MichaelsonTrent_ChristopherMichaelson",
+    "household_member_3": "premadeSimTemplate_EP13_MichaelsonTrent_PenelopeMichaelson",
+    "household_member_4": "premadeSimTemplate_EP13_MichaelsonTrent_OrionMichaelson"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_Soulmates"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [
+      "familyTrope_close"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Ep13_BayArea_Robles": {
+   "members": {
+    "household_member_1": "IgnacioRobles",
+    "household_member_2": "premadeSimTemplate_EP13_Robles_BerniceRobles",
+    "household_member_4": "premadeSimTemplate_EP13_Robles_AurelioRobles"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": []
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [
+      "RomanticCombo_Soulmates"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP14_AnimalFamily": {
+   "members": {
+    "household_member_4": "premadeSimTemplate_EP14_AnimalFamily_AdultHorse",
+    "household_member_2": "premadeSimTemplate_EP14_AnimalFamily_FamilyParent",
+    "household_member_5": "premadeSimTemplate_EP14_AnimalFamily_Foal",
+    "household_member_1": "premadeSimTemplate_EP14_AnimalFamily_RanchParent",
+    "household_member_3": "premadeSimTemplate_EP14_AnimalFamily_SimChild"
+   },
+   "relationships": [
+    {
+     "a": "household_member_4",
+     "b": "household_member_5",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP15_TenantApplicants_Roomies": {
+   "members": {
+    "household_member_1": "TerunaZaki",
+    "household_member_2": "LeilaAnh",
+    "household_member_3": "KennithHouston",
+    "household_member_4": "YenaAzad"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "living_roommate"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [
+      "living_roommate"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [
+      "living_roommate"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [
+      "living_roommate"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [
+      "living_roommate"
+     ]
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [
+      "living_roommate"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP15_TenantApplicants_MultiBabies": {
+   "members": {
+    "household_member_1": "JillianaSage",
+    "household_member_2": "OwenSage",
+    "household_member_3": "XavierSage",
+    "household_member_4": "ZehavaSage"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP15_SadyaLinhFamily": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP15_ChanhLinh",
+    "household_member_2": "premadeSimTemplate_EP15_ArturoLinh",
+    "household_member_3": "premadeSimTemplate_EP15_LienSadya",
+    "household_member_4": "premadeSimTemplate_EP15_AlonSadya",
+    "household_member_5": "premadeSimTemplate_EP15_CamSadya"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_5",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_4",
+     "b": "household_member_5",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_5",
+     "bits": []
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_5",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP15_TenantApplicants_Generational": {
+   "members": {
+    "household_member_1": "SunjaLee",
+    "household_member_2": "MinsungLee",
+    "household_member_3": "DaesungLee",
+    "household_member_4": "YuriLee"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": []
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP15_TenantApplicants_SingleMom": {
+   "members": {
+    "household_member_1": "NancyBrock",
+    "household_member_2": "JulieBrock",
+    "household_member_3": "JohnnyBrock"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP15_BunMaFamily": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP15_BuaBunMa",
+    "household_member_2": "premadeSimTemplate_EP15_KasemBunMa",
+    "household_member_3": "premadeSimTemplate_EP15_NinBunMa",
+    "household_member_4": "premadeSimTemplate_EP15_SudBunMa"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP15_TenantApplicants_YingYangDuo": {
+   "members": {
+    "household_member_1": "LunaShadows",
+    "household_member_2": "GretchenWolf"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "living_roommate",
+      "friendship-bff"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP16_Singles": {
+   "members": {
+    "household_member_1": "CarmenOrtega",
+    "household_member_2": "EliaCruz",
+    "household_member_3": "ManuelAguilar",
+    "household_member_4": "YolticXicot\u00e9ncatl"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "friendship-bff"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [
+      "friendship-friend"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [
+      "friendship-friend"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-friend"
+     ]
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-friend"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP16_SingleParent": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP16_SingleParent_Mother",
+    "household_member_2": "premadeSimTemplate_EP16_SingleParent_YASon",
+    "household_member_3": "premadeSimTemplate_EP16_SingleParent_Teen"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [
+      "friendship-good_friends"
+     ],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [
+      "friendship-acquaintances"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP17_Gomes": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP17_RadwanGomes",
+    "household_member_2": "premadeSimTemplate_EP17_TziporahGomes",
+    "household_member_3": "ZelmiraGomes"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP17_Specter": {
+   "members": {
+    "household_member_2": "premadeSimTemplate_EP17_NyonSpecter",
+    "household_member_3": "premadeSimTemplate_EP17_OliveSpecter"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [
+      "romantic-Engaged"
+     ]
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP17_IzadiGomes": {
+   "members": {
+    "household_member_1": "EstherGomes",
+    "household_member_2": "ZuleikaIzadi"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "friendship-bff"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP17_Aether": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP17_EkadeAether",
+    "household_member_2": "premadeSimTemplate_EP17_KaiAether",
+    "household_member_3": "premadeSimTemplate_EP17_TakamaAether"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_Soulmates"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Loden_Ep18World": {
+   "members": {
+    "household_member_2": "preMadeSimTemplate_Erik_Loden_EP18",
+    "household_member_3": "preMadeSimTemplate_Freya_Loden_EP18",
+    "household_member_4": "preMadeSimTemplate_GrammaHattie_Loden_EP18"
+   },
+   "relationships": [
+    {
+     "a": "household_member_4",
+     "b": "household_member_2",
+     "bits": []
+    },
+    {
+     "a": "household_member_4",
+     "b": "household_member_3",
+     "bits": []
+    },
+    {
+     "a": "household_member_5",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_5",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_4",
+     "b": "household_member_5",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Urbz_Ep18World": {
+   "members": {
+    "household_member_1": "CannonballColeman",
+    "household_member_2": "CrispinBlack ",
+    "household_member_3": "OllieMark"
+   },
+   "relationships": [
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "friendship-friend"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [
+      "friendship-friend"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Sarpong_Ep18World": {
+   "members": {
+    "household_member_1": "preMadeSimTemplate_Lerato_Sarpong_EP18"
+   },
+   "relationships": [
+    {
+     "a": "household_member_2",
+     "b": "household_member_1",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Hoffman_Ep18World": {
+   "members": {
+    "household_member_1": "preMadeSimTemplate_Bruno_Hoffman_EP18",
+    "household_member_2": "preMadeSimTemplate_Felix_Hoffman_EP18"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP19NPC_Attenberry": {
+   "members": {
+    "household_member_1": "ElricDeMuray",
+    "household_member_2": "ToddAttenberry"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "romantic-Significant_Other",
+      "RomanticCombo_Lovebirds"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP19NPC_Ladipo": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP19_AyoLadipo",
+    "household_member_2": "premadeSimTemplate_EP19_FloraLadipo"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "RomanticCombo_Soulmates"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP19NPC_Kishka": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP19_IrisLadipo",
+    "household_member_2": "NadyaKishka"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "friendship-bff"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP19NPC_Summerdream": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP19_TitaniaSummerdream",
+    "household_member_2": "premadeSimTemplate_EP19_OberonSummerdream",
+    "household_member_3": "premadeSimTemplate_EP19_MaraSummerdream"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP20_Perry": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP20_FreedaPerry",
+    "household_member_2": "premadeSimTemplate_EP20_DougiePerry"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP20_GomesRalston": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP20_NigelGomezRalston",
+    "household_member_2": "premadeSimTemplate_EP20_SaraGomezRalston",
+    "household_member_3": "premadeSimTemplate_EP20_AerisGomezRalston",
+    "household_member_4": "premadeSimTemplate_EP20_ErinGomezRalston"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP21_Monty": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP21_Monty_JulietteMonty",
+    "household_member_2": "premadeSimTemplate_EP21_Monty_RomeoMonty"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP21_Capp": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP21_Capp_TybaltCapp",
+    "household_member_2": "premadeSimTemplate_EP21_Capp_BeatriceCapp",
+    "household_member_3": "premadeSimTemplate_EP21_Capp_CelesteCapp",
+    "household_member_4": "premadeSimTemplate_EP21_Capp_VirgilioCapp"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP21_Darong": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP21_Darong_AdekoyaDarong",
+    "household_member_2": "premadeSimTemplate_EP21_Darong_JawaraDarong",
+    "household_member_3": "premadeSimTemplate_EP21_Darong_IkennaDarong",
+    "household_member_4": "premadeSimTemplate_EP21_Darong_ObiDarong"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_EP21_Abrantes": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_EP21_Abrantes_JoanaAbrantes"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "HH_template_NPC_VS_Wilsons": {
+   "members": {
+    "household_member_1": "LilithVatore",
+    "household_member_2": "CalebVatore"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "family_Target_IsBrotherSisterOf_Actor"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Strangerville_PatientZero": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_Strangerville_PatientZero_Mom",
+    "household_member_2": "premadeSimTemplate_Strangerville_PatientZero_Dad",
+    "household_member_3": "premadeSimTemplate_Strangerville_PatientZero_Daughter"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Acolytes": {
+   "members": {
+    "household_member_1": "GraceAnansi",
+    "household_member_2": "TomaxCollette"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "living_roommate",
+      "friendship-good_friends"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Charm": {
+   "members": {
+    "household_member_1": "MinervaCharm",
+    "household_member_2": "GemmaCharm",
+    "household_member_3": "DarrelCharm",
+    "household_member_4": "EmiliaErnest"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [
+      "family_Target_IsBrotherSisterOf_Actor",
+      "friendship-disliked"
+     ]
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-good_friends",
+      "romantic_FirstKiss",
+      "romantic-Engaged",
+      "romantic-HaveDoneWooHoo",
+      "RomanticCombo_Sweethearts"
+     ]
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-acquaintances"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [
+      "friendship-acquaintances"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_GP11_Markovic": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_GP11_Markovic_Mateo",
+    "household_member_2": "premadeSimTemplate_GP11_Markovic_Lucia",
+    "household_member_3": "premadeSimTemplate_GP11_Markovic_Tomi"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "romantic-Engaged"
+     ]
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_GP11_Laurent": {
+   "members": {
+    "household_member_1": "GretaLaurent",
+    "household_member_2": "HectorLaurent",
+    "household_member_3": "HilaryLaurent",
+    "household_member_4": "JaceLaurent",
+    "household_member_5": "ArnessaThebe"
+   },
+   "relationships": [
+    {
+     "a": "household_member_2",
+     "b": "household_member_1",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_5",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_1",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_3",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_WolfTown_Volkov": {
+   "members": {
+    "household_member_1": "KristopherVolkov",
+    "household_member_2": "JacobVolkov"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [],
+     "family": "FATHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Scenario_Inheritance_Landry": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_Scenario_Inheritance_Landry_Grandma",
+    "household_member_2": "premadeSimTemplate_Scenario_Inheritance_Landry_Sibling1",
+    "household_member_3": "premadeSimTemplate_Scenario_Inheritance_Landry_Sibling2",
+    "household_member_4": "premadeSimTemplate_Scenario_Inheritance_Landry_Sibling3"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": []
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": []
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": []
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Landgraabs": {
+   "members": {
+    "household_member_3": "premadeSimTemplate_MalcomLandgraab"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Scenario_ParentingPredicament_Martinez": {
+   "members": {
+    "household_member_1": "premadeSimTemplate_Scenario_ParentingPredicament_PabloMartinez",
+    "household_member_2": "premadeSimTemplate_Scenario_ParentingPredicament_JenniferMartinez",
+    "household_member_3": "premadeSimTemplate_Scenario_ParentingPredicament_LeonardoMartinez",
+    "household_member_4": "premadeSimTemplate_Scenario_ParentingPredicament_SofiaMartinez"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_2",
+     "bits": [
+      "romantic-Married"
+     ]
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  },
+  "premadeHouseholdTemplate_Goth": {
+   "members": {
+    "household_member_2": "premadeSimTemplate_BellaGoth",
+    "household_member_3": "premadeSimTemplate_CassandraGoth",
+    "household_member_4": "premadeSimTemplate_AlexanderGoth"
+   },
+   "relationships": [
+    {
+     "a": "household_member_1",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_1",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "FATHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_3",
+     "bits": [],
+     "family": "MOTHER"
+    },
+    {
+     "a": "household_member_2",
+     "b": "household_member_4",
+     "bits": [],
+     "family": "MOTHER"
+    }
+   ]
+  }
+ }
+}

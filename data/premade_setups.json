@@ -1,0 +1,1875 @@
+{
+ "source": "loot_PremadesSetup_* tuning (new-save world setup)",
+ "setups": [
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Aeris_Buddy",
+   "tokens": [
+    "Aeris",
+    "Buddy"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Buddy_Dougie",
+   "tokens": [
+    "Buddy",
+    "Dougie"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Dougie_Aeris",
+   "tokens": [
+    "Dougie",
+    "Aeris"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Dougie_Erin",
+   "tokens": [
+    "Dougie",
+    "Erin"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Erin_Buddy",
+   "tokens": [
+    "Erin",
+    "Buddy"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_MildlyDisliked"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Jane_Sara",
+   "tokens": [
+    "Jane",
+    "Sara"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Nigel_Raheel",
+   "tokens": [
+    "Nigel",
+    "Raheel"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Pruella_Buddy",
+   "tokens": [
+    "Pruella",
+    "Buddy"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Raheel_Laxmi",
+   "tokens": [
+    "Raheel",
+    "Laxmi"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Star_Nigel",
+   "tokens": [
+    "Star",
+    "Nigel"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Star_Sara",
+   "tokens": [
+    "Star",
+    "Sara"
+   ],
+   "actions": [
+    "loot_Sentiment_Buffs_Hurt_ChildhoodSentiment_BittersweetAndSoured"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Toshi_Pruella",
+   "tokens": [
+    "Toshi",
+    "Pruella"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Toshie_Laxmi",
+   "tokens": [
+    "Toshie",
+    "Laxmi"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Toshie_Nigel",
+   "tokens": [
+    "Toshie",
+    "Nigel"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends"
+   ]
+  },
+  {
+   "name": "loot_EP20World_NPCs_PremadesSetup_Toshie_Raheel",
+   "tokens": [
+    "Toshie",
+    "Raheel"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP10_Affluent_Commuter_01",
+   "tokens": [
+    "EP10",
+    "Affluent",
+    "Commuter",
+    "01"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_VeryAwkward",
+    "loot_Sentiment_AddSentiment_Hurt_generic_AboutTargetSim"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP10_Affluent_Elder_01",
+   "tokens": [
+    "EP10",
+    "Affluent",
+    "Elder",
+    "01"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised",
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP10_Affluent_Elder_02",
+   "tokens": [
+    "EP10",
+    "Affluent",
+    "Elder",
+    "02"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Lovebirds",
+    "loot_Sentiment_AddSentiment_Enamored_mountain"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP10_Elder_Affluent_01",
+   "tokens": [
+    "EP10",
+    "Elder",
+    "Affluent",
+    "01"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends",
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP11_IanMoody_AgathaCrumplebottom",
+   "tokens": [
+    "EP11",
+    "IanMoody",
+    "AgathaCrumplebottom"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends",
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP11_KimGoldbloom_MichaelBell",
+   "tokens": [
+    "EP11",
+    "KimGoldbloom",
+    "MichaelBell"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP11_MairaWatson_KimGoldbloom",
+   "tokens": [
+    "EP11",
+    "MairaWatson",
+    "KimGoldbloom"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Adoring_generic_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP11_MichaelBell_CeciliaKang",
+   "tokens": [
+    "EP11",
+    "MichaelBell",
+    "CeciliaKang"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_SlightlyAwkard"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP11_RahmiWatson_LavinaChopra",
+   "tokens": [
+    "EP11",
+    "RahmiWatson",
+    "LavinaChopra"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_BreakUp",
+    "loot_Sentiment_AddSentiment_Bitter_BreakUp"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP11_RashidahWatson_RahulChopra",
+   "tokens": [
+    "EP11",
+    "RashidahWatson",
+    "RahulChopra"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Lovebirds"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP11_SaraScott_AgnesCrumplebottom",
+   "tokens": [
+    "EP11",
+    "SaraScott",
+    "AgnesCrumplebottom"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_GoodFriend",
+    "loot_Sentiment_AddSentiment_Close_Gossip"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP11_SimonScott_AgnesCrumplebottom",
+   "tokens": [
+    "EP11",
+    "SimonScott",
+    "AgnesCrumplebottom"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_MildlyDisliked",
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP11_ThomasWatson_RahmiWatson",
+   "tokens": [
+    "EP11",
+    "ThomasWatson",
+    "RahmiWatson"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_BadMarriage",
+    "loot_Sentiment_AddSentiment_Hurt_generic_AboutTargetSim"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP12_AshHarjo_SidneyPrice",
+   "tokens": [
+    "EP12",
+    "AshHarjo",
+    "SidneyPrice"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP12_MollyPrescott_AshHarjo",
+   "tokens": [
+    "EP12",
+    "MollyPrescott",
+    "AshHarjo"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP12_MollyPrescott_SidneyPrice",
+   "tokens": [
+    "EP12",
+    "MollyPrescott",
+    "SidneyPrice"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP12_NoahKane_SidneyPrice",
+   "tokens": [
+    "EP12",
+    "NoahKane",
+    "SidneyPrice"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Acquaintance_10",
+    "loot_Relationship_Starting_NPC_Crush"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_AdharaMichaelson_IanRobles",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "AdharaMichaelson",
+    "IanRobles"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_AurelioRobles_TalaRuano",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "AurelioRobles",
+    "TalaRuano"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_BerniceRobles_AurelioRobles",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "BerniceRobles",
+    "AurelioRobles"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_BerniceRobles_JayRobles",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "BerniceRobles",
+    "JayRobles"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_SlightlyAwkard"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_BerniceRobles_TalaRuano",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "BerniceRobles",
+    "TalaRuano"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_BerniceRobles_XochitilLuna",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "BerniceRobles",
+    "XochitilLuna"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_CelesteMichaelson_AtlasMichaelson",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "CelesteMichaelson",
+    "AtlasMichaelson"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_ChristopherMichaelson_AtlasMichaelson",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "ChristopherMichaelson",
+    "AtlasMichaelson"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_DoliRuano_ChristopherMichaelson",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "DoliRuano",
+    "ChristopherMichaelson"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_DoliRuano_TalaRuano",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "DoliRuano",
+    "TalaRuano"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_EleanorSullivan_KarmineLuna",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "EleanorSullivan",
+    "KarmineLuna"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_IanRobles_AurelioRobles",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "IanRobles",
+    "AurelioRobles"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_IanRobles_JayRobles",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "IanRobles",
+    "JayRobles"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_IanRobles_TalaRuano",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "IanRobles",
+    "TalaRuano"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_IanRobles_XochitilLuna",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "IanRobles",
+    "XochitilLuna"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_IgnacioRobles_AurelioRobles",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "IgnacioRobles",
+    "AurelioRobles"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_IgnacioRobles_BerniceRobles",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "IgnacioRobles",
+    "BerniceRobles"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_IgnacioRobles_EleanorSullivan",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "IgnacioRobles",
+    "EleanorSullivan"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_IgnacioRobles_TalaRuano",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "IgnacioRobles",
+    "TalaRuano"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_JayRobles_AurelioRobles",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "JayRobles",
+    "AurelioRobles"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_JayRobles_IgnacioRobles",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "JayRobles",
+    "IgnacioRobles"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_JayRobles_TalaRuano",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "JayRobles",
+    "TalaRuano"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_XochitilLuna_ChristopherMichaelson",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "XochitilLuna",
+    "ChristopherMichaelson"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_BreakUp"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP13_BayArea_XochitlLuna_KarmineLuna",
+   "tokens": [
+    "EP13",
+    "BayArea",
+    "XochitlLuna",
+    "KarmineLuna"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_AnimalFamilySimChild_HorseTrainer",
+   "tokens": [
+    "EP14",
+    "AnimalFamilySimChild",
+    "HorseTrainer"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_AnimalFamilySimChild_MysteriousRancher",
+   "tokens": [
+    "EP14",
+    "AnimalFamilySimChild",
+    "MysteriousRancher"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_AnimalFamilySimChild_NectarFriendMaterialistic",
+   "tokens": [
+    "EP14",
+    "AnimalFamilySimChild",
+    "NectarFriendMaterialistic"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised",
+    "loot_Sentiment_AddSentiment_Furious_generic_TargetAboutActor",
+    "loot_Sentiment_AddSentiment_Guilty_generic_AboutTargetSim"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_AnimalFamilySimChild_RanchParent",
+   "tokens": [
+    "EP14",
+    "AnimalFamilySimChild",
+    "RanchParent"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Motivating_FriendlyAdvice_ActorToTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_FamilyParent_AnimalFamilySimChild",
+   "tokens": [
+    "EP14",
+    "FamilyParent",
+    "AnimalFamilySimChild"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Adoring_generic_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_FamilyParent_HorseTrainer",
+   "tokens": [
+    "EP14",
+    "FamilyParent",
+    "HorseTrainer"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Adoring_consoleDeath_TargetAboutActor"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_FamilyParent_MysteriousRancher",
+   "tokens": [
+    "EP14",
+    "FamilyParent",
+    "MysteriousRancher"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_FamilyParent_RetiredHorseChampion",
+   "tokens": [
+    "EP14",
+    "FamilyParent",
+    "RetiredHorseChampion"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_HorseTrainer_RanchParent",
+   "tokens": [
+    "EP14",
+    "HorseTrainer",
+    "RanchParent"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_HorseTrainer_RetiredHorseChampion",
+   "tokens": [
+    "EP14",
+    "HorseTrainer",
+    "RetiredHorseChampion"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_MysteriousRancher_HorseTrainer",
+   "tokens": [
+    "EP14",
+    "MysteriousRancher",
+    "HorseTrainer"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Adoring_lifesaver_TargetAboutActor"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_NectarFriendCreative_MysteriousRancher",
+   "tokens": [
+    "EP14",
+    "NectarFriendCreative",
+    "MysteriousRancher"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Acquaintance_-10",
+    "loot_Sentiment_AddSentiment_Hurt_generic_AboutTargetSim"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_NectarFriendCreative_NectarFriendMaterialistic",
+   "tokens": [
+    "EP14",
+    "NectarFriendCreative",
+    "NectarFriendMaterialistic"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Various_Bitter_Fight_vs_Grudge",
+    "loot_Sentiment_AddSentiment_Various_Bitter_Fight_vs_Grudge_Target"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_NectarFriendMaterialistic_MysteriousRancher",
+   "tokens": [
+    "EP14",
+    "NectarFriendMaterialistic",
+    "MysteriousRancher"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_RanchParent_FamilyParent",
+   "tokens": [
+    "EP14",
+    "RanchParent",
+    "FamilyParent"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_SignificantOther",
+    "loot_Sentiment_AddSentiment_Enamored_generic_NoAlternatives",
+    "loot_Sentiment_AddSentiment_Enamored_generic_NoAlternatives_TargetToActor"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP14_RanchParent_MysteriousRancher",
+   "tokens": [
+    "EP14",
+    "RanchParent",
+    "MysteriousRancher"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Alon_Cam",
+   "tokens": [
+    "EP15",
+    "Alon",
+    "Cam"
+   ],
+   "actions": [
+    "loot_FamilyTrope_close"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Alon_Thi",
+   "tokens": [
+    "EP15",
+    "Alon",
+    "Thi"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Arturo_Alon",
+   "tokens": [
+    "EP15",
+    "Arturo",
+    "Alon"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Arturo_Cam",
+   "tokens": [
+    "EP15",
+    "Arturo",
+    "Cam"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Arturo_Lien",
+   "tokens": [
+    "EP15",
+    "Arturo",
+    "Lien"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Bua_Art",
+   "tokens": [
+    "EP15",
+    "Bua",
+    "Art"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Bua_Kasem",
+   "tokens": [
+    "EP15",
+    "Bua",
+    "Kasem"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Bua_Nin",
+   "tokens": [
+    "EP15",
+    "Bua",
+    "Nin"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Acquaintance_10"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Bua_Sud",
+   "tokens": [
+    "EP15",
+    "Bua",
+    "Sud"
+   ],
+   "actions": [
+    "loot_FamilyTrope_compliant"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Chanh_Alon",
+   "tokens": [
+    "EP15",
+    "Chanh",
+    "Alon"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Chanh_Arturo",
+   "tokens": [
+    "EP15",
+    "Chanh",
+    "Arturo"
+   ],
+   "actions": [
+    "loot_FamilyTrope_close"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Chanh_Cam",
+   "tokens": [
+    "EP15",
+    "Chanh",
+    "Cam"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Chanh_Lien",
+   "tokens": [
+    "EP15",
+    "Chanh",
+    "Lien"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_FamilyParent_Linh",
+   "tokens": [
+    "EP15",
+    "FamilyParent",
+    "Linh"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_FamilySibling_Linh",
+   "tokens": [
+    "EP15",
+    "FamilySibling",
+    "Linh"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Kasem_Nin",
+   "tokens": [
+    "EP15",
+    "Kasem",
+    "Nin"
+   ],
+   "actions": [
+    "loot_FamilyTrope_close"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Kasem_Sud",
+   "tokens": [
+    "EP15",
+    "Kasem",
+    "Sud"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Lien_Alon",
+   "tokens": [
+    "EP15",
+    "Lien",
+    "Alon"
+   ],
+   "actions": [
+    "loot_FamilyTrope_close"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Lien_Cam",
+   "tokens": [
+    "EP15",
+    "Lien",
+    "Cam"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Nin_Sud",
+   "tokens": [
+    "EP15",
+    "Nin",
+    "Sud"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Thi_Cam",
+   "tokens": [
+    "EP15",
+    "Thi",
+    "Cam"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Van_Thi",
+   "tokens": [
+    "EP15",
+    "Van",
+    "Thi"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP15_Van_Zhaf",
+   "tokens": [
+    "EP15",
+    "Van",
+    "Zhaf"
+   ],
+   "actions": [
+    "loot_FamilyTrope_distant",
+    "loot_Relationship_Starting_NPC_MildlyDisliked"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_ElderWomanToChef",
+   "tokens": [
+    "EP16",
+    "ElderWomanToChef"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Adoring_generic_TargetAboutActor",
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_GothBoytoChef",
+   "tokens": [
+    "EP16",
+    "GothBoytoChef"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Close_generic_ST_TargetAboutActor"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_GothBoytoHeartthrob",
+   "tokens": [
+    "EP16",
+    "GothBoytoHeartthrob"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Close_generic_ST_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_HeartthrobtoGothBoy",
+   "tokens": [
+    "EP16",
+    "HeartthrobtoGothBoy"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_HusbandToSingleMom",
+   "tokens": [
+    "EP16",
+    "HusbandToSingleMom"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Acquaintance"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_HusbandToWife",
+   "tokens": [
+    "EP16",
+    "HusbandToWife"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Enamored_generic_NoAlternatives",
+    "loot_Sentiment_AddSentiment_Enamored_generic_NoAlternatives_TargetToActor",
+    "loot_Sentiment_AddSentiment_Hurt_generic_AboutTargetSim"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_HusbandtoChef",
+   "tokens": [
+    "EP16",
+    "HusbandtoChef"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_SingleMomtoBothChildren",
+   "tokens": [
+    "EP16",
+    "SingleMomtoBothChildren"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Adoring_generic_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_SingleMomtoHeartthrob",
+   "tokens": [
+    "EP16",
+    "SingleMomtoHeartthrob"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Acquaintance_10"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_SonToHeartthrob",
+   "tokens": [
+    "EP16",
+    "SonToHeartthrob"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised",
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_TeentoSingleMom",
+   "tokens": [
+    "EP16",
+    "TeentoSingleMom"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Close_generic_ST_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_WifeToChef",
+   "tokens": [
+    "EP16",
+    "WifeToChef"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Acquaintance"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_WifetoElderWoman",
+   "tokens": [
+    "EP16",
+    "WifetoElderWoman"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP16_WifetoSingleMom",
+   "tokens": [
+    "EP16",
+    "WifetoSingleMom"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Alice_Edith",
+   "tokens": [
+    "EP17",
+    "Alice",
+    "Edith"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Ekade_Layne",
+   "tokens": [
+    "EP17",
+    "Ekade",
+    "Layne"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Esther_Kai",
+   "tokens": [
+    "EP17",
+    "Esther",
+    "Kai"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Esther_Layne",
+   "tokens": [
+    "EP17",
+    "Esther",
+    "Layne"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_GoodFriend"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Esther_Olive",
+   "tokens": [
+    "EP17",
+    "Esther",
+    "Olive"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Esther_Radwan",
+   "tokens": [
+    "EP17",
+    "Esther",
+    "Radwan"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Esther_Ravendancer",
+   "tokens": [
+    "EP17",
+    "Esther",
+    "Ravendancer"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Esther_Tziporah",
+   "tokens": [
+    "EP17",
+    "Esther",
+    "Tziporah"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Esther_Zelmira",
+   "tokens": [
+    "EP17",
+    "Esther",
+    "Zelmira"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Husbands",
+   "tokens": [
+    "EP17",
+    "Husbands"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Kai_Layne",
+   "tokens": [
+    "EP17",
+    "Kai",
+    "Layne"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Nyon_Alice",
+   "tokens": [
+    "EP17",
+    "Nyon",
+    "Alice"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Nyon_Edith",
+   "tokens": [
+    "EP17",
+    "Nyon",
+    "Edith"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Nyon_Layne",
+   "tokens": [
+    "EP17",
+    "Nyon",
+    "Layne"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_MildlyDisliked"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Nyon_Takama",
+   "tokens": [
+    "EP17",
+    "Nyon",
+    "Takama"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Radwan_Ekade",
+   "tokens": [
+    "EP17",
+    "Radwan",
+    "Ekade"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_BreakUp"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Radwan_Layne",
+   "tokens": [
+    "EP17",
+    "Radwan",
+    "Layne"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Radwan_Nyon",
+   "tokens": [
+    "EP17",
+    "Radwan",
+    "Nyon"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Radwan_Tziporah",
+   "tokens": [
+    "EP17",
+    "Radwan",
+    "Tziporah"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Tziporah_Layne",
+   "tokens": [
+    "EP17",
+    "Tziporah",
+    "Layne"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Tziporah_Nyon",
+   "tokens": [
+    "EP17",
+    "Tziporah",
+    "Nyon"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Tziporah_Olive",
+   "tokens": [
+    "EP17",
+    "Tziporah",
+    "Olive"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Waylon_Esther",
+   "tokens": [
+    "EP17",
+    "Waylon",
+    "Esther"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_GoodFriend"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Waylon_Kai",
+   "tokens": [
+    "EP17",
+    "Waylon",
+    "Kai"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Waylon_Layne",
+   "tokens": [
+    "EP17",
+    "Waylon",
+    "Layne"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Waylon_Ravendancer",
+   "tokens": [
+    "EP17",
+    "Waylon",
+    "Ravendancer"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Waylon_Zelmira",
+   "tokens": [
+    "EP17",
+    "Waylon",
+    "Zelmira"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_MildlyDisliked"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Waylon_Zuleika",
+   "tokens": [
+    "EP17",
+    "Waylon",
+    "Zuleika"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Zelmira_Layne",
+   "tokens": [
+    "EP17",
+    "Zelmira",
+    "Layne"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Zelmira_Nyon",
+   "tokens": [
+    "EP17",
+    "Zelmira",
+    "Nyon"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Zelmira_Olive",
+   "tokens": [
+    "EP17",
+    "Zelmira",
+    "Olive"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_MildlyDisliked"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Zelmira_Ravendancer",
+   "tokens": [
+    "EP17",
+    "Zelmira",
+    "Ravendancer"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Zuleika_Layne",
+   "tokens": [
+    "EP17",
+    "Zuleika",
+    "Layne"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP17_Zuleika_Olive",
+   "tokens": [
+    "EP17",
+    "Zuleika",
+    "Olive"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_BetrayedBusinessPartner",
+   "tokens": [
+    "EP18",
+    "BetrayedBusinessPartner"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Despised"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Close_Rel_Family",
+   "tokens": [
+    "EP18",
+    "Close",
+    "Rel",
+    "Family"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Crispin_Coleman",
+   "tokens": [
+    "EP18",
+    "Crispin",
+    "Coleman"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Acquaintance"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Daliha_Freya",
+   "tokens": [
+    "EP18",
+    "Daliha",
+    "Freya"
+   ],
+   "actions": [
+    "loot_FamilyTrope_Cheat_loving"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Daliha_Nora",
+   "tokens": [
+    "EP18",
+    "Daliha",
+    "Nora"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Lovebirds"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Erik_Daliha",
+   "tokens": [
+    "EP18",
+    "Erik",
+    "Daliha"
+   ],
+   "actions": [
+    "loot_FamilyTrope_loving"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Freya_Erik",
+   "tokens": [
+    "EP18",
+    "Freya",
+    "Erik"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_NiaTattooUnlocks",
+   "tokens": [
+    "EP18",
+    "NiaTattooUnlocks"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Nora_Erik",
+   "tokens": [
+    "EP18",
+    "Nora",
+    "Erik"
+   ],
+   "actions": [
+    "loot_FamilyTrope_Cheat_permissive"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Nora_Freya",
+   "tokens": [
+    "EP18",
+    "Nora",
+    "Freya"
+   ],
+   "actions": [
+    "loot_FamilyTrope_Cheat_compliant",
+    "loot_Relationship_Starting_NPC_Friends"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Ollie_Coleman",
+   "tokens": [
+    "EP18",
+    "Ollie",
+    "Coleman"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP18_Ollie_Crispin",
+   "tokens": [
+    "EP18",
+    "Ollie",
+    "Crispin"
+   ],
+   "actions": [
+    "loot_FamilyTrope_permissive"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Ayo_Elric",
+   "tokens": [
+    "EP19",
+    "Ayo",
+    "Elric"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_BreakUp"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Ayo_Iris",
+   "tokens": [
+    "EP19",
+    "Ayo",
+    "Iris"
+   ],
+   "actions": [
+    "loot_FamilyTrope_distant"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Care_Zhaleh",
+   "tokens": [
+    "EP19",
+    "Care",
+    "Zhaleh"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Elric_Todd",
+   "tokens": [
+    "EP19",
+    "Elric",
+    "Todd"
+   ],
+   "actions": [
+    "loot_RomanceTrope_wholesome"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Flora_Ayo",
+   "tokens": [
+    "EP19",
+    "Flora",
+    "Ayo"
+   ],
+   "actions": [
+    "loot_FamilyTrope_close",
+    "loot_RomanceTrope_strained"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Flora_Iris",
+   "tokens": [
+    "EP19",
+    "Flora",
+    "Iris"
+   ],
+   "actions": [
+    "loot_FamilyTrope_distant"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Green_Mother",
+   "tokens": [
+    "EP19",
+    "Green",
+    "Mother"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Iris_Nadya",
+   "tokens": [
+    "EP19",
+    "Iris",
+    "Nadya"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Nadya_Care",
+   "tokens": [
+    "EP19",
+    "Nadya",
+    "Care"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Nadya_Joe",
+   "tokens": [
+    "EP19",
+    "Nadya",
+    "Joe"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_BreakUp"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Oberon_Mara",
+   "tokens": [
+    "EP19",
+    "Oberon",
+    "Mara"
+   ],
+   "actions": [
+    "loot_FamilyTrope_permissive"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Titania_Mara",
+   "tokens": [
+    "EP19",
+    "Titania",
+    "Mara"
+   ],
+   "actions": [
+    "loot_FamilyTrope_loving"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_EP19_Titania_Oberon",
+   "tokens": [
+    "EP19",
+    "Titania",
+    "Oberon"
+   ],
+   "actions": [
+    "loot_FamilyTrope_difficult",
+    "loot_RomanceTrope_steamy"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_GP11_CamilleSoto_MateoMarkovic",
+   "tokens": [
+    "GP11",
+    "CamilleSoto",
+    "MateoMarkovic"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends",
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_GP11_Hilarylaurent_LuciaMarkovic",
+   "tokens": [
+    "GP11",
+    "Hilarylaurent",
+    "LuciaMarkovic"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends",
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_GP11_JaleelFaiz_DomiqueSoto",
+   "tokens": [
+    "GP11",
+    "JaleelFaiz",
+    "DomiqueSoto"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends",
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_GP11_LuciaMarkovic_HectorLaurent",
+   "tokens": [
+    "GP11",
+    "LuciaMarkovic",
+    "HectorLaurent"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_BreakUp",
+    "loot_Sentiment_AddSentiment_Hurt_generic_AboutTargetSim"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_GP11_MateoMarkovic_ArnessaThebe",
+   "tokens": [
+    "GP11",
+    "MateoMarkovic",
+    "ArnessaThebe"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_MildlyDisliked",
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_WolfTown_Celene_Greg",
+   "tokens": [
+    "WolfTown",
+    "Celene",
+    "Greg"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_WolfTown_Greg_Other",
+   "tokens": [
+    "WolfTown",
+    "Greg",
+    "Other"
+   ],
+   "actions": []
+  },
+  {
+   "name": "loot_PremadesSetup_WolfTown_Jacob_Kristopher",
+   "tokens": [
+    "WolfTown",
+    "Jacob",
+    "Kristopher"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Friends",
+    "loot_Sentiment_AddSentiment_Adoring_generic_AboutTarget"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_WolfTown_Kristopher_Rory",
+   "tokens": [
+    "WolfTown",
+    "Kristopher",
+    "Rory"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Acquaintance_-10",
+    "loot_Sentiment_AddSentiment_Hurt_generic_AboutTargetSim"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_WolfTown_Lily_Greg",
+   "tokens": [
+    "WolfTown",
+    "Lily",
+    "Greg"
+   ],
+   "actions": [
+    "loot_Sentiment_AddSentiment_Furious_generic"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_WolfTown_Lou_Celene",
+   "tokens": [
+    "WolfTown",
+    "Lou",
+    "Celene"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_Acquaintance",
+    "loot_Sentiment_AddSentiment_Enamored_generic_NoAlternatives"
+   ]
+  },
+  {
+   "name": "loot_PremadesSetup_WolfTown_Rory_Jacob",
+   "tokens": [
+    "WolfTown",
+    "Rory",
+    "Jacob"
+   ],
+   "actions": [
+    "loot_Relationship_Starting_NPC_CloseFriends",
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget"
+   ]
+  }
+ ]
+}

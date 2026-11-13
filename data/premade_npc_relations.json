@@ -1,0 +1,247 @@
+{
+ "source": "loot_WorldEP21_NPC_* (EP21 Bellacorde NPC relationship seeds)",
+ "pairs": [
+  {
+   "tokens": [
+    "Adekoya",
+    "Afua"
+   ],
+   "friendship": 0,
+   "romance": null,
+   "bits": []
+  },
+  {
+   "tokens": [
+    "Adekoya",
+    "Jawara"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_FamilyTrope_compliant"
+   ]
+  },
+  {
+   "tokens": [
+    "Adekoya",
+    "Obi"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget"
+   ]
+  },
+  {
+   "tokens": [
+    "Akachi",
+    "Jawara"
+   ],
+   "friendship": null,
+   "romance": 15,
+   "bits": []
+  },
+  {
+   "tokens": [
+    "Celeste",
+    "Beatrice"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget",
+    "loot_Sentiment_AddSentiment_Close_generic_LT_TargetAboutActor"
+   ]
+  },
+  {
+   "tokens": [
+    "Celeste",
+    "Dante"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "has_met"
+   ]
+  },
+  {
+   "tokens": [
+    "Consort",
+    "Juliette"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_FamilyTrope_difficult",
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic_TargetAboutActor"
+   ]
+  },
+  {
+   "tokens": [
+    "Consort",
+    "Tybalt"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_FamilyTrope_difficult",
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic_TargetAboutActor"
+   ]
+  },
+  {
+   "tokens": [
+    "Cordelia",
+    "Mara"
+   ],
+   "friendship": null,
+   "romance": 80,
+   "bits": [
+    "has_met",
+    "loot_Sentiment_AddSentiment_Enamored_SecretLove"
+   ]
+  },
+  {
+   "tokens": [
+    "Jawara",
+    "Ikenna"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget",
+    "loot_FamilyTrope_loving"
+   ]
+  },
+  {
+   "tokens": [
+    "Joana",
+    "Cordelia"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic"
+   ]
+  },
+  {
+   "tokens": [
+    "Joana",
+    "Sofia"
+   ],
+   "friendship": 40,
+   "romance": null,
+   "bits": [
+    "loot_FamilyTrope_compliant"
+   ]
+  },
+  {
+   "tokens": [
+    "Joana",
+    "Thiago"
+   ],
+   "friendship": 15,
+   "romance": null,
+   "bits": [
+    "has_met"
+   ]
+  },
+  {
+   "tokens": [
+    "Juliette",
+    "Tybalt"
+   ],
+   "friendship": -90,
+   "romance": null,
+   "bits": [
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic"
+   ]
+  },
+  {
+   "tokens": [
+    "Obi",
+    "Ikenna"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_FamilyTrope_loving"
+   ]
+  },
+  {
+   "tokens": [
+    "Romeo",
+    "Juliette"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_RomanceTrope_wholesome"
+   ]
+  },
+  {
+   "tokens": [
+    "Romeo",
+    "Tybalt"
+   ],
+   "friendship": -80,
+   "romance": null,
+   "bits": []
+  },
+  {
+   "tokens": [
+    "Sofia",
+    "Cordelia"
+   ],
+   "friendship": -10,
+   "romance": null,
+   "bits": []
+  },
+  {
+   "tokens": [
+    "Sofia",
+    "Thiago"
+   ],
+   "friendship": null,
+   "romance": null,
+   "bits": [
+    "loot_Sentiment_AddSentiment_Close_generic_LT_AboutTarget",
+    "loot_Sentiment_AddSentiment_Close_generic_LT_TargetAboutActor"
+   ]
+  },
+  {
+   "tokens": [
+    "Thiago",
+    "Cordelia"
+   ],
+   "friendship": null,
+   "romance": 25,
+   "bits": [
+    "loot_RomanceTrope_wholesome"
+   ]
+  },
+  {
+   "tokens": [
+    "Tybalt",
+    "Virgil"
+   ],
+   "friendship": -70,
+   "romance": null,
+   "bits": [
+    "loot_Sentiment_AddSentiment_Furious_Dynasty_ResentfulBlackSheep_TargetToActor",
+    "loot_FamilyTrope_difficult"
+   ]
+  },
+  {
+   "tokens": [
+    "Virgil",
+    "Beatrice"
+   ],
+   "friendship": -20,
+   "romance": null,
+   "bits": [
+    "loot_Sentiment_AddSentiment_Bitter_grudge_generic",
+    "loot_FamilyTrope_difficult"
+   ]
+  }
+ ]
+}

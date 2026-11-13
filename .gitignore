@@ -1,0 +1,41 @@
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# User projects & exported mods (created automatically at runtime)
+projects/
+exports/
+
+# Runtime caches (regenerated automatically by the studio / SDK)
+data/catalog_cache.json
+data/icon_cache/
+data/image_cache/
+data/premade_images/
+data/sdk_cache/
+
+# Local reference & scratch files
+MTS_SmugTomato_2000305_bs_cleanui_1.2.0.zip
+backend/premade_world.json
+data/hhtool/
+data/hhtool.zip
+data/ito_template.bin
+data/packed_xml.bin
+data/s4resources/
+data/s4ti_csharp/
+data/xmods_src/
+
+# Icon source archives & duplicate unpacked folders outside _pack
+sims icons/sims 2/sources/
+sims icons/sims 4/*
+!sims icons/sims 4/_pack/

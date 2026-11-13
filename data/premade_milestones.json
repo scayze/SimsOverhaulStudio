@@ -1,0 +1,675 @@
+{
+ "source": "SimInfoFixup.developmental_milestone_ops_fixup_action",
+ "sims": [
+  {
+   "template": "premadeSimTemplate_EP20_AerisGomezRalston",
+   "name": "Aeris Chavez-Ralston",
+   "first": "Aeris",
+   "last": "Chavez-Ralston",
+   "milestones": [
+    {
+     "id": 313642,
+     "label": "Life Milestone Childhood Phase",
+     "modded": false,
+     "pack": "Parenthood"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP20_AngoraTchotchke",
+   "name": "Agora Tchotchke",
+   "first": "Agora",
+   "last": "Tchotchke",
+   "milestones": [
+    {
+     "id": 306301,
+     "label": "Life Milestone Got Fired",
+     "modded": false,
+     "pack": "Growing Together"
+    },
+    {
+     "id": 306314,
+     "label": "Life Milestone High School Expelled",
+     "modded": false,
+     "pack": "High School Years"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP15_ArturoLinh",
+   "name": "Arturo Linh",
+   "first": "Arturo",
+   "last": "Linh",
+   "milestones": [
+    {
+     "id": 313636,
+     "label": "Life Milestone Sixam",
+     "modded": false,
+     "pack": "Get to Work"
+    },
+    {
+     "id": 306238,
+     "label": "Life Milestone Omiscan Temple",
+     "modded": false,
+     "pack": "Jungle Adventure"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP15_BuaBunMa",
+   "name": "Bua Bun Ma",
+   "first": "Bua",
+   "last": "Bun Ma",
+   "milestones": [
+    {
+     "id": 335740,
+     "label": "Life Milestone Widowed",
+     "modded": false,
+     "pack": "Growing Together"
+    },
+    {
+     "id": 306211,
+     "label": "Life Milestone Had Affair",
+     "modded": false,
+     "pack": "Growing Together"
+    },
+    {
+     "id": 313667,
+     "label": "Life Milestone Smacked By Agnes",
+     "modded": false,
+     "pack": "Cottage Living"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP15_CamSadya",
+   "name": "Cam Sadya",
+   "first": "Cam",
+   "last": "Sadya",
+   "milestones": [
+    {
+     "id": 353326,
+     "label": "Life Milestone First Hopscotch Win",
+     "modded": false,
+     "pack": "For Rent"
+    },
+    {
+     "id": 312178,
+     "label": "Life Milestone Lost First Tooth",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP19_CareRen",
+   "name": "Care Ren",
+   "first": "Care",
+   "last": "Ren",
+   "milestones": [
+    {
+     "id": 313640,
+     "label": "Life Milestone Sylvan Glade",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP13_MichaelsonTrent_AdharaMichaelson",
+   "name": "Celeste Michaelson",
+   "first": "Celeste",
+   "last": "Michaelson",
+   "milestones": [
+    {
+     "id": 306300,
+     "label": "Life Milestone First Time Burning Out",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP15_ChanhLinh",
+   "name": "Ch\u00e1nh Linh",
+   "first": "Ch\u00e1nh",
+   "last": "Linh",
+   "milestones": [
+    {
+     "id": 306238,
+     "label": "Life Milestone Omiscan Temple",
+     "modded": false,
+     "pack": "Jungle Adventure"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP13_RoblesRuano_DoliRuano",
+   "name": "Doli Ruano",
+   "first": "Doli",
+   "last": "Ruano",
+   "milestones": [
+    {
+     "id": 313671,
+     "label": "Life Milestone Quit Job",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP20_DougiePerry",
+   "name": "Dougie Perry",
+   "first": "Dougie",
+   "last": "Perry",
+   "milestones": [
+    {
+     "id": 312178,
+     "label": "Life Milestone Lost First Tooth",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_EkadeAether",
+   "name": "Ekade Aether",
+   "first": "Ekade",
+   "last": "Aether",
+   "milestones": [
+    {
+     "id": 313669,
+     "label": "Life Milestone Prom Royalty",
+     "modded": false,
+     "pack": "High School Years"
+    },
+    {
+     "id": 306239,
+     "label": "Life Milestone Abducted By Aliens",
+     "modded": false,
+     "pack": "Get to Work"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP13_LunaSullivan_EleanorSullivan",
+   "name": "Eleanor Sullivan",
+   "first": "Eleanor",
+   "last": "Sullivan",
+   "milestones": [
+    {
+     "id": 316151,
+     "label": "Life Milestone Life Mid Life Crisis Adventure",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP19_ElricDeMuray",
+   "name": "Elric DeMuray",
+   "first": "Elric",
+   "last": "DeMuray",
+   "milestones": [
+    {
+     "id": 338091,
+     "label": "Life Milestone Life Too Much Nectar",
+     "modded": false,
+     "pack": "Horse Ranch"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP20_ErinGomezRalston",
+   "name": "Erin Chavez-Ralston",
+   "first": "Erin",
+   "last": "Chavez-Ralston",
+   "milestones": [
+    {
+     "id": 353326,
+     "label": "Life Milestone First Hopscotch Win",
+     "modded": false,
+     "pack": "For Rent"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_EstherGomes",
+   "name": "Esther Gomes",
+   "first": "Esther",
+   "last": "Gomes",
+   "milestones": [
+    {
+     "id": 313667,
+     "label": "Life Milestone Smacked By Agnes",
+     "modded": false,
+     "pack": "Cottage Living"
+    },
+    {
+     "id": 306238,
+     "label": "Life Milestone Omiscan Temple",
+     "modded": false,
+     "pack": "Jungle Adventure"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP20_FreedaPerry",
+   "name": "Freeda Perry",
+   "first": "Freeda",
+   "last": "Perry",
+   "milestones": [
+    {
+     "id": 313669,
+     "label": "Life Milestone Prom Royalty",
+     "modded": false,
+     "pack": "High School Years"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP13_Robles_IanRobles",
+   "name": "Ian Robles",
+   "first": "Ian",
+   "last": "Robles",
+   "milestones": [
+    {
+     "id": 306301,
+     "label": "Life Milestone Got Fired",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP13_Robles_IgnacioRobles",
+   "name": "Ignacio Robles",
+   "first": "Ignacio",
+   "last": "Robles",
+   "milestones": [
+    {
+     "id": 316153,
+     "label": "Life Milestone Life Mid Life Crisis Relationship",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP20_JaneAddam",
+   "name": "Jane Addam",
+   "first": "Jane",
+   "last": "Addam",
+   "milestones": [
+    {
+     "id": 353294,
+     "label": "Life Milestone Got Evicted",
+     "modded": false,
+     "pack": "For Rent"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_KaiAether",
+   "name": "Kai Aether",
+   "first": "Kai",
+   "last": "Aether",
+   "milestones": [
+    {
+     "id": 306239,
+     "label": "Life Milestone Abducted By Aliens",
+     "modded": false,
+     "pack": "Get to Work"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP13_LunaSullivan_KarmineLuna",
+   "name": "Karmine Luna",
+   "first": "Karmine",
+   "last": "Luna",
+   "milestones": [
+    {
+     "id": 312178,
+     "label": "Life Milestone Lost First Tooth",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP13_Kyleson_KyleKyleson",
+   "name": "Kyle Kyleson",
+   "first": "Kyle",
+   "last": "Kyleson",
+   "milestones": [
+    {
+     "id": 313667,
+     "label": "Life Milestone Smacked By Agnes",
+     "modded": false,
+     "pack": "Cottage Living"
+    },
+    {
+     "id": 313638,
+     "label": "Life Milestone Survived Haunted House",
+     "modded": false,
+     "pack": "Base Game"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_LayneCoffin",
+   "name": "Layne Coffin",
+   "first": "Layne",
+   "last": "Coffin",
+   "milestones": [
+    {
+     "id": 306232,
+     "label": "Life Milestone Engagement Rejected",
+     "modded": false,
+     "pack": "Growing Together"
+    },
+    {
+     "id": 353328,
+     "label": "Life Milestone First Mold Exposure",
+     "modded": false,
+     "pack": "For Rent"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP19_NadyaKishka",
+   "name": "Nadya Kishka",
+   "first": "Nadya",
+   "last": "Kishka",
+   "milestones": [
+    {
+     "id": 438400,
+     "label": "Life Milestone Became Fairy Occult",
+     "modded": false,
+     "pack": "EP19"
+    },
+    {
+     "id": 313667,
+     "label": "Life Milestone Smacked By Agnes",
+     "modded": false,
+     "pack": "Cottage Living"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP15_NinBunMa",
+   "name": "Nin Bun Ma",
+   "first": "Nin",
+   "last": "Bun Ma",
+   "milestones": []
+  },
+  {
+   "template": "premadeSimTemplate_EP17_NyonSpecter",
+   "name": "Nyon Specter",
+   "first": "Nyon",
+   "last": "Specter",
+   "milestones": [
+    {
+     "id": 313638,
+     "label": "Life Milestone Survived Haunted House",
+     "modded": false,
+     "pack": "Base Game"
+    },
+    {
+     "id": 313667,
+     "label": "Life Milestone Smacked By Agnes",
+     "modded": false,
+     "pack": "Cottage Living"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_OliveSpecter",
+   "name": "Olive Specter",
+   "first": "Olive",
+   "last": "Specter",
+   "milestones": [
+    {
+     "id": 335740,
+     "label": "Life Milestone Widowed",
+     "modded": false,
+     "pack": "Growing Together"
+    },
+    {
+     "id": 306220,
+     "label": "Life Milestone Caught Cheating By Sim",
+     "modded": false,
+     "pack": "Growing Together"
+    },
+    {
+     "id": 395150,
+     "label": "Life Milestone Social Woohoo Grim",
+     "modded": false,
+     "pack": "Life & Death"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_RadwanGomes",
+   "name": "Radwan Gomes",
+   "first": "Radwan",
+   "last": "Gomes",
+   "milestones": [
+    {
+     "id": 316154,
+     "label": "Life Milestone Life Mid Life Crisis Success",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP16SpecialNPC_SammyTheRingBear",
+   "name": "Sammy Garc\u00eda",
+   "first": "Sammy",
+   "last": "Garc\u00eda",
+   "milestones": [
+    {
+     "id": 313642,
+     "label": "Life Milestone Childhood Phase",
+     "modded": false,
+     "pack": "Parenthood"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP20_SaraGomezRalston",
+   "name": "Sara Chavez-Ralston",
+   "first": "Sara",
+   "last": "Chavez-Ralston",
+   "milestones": [
+    {
+     "id": 338090,
+     "label": "Life Milestone Ultimate Champion Horse Competition",
+     "modded": false,
+     "pack": "Horse Ranch"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP20_SkipBroke",
+   "name": "Skip Broke",
+   "first": "Skip",
+   "last": "Broke",
+   "milestones": [
+    {
+     "id": 306305,
+     "label": "Life Milestone Struck By Lightning",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP20_StarrAddam",
+   "name": "Star Addam",
+   "first": "Star",
+   "last": "Addam",
+   "milestones": [
+    {
+     "id": 306209,
+     "label": "Life Milestone Adopted",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_TakamaAether",
+   "name": "Takama Aether",
+   "first": "Takama",
+   "last": "Aether",
+   "milestones": [
+    {
+     "id": 312178,
+     "label": "Life Milestone Lost First Tooth",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP13_RoblesRuano_TalaRuano",
+   "name": "Tala Ruano",
+   "first": "Tala",
+   "last": "Ruano",
+   "milestones": [
+    {
+     "id": 305671,
+     "label": "Life Milestone Toddler First Time Daycare",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP15_ThiLinh",
+   "name": "Thi Linh",
+   "first": "Thi",
+   "last": "Linh",
+   "milestones": [
+    {
+     "id": 329359,
+     "label": "Life Milestone Eaten By Cowplant",
+     "modded": false,
+     "pack": "Growing Together"
+    },
+    {
+     "id": 306239,
+     "label": "Life Milestone Abducted By Aliens",
+     "modded": false,
+     "pack": "Get to Work"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_TziporahGomes",
+   "name": "Tziporah Gomes",
+   "first": "Tziporah",
+   "last": "Gomes",
+   "milestones": [
+    {
+     "id": 306215,
+     "label": "Life Milestone Resurrected Sim",
+     "modded": false,
+     "pack": "Growing Together"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP15_VaneshaCahyaputri",
+   "name": "Vanesha Cahyaputri",
+   "first": "Vanesha",
+   "last": "Cahyaputri",
+   "milestones": [
+    {
+     "id": 353328,
+     "label": "Life Milestone First Mold Exposure",
+     "modded": false,
+     "pack": "For Rent"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP13_LunaSullivan_XochitilLuna",
+   "name": "Xochitl Luna",
+   "first": "Xochitl",
+   "last": "Luna",
+   "milestones": [
+    {
+     "id": 306237,
+     "label": "Life Milestone First Fire",
+     "modded": false,
+     "pack": "Growing Together"
+    },
+    {
+     "id": 306230,
+     "label": "Life Milestone Mount Komorebi",
+     "modded": false,
+     "pack": "Snowy Escape"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_ZelmiraGomes",
+   "name": "Zelmira Gomes",
+   "first": "Zelmira",
+   "last": "Gomes",
+   "milestones": [
+    {
+     "id": 313638,
+     "label": "Life Milestone Survived Haunted House",
+     "modded": false,
+     "pack": "Base Game"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP15_ZhafiraCahyaputri",
+   "name": "Zhafira Cahyaputri",
+   "first": "Zhafira",
+   "last": "Cahyaputri",
+   "milestones": []
+  },
+  {
+   "template": "premadeSimTemplate_EP19_ZhalehAmani",
+   "name": "Zhaleh Amani",
+   "first": "Zhaleh",
+   "last": "Amani",
+   "milestones": [
+    {
+     "id": 313637,
+     "label": "Life Milestone Won Village Fair",
+     "modded": false,
+     "pack": "Cottage Living"
+    }
+   ]
+  },
+  {
+   "template": "premadeSimTemplate_EP17_ZuleikaIzadi",
+   "name": "Zuleika Izadi",
+   "first": "Zuleika",
+   "last": "Izadi",
+   "milestones": [
+    {
+     "id": 329359,
+     "label": "Life Milestone Eaten By Cowplant",
+     "modded": false,
+     "pack": "Growing Together"
+    },
+    {
+     "id": 313638,
+     "label": "Life Milestone Survived Haunted House",
+     "modded": false,
+     "pack": "Base Game"
+    }
+   ]
+  }
+ ]
+}

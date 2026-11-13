@@ -1,0 +1,5457 @@
+[
+ {
+  "first": "Sammy",
+  "last": "Garc\u00eda",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "writing": 5
+  },
+  "tool_skills": {
+   "writing": 5
+  }
+ },
+ {
+  "first": "Elric",
+  "last": "DeMuray",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "gardening": 8,
+   "bartending": 6,
+   "nls": 7
+  },
+  "tool_skills": {
+   "gardening": 8,
+   "nls": 7,
+   "charisma": 3,
+   "bartending": 6
+  }
+ },
+ {
+  "first": "Todd",
+  "last": "Attenberry",
+  "age": "Adult",
+  "wiki_skills": {
+   "apothecary": 10,
+   "gardening": 6,
+   "nls": 6
+  },
+  "tool_skills": {
+   "apothecary": 10,
+   "gardening": 6,
+   "nls": 6
+  }
+ },
+ {
+  "first": "Vladislaus",
+  "last": "Straud",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 8,
+   "pipeorgan": 10,
+   "vampirelore": 10
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "pipeorgan": 10
+  }
+ },
+ {
+  "first": "Shigeru",
+  "last": "Nishidake",
+  "age": "Elder",
+  "wiki_skills": {
+   "homestylecooking": 5,
+   "fishing": 7,
+   "gardening": 5,
+   "mischief": 5,
+   "bartending": 6
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "gardening": 5,
+   "mischief": 5,
+   "bartending": 6,
+   "fishing": 7
+  }
+ },
+ {
+  "first": "Sachiko",
+  "last": "Nishidake",
+  "age": "Elder",
+  "wiki_skills": {
+   "comedy": 5,
+   "homestylecooking": 5,
+   "gourmetcooking": 4,
+   "logic": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "gourmetcooking": 4,
+   "logic": 5,
+   "comedy": 5
+  }
+ },
+ {
+  "first": "Kaori",
+  "last": "Nishidake",
+  "age": "Teen",
+  "wiki_skills": {
+   "comedy": 5,
+   "fishing": 4,
+   "fitness": 5,
+   "snowboarding": 7
+  },
+  "tool_skills": {
+   "snowboarding": 7,
+   "comedy": 5,
+   "fitness": 5,
+   "fishing": 4
+  }
+ },
+ {
+  "first": "Jimmy",
+  "last": "Pond",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 8,
+   "logic": 5,
+   "programming": 5
+  },
+  "tool_skills": {
+   "programming": 5,
+   "logic": 5,
+   "fitness": 8,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Alaina",
+  "last": "Pond",
+  "age": "Child",
+  "wiki_skills": {
+   "childmental": 9
+  },
+  "tool_skills": {
+   "childmental": 9
+  }
+ },
+ {
+  "first": "Laxmi",
+  "last": "Kunal",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fishing": 7,
+   "gardening": 7,
+   "handiness": 6,
+   "bartending": 5,
+   "papercraft": 7
+  },
+  "tool_skills": {
+   "handiness": 6,
+   "fishing": 7,
+   "gardening": 7,
+   "papercraft": 7,
+   "bartending": 5
+  }
+ },
+ {
+  "first": "Radwan",
+  "last": "Gomes",
+  "age": "Adult",
+  "wiki_skills": {
+   "fishing": 3,
+   "fitness": 3,
+   "logic": 4
+  },
+  "tool_skills": {
+   "logic": 4,
+   "fishing": 3,
+   "fitness": 3
+  }
+ },
+ {
+  "first": "Tziporah",
+  "last": "Gomes",
+  "age": "Adult",
+  "wiki_skills": {
+   "fishing": 5,
+   "writing": 8
+  },
+  "tool_skills": {
+   "writing": 8,
+   "fishing": 5
+  }
+ },
+ {
+  "first": "Zelmira",
+  "last": "Gomes",
+  "age": "Teen",
+  "wiki_skills": {
+   "thanatology": 3,
+   "violin": 7
+  },
+  "tool_skills": {
+   "violin": 7,
+   "thanatology": 3
+  }
+ },
+ {
+  "first": "Bruno",
+  "last": "Hoffman",
+  "age": "Elder",
+  "wiki_skills": {
+   "baking": 5,
+   "homestylecooking": 7,
+   "gourmetcooking": 8,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "homestylecooking": 7,
+   "gourmetcooking": 8,
+   "mischief": 3,
+   "baking": 5
+  }
+ },
+ {
+  "first": "Felix",
+  "last": "Hoffman",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "baking": 4,
+   "homestylecooking": 6,
+   "gourmetcooking": 3
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 3,
+   "baking": 4,
+   "retailsales": 2,
+   "retailworkethic": 2
+  }
+ },
+ {
+  "first": "Glen",
+  "last": "Nhoam",
+  "age": "Elder",
+  "wiki_skills": {
+   "handiness": 8,
+   "writing": 10
+  },
+  "tool_skills": {
+   "handiness": 8,
+   "writing": 10
+  }
+ },
+ {
+  "first": "Keala",
+  "last": "Hoapili",
+  "age": "Elder",
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "gardening": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "gardening": 5
+  }
+ },
+ {
+  "first": "Lia",
+  "last": "Hauata",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "guitar": 3,
+   "writing": 3
+  },
+  "tool_skills": {
+   "writing": 3,
+   "guitar": 3
+  }
+ },
+ {
+  "first": "Ekade",
+  "last": "Aether",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "dancing": 5,
+   "logic": 4
+  },
+  "tool_skills": {
+   "logic": 4,
+   "charisma": 5,
+   "dancing": 5
+  }
+ },
+ {
+  "first": "Kai",
+  "last": "Aether",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "handiness": 5,
+   "logic": 6,
+   "writing": 4
+  },
+  "tool_skills": {
+   "logic": 6,
+   "charisma": 5,
+   "handiness": 5,
+   "writing": 4
+  }
+ },
+ {
+  "first": "Takama",
+  "last": "Aether",
+  "age": "Child",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Ukupanipo",
+  "last": "Hekekia",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 1,
+   "fishing": 4,
+   "fitness": 7
+  },
+  "tool_skills": {
+   "fitness": 7,
+   "fishing": 4
+  }
+ },
+ {
+  "first": "Raj",
+  "last": "Rasoya",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 10,
+   "gourmetcooking": 7
+  },
+  "tool_skills": {
+   "homestylecooking": 10,
+   "gourmetcooking": 7
+  }
+ },
+ {
+  "first": "Geeta",
+  "last": "Rasoya",
+  "age": "Elder",
+  "wiki_skills": {
+   "homestylecooking": 8,
+   "gardening": 3,
+   "writing": 6
+  },
+  "tool_skills": {
+   "gardening": 3,
+   "writing": 6,
+   "homestylecooking": 8
+  }
+ },
+ {
+  "first": "Celeste",
+  "last": "Michaelson",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 6,
+   "programming": 9
+  },
+  "tool_skills": {
+   "charisma": 6,
+   "programming": 9
+  }
+ },
+ {
+  "first": "Christopher",
+  "last": "Michaelson",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 7,
+   "programming": 5,
+   "painting": 8
+  },
+  "tool_skills": {
+   "painting": 8,
+   "programming": 5,
+   "charisma": 7
+  }
+ },
+ {
+  "first": "Atlas",
+  "last": "Michaelson",
+  "age": "Child",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Orion",
+  "last": "Michaelson",
+  "age": "Infant",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Care",
+  "last": "Ren",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 6,
+   "homestylecooking": 5,
+   "logic": 7
+  },
+  "tool_skills": {
+   "charisma": 6,
+   "homestylecooking": 5,
+   "logic": 7
+  }
+ },
+ {
+  "first": "Lady Ravendancer",
+  "last": "Goth",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 10,
+   "writing": 10
+  },
+  "tool_skills": {
+   "charisma": 10,
+   "writing": 10
+  }
+ },
+ {
+  "first": "Lerato",
+  "last": "Sarpong",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 2,
+   "childmental": 5,
+   "childmotor": 3,
+   "childsocial": 4
+  },
+  "tool_skills": {
+   "childmental": 5,
+   "childcreativity": 2,
+   "childsocial": 4,
+   "childmotor": 3
+  }
+ },
+ {
+  "first": "Nia",
+  "last": "Sarpong",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "painting": 7,
+   "parenting": 3,
+   "photography": 4,
+   "tattooing": 8
+  },
+  "tool_skills": {
+   "photography": 4,
+   "painting": 7,
+   "parenting": 3,
+   "tattooing": 8
+  }
+ },
+ {
+  "first": "Makoa",
+  "last": "Kealoha",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fishing": 6,
+   "fitness": 4,
+   "logic": 3
+  },
+  "tool_skills": {
+   "fishing": 6,
+   "fitness": 4,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Lilliana",
+  "last": "Kealoha",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "bartending": 5,
+   "homestylecooking": 3,
+   "charisma": 3
+  },
+  "tool_skills": {
+   "bartending": 5,
+   "homestylecooking": 3,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Duane",
+  "last": "Talla",
+  "age": "Teen",
+  "wiki_skills": {
+   "fitness": 4,
+   "fishing": 3,
+   "mischief": 2
+  },
+  "tool_skills": {
+   "fitness": 4,
+   "fishing": 3,
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Nani",
+  "last": "Kealoha",
+  "age": "Toddler",
+  "wiki_skills": {
+   "toddlercommunication": 3,
+   "toddlermovement": 2,
+   "toddlerthinking": 2
+  },
+  "tool_skills": {
+   "toddlercommunication": 3,
+   "toddlermovement": 2,
+   "toddlerthinking": 2
+  }
+ },
+ {
+  "first": "Akira",
+  "last": "Kibo",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "singing": 7,
+   "videogaming": 6
+  },
+  "tool_skills": {
+   "singing": 7,
+   "homestylecooking": 2,
+   "videogaming": 6
+  }
+ },
+ {
+  "first": "Miko",
+  "last": "Ojo",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 3,
+   "singing": 8
+  },
+  "tool_skills": {
+   "singing": 8,
+   "homestylecooking": 3,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Darling",
+  "last": "Walsh",
+  "age": "Teen",
+  "wiki_skills": {
+   "fitness": 8,
+   "singing": 9,
+   "videogaming": 8
+  },
+  "tool_skills": {
+   "singing": 9,
+   "fitness": 8,
+   "videogaming": 8
+  }
+ },
+ {
+  "first": "Sienna",
+  "last": "Grove",
+  "age": "Adult",
+  "wiki_skills": {
+   "fitness": 2,
+   "charisma": 5,
+   "equestrianskill": 8
+  },
+  "tool_skills": {
+   "equestrianskill": 8,
+   "charisma": 5,
+   "fitness": 2
+  }
+ },
+ {
+  "first": "Ash",
+  "last": "Harjo",
+  "age": "Teen",
+  "wiki_skills": {
+   "charisma": 2,
+   "entrepreneur": 3,
+   "painting": 4
+  },
+  "tool_skills": {
+   "painting": 4,
+   "entrepreneur": 3,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Ava",
+  "last": "Harjo",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 2,
+   "homestylecooking": 6,
+   "gourmetcooking": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 4,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Lucha",
+  "last": "Harjo",
+  "age": "Adult",
+  "wiki_skills": {
+   "comedy": 5,
+   "homestylecooking": 2
+  },
+  "tool_skills": {
+   "homestylecooking": 2,
+   "comedy": 5
+  }
+ },
+ {
+  "first": "Noah",
+  "last": "Kane",
+  "age": "Teen",
+  "wiki_skills": {
+   "comedy": 3,
+   "mischief": 4
+  },
+  "tool_skills": {
+   "mischief": 4,
+   "comedy": 3
+  }
+ },
+ {
+  "first": "Agnes",
+  "last": "Crumplebottom",
+  "age": "Elder",
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "crossstitch": 5,
+   "gardening": 6,
+   "painting": 3
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "painting": 3,
+   "gardening": 6,
+   "flowerarranging": 5,
+   "crossstitch": 5
+  }
+ },
+ {
+  "first": "Agatha",
+  "last": "Crumplebottom",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 7,
+   "homestylecooking": 6,
+   "gardening": 7,
+   "parenting": 8,
+   "piano": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "charisma": 7,
+   "gardening": 7,
+   "piano": 4,
+   "parenting": 8
+  }
+ },
+ {
+  "first": "Alika",
+  "last": "Kahananui",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "handiness": 4,
+   "logic": 3
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "handiness": 4,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Mele",
+  "last": "Kahananui",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "charisma": 2,
+   "gourmetcooking": 2
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "gourmetcooking": 2,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Arun",
+  "last": "Bheeda",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "programming": 5,
+   "videogaming": 4,
+   "writing": 4
+  },
+  "tool_skills": {
+   "programming": 5,
+   "writing": 4,
+   "videogaming": 4
+  }
+ },
+ {
+  "first": "Jesminder",
+  "last": "Bheeda",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "bartending": 7,
+   "painting": 5
+  },
+  "tool_skills": {
+   "painting": 5,
+   "homestylecooking": 6,
+   "bartending": 7
+  }
+ },
+ {
+  "first": "Mother",
+  "last": "Nature",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 10,
+   "gardening": 10
+  },
+  "tool_skills": {
+   "gardening": 10,
+   "charisma": 10
+  }
+ },
+ {
+  "first": "Iris",
+  "last": "Ladipo",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "apothecary": 4,
+   "charisma": 2,
+   "gardening": 3,
+   "nls": 2
+  },
+  "tool_skills": {
+   "charisma": 2,
+   "gardening": 3,
+   "apothecary": 4,
+   "nls": 2
+  }
+ },
+ {
+  "first": "Nadya",
+  "last": "Kishka",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "guitar": 3,
+   "mischief": 7,
+   "piano": 2
+  },
+  "tool_skills": {
+   "piano": 2,
+   "guitar": 3,
+   "mischief": 7
+  }
+ },
+ {
+  "first": "Robin",
+  "last": "Banks",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 8,
+   "mischief": 10
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "mischief": 10
+  }
+ },
+ {
+  "first": "Wayne",
+  "last": "The Boulder",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jazz",
+  "last": "McFierce",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Farrah",
+  "last": "Nouvel",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "painting": 3
+  },
+  "tool_skills": {
+   "charisma": 1,
+   "fitness": 1
+  }
+ },
+ {
+  "first": "Ted",
+  "last": "Roswell",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "gardening": 7,
+   "logic": 4
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "gardening": 7,
+   "logic": 4
+  }
+ },
+ {
+  "first": "Meredith",
+  "last": "Roswell",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 7,
+   "gardening": 2,
+   "gourmetcooking": 3,
+   "handiness": 6
+  },
+  "tool_skills": {
+   "gardening": 2,
+   "gourmetcooking": 3,
+   "homestylecooking": 7,
+   "handiness": 6
+  }
+ },
+ {
+  "first": "Juliette",
+  "last": "Monty",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 10,
+   "piano": 4,
+   "swordsmanship": 6
+  },
+  "tool_skills": {
+   "charisma": 10,
+   "swordsmanship": 6,
+   "piano": 4
+  }
+ },
+ {
+  "first": "Romeo",
+  "last": "Monty",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 10,
+   "gourmetcooking": 8,
+   "bartending": 7,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "homestylecooking": 10,
+   "gourmetcooking": 8,
+   "bartending": 7,
+   "videogaming": 3
+  }
+ },
+ {
+  "first": "Dante",
+  "last": "Monty",
+  "age": "Teen",
+  "wiki_skills": {
+   "homestylecooking": 5,
+   "videogaming": 8
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "videogaming": 8
+  }
+ },
+ {
+  "first": "Mila",
+  "last": "Munch",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 8,
+   "bartending": 8
+  },
+  "tool_skills": {
+   "bartending": 8,
+   "gourmetcooking": 8,
+   "homestylecooking": 6
+  }
+ },
+ {
+  "first": "Gunther",
+  "last": "Munch",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "writing": 7
+  },
+  "tool_skills": {
+   "writing": 7
+  }
+ },
+ {
+  "first": "Wolfgang",
+  "last": "Munch",
+  "age": "Teen",
+  "wiki_skills": {
+   "logic": 3,
+   "mischief": 4
+  },
+  "tool_skills": {
+   "logic": 3,
+   "mischief": 4
+  }
+ },
+ {
+  "first": "Lucas",
+  "last": "Munch",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 7,
+   "childmotor": 4
+  },
+  "tool_skills": {
+   "childmotor": 4,
+   "childcreativity": 7
+  }
+ },
+ {
+  "first": "Cannonball",
+  "last": "Coleman",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 8,
+   "piano": 8,
+   "violin": 8,
+   "bartending": 6,
+   "guitar": 5,
+   "singing": 5,
+   "homestylecooking": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "piano": 8,
+   "violin": 8,
+   "charisma": 8,
+   "singing": 5,
+   "bartending": 6,
+   "guitar": 5
+  }
+ },
+ {
+  "first": "Crispin",
+  "last": "Black",
+  "age": "Adult",
+  "wiki_skills": {
+   "parenting": 4,
+   "charisma": 4,
+   "pottery": 4,
+   "homestylecooking": 4,
+   "violin": 5,
+   "photography": 5,
+   "painting": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "painting": 5,
+   "pottery": 5,
+   "photography": 5,
+   "parenting": 4,
+   "violin": 4,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Ollie",
+  "last": "Mark",
+  "age": "Teen",
+  "wiki_skills": {
+   "logic": 5,
+   "videogaming": 5,
+   "programming": 4,
+   "homestylecooking": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "logic": 5,
+   "videogaming": 5,
+   "programming": 4
+  }
+ },
+ {
+  "first": "Nalani",
+  "last": "Mahi'ai",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "fitness": 5
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Judith",
+  "last": "Ward",
+  "age": "Adult",
+  "wiki_skills": {
+   "acting": 7,
+   "gardening": 3,
+   "gourmetcooking": 5
+  },
+  "tool_skills": {
+   "acting": 7,
+   "gourmetcooking": 5,
+   "gardening": 3
+  }
+ },
+ {
+  "first": "Meekah",
+  "last": "Cragg",
+  "age": "Elder",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jesse",
+  "last": "Cragg",
+  "age": "Elder",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Duke",
+  "last": "Gooseman",
+  "age": "Adult",
+  "wiki_skills": {
+   "horseagility": 10,
+   "horseendurance": 10,
+   "horsejumping": 8,
+   "horsetemperament": 10
+  },
+  "tool_skills": {
+   "horseagility": 10,
+   "horseendurance": 10,
+   "horsejumping": 8,
+   "horsetemperament": 10
+  }
+ },
+ {
+  "first": "Don",
+  "last": "Gooseman",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 1,
+   "fishing": 3,
+   "equestrianskill": 7
+  },
+  "tool_skills": {
+   "equestrianskill": 7,
+   "fishing": 3
+  }
+ },
+ {
+  "first": "Oliana",
+  "last": "Ngata",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 6,
+   "handiness": 2
+  },
+  "tool_skills": {
+   "fitness": 6,
+   "handiness": 2
+  }
+ },
+ {
+  "first": "Leila",
+  "last": "Illes",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "painting": 4,
+   "photography": 2
+  },
+  "tool_skills": {
+   "painting": 4,
+   "photography": 3
+  }
+ },
+ {
+  "first": "Tane",
+  "last": "Ngata",
+  "age": "Child",
+  "wiki_skills": {
+   "childmental": 4,
+   "childmotor": 3,
+   "childcreativity": 2
+  },
+  "tool_skills": {
+   "childmental": 4,
+   "childmotor": 2,
+   "childcreativity": 2
+  }
+ },
+ {
+  "first": "Faiz",
+  "last": "Jaleel",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "flowerarranging": 6,
+   "photography": 5,
+   "singing": 5
+  },
+  "tool_skills": {
+   "flowerarranging": 6,
+   "photography": 5,
+   "singing": 5,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Nancy",
+  "last": "Brock",
+  "age": "Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Julie",
+  "last": "Brock",
+  "age": "Teen",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Johnny",
+  "last": "Brock",
+  "age": "Child",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Layne",
+  "last": "Coffin",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 10,
+   "guitar": 9,
+   "knitting": 10,
+   "piano": 9
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "piano": 9,
+   "guitar": 9,
+   "knitting": 10
+  }
+ },
+ {
+  "first": "Olive",
+  "last": "Specter",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 8,
+   "fitness": 5,
+   "logic": 7,
+   "painting": 9,
+   "writing": 5
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "fitness": 5,
+   "logic": 7,
+   "painting": 7,
+   "writing": 4
+  }
+ },
+ {
+  "first": "Geoffrey",
+  "last": "Landgraab",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 1,
+   "fitness": 4,
+   "mischief": 6,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "mischief": 6,
+   "fitness": 4,
+   "charisma": 1,
+   "videogaming": 1
+  }
+ },
+ {
+  "first": "Nancy",
+  "last": "Landgraab",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "comedy": 1,
+   "fitness": 3,
+   "programming": 2
+  },
+  "tool_skills": {
+   "fitness": 3,
+   "programming": 2,
+   "charisma": 4,
+   "comedy": 1
+  }
+ },
+ {
+  "first": "Malcolm",
+  "last": "Landgraab",
+  "age": "Teen",
+  "wiki_skills": {
+   "charisma": 10,
+   "mischief": 10
+  },
+  "tool_skills": {
+   "mischief": 3,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Corey",
+  "last": "Nyhus",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "handiness": 2,
+   "bartending": 5,
+   "romance": 2,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "bartending": 5,
+   "retailworkethic": 2,
+   "juicepong": 2,
+   "pingpong": 2,
+   "videogaming": 3,
+   "handiness": 2,
+   "romance": 2
+  }
+ },
+ {
+  "first": "L.",
+  "last": "Faba",
+  "age": "Adult",
+  "wiki_skills": {
+   "comedy": 3,
+   "homestylecooking": 5,
+   "gourmetcooking": 3,
+   "mischief": 9
+  },
+  "tool_skills": {
+   "mischief": 9,
+   "homestylecooking": 5,
+   "gourmetcooking": 3,
+   "comedy": 3
+  }
+ },
+ {
+  "first": "Johnny",
+  "last": "Zest",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 2
+  },
+  "tool_skills": {
+   "comedy": 2
+  }
+ },
+ {
+  "first": "Titania",
+  "last": "Summerdream",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "apothecary": 6,
+   "gardening": 3,
+   "nls": 6
+  },
+  "tool_skills": {
+   "apothecary": 6,
+   "nls": 6,
+   "gardening": 3
+  }
+ },
+ {
+  "first": "Oberon",
+  "last": "Summerdream",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fishing": 7,
+   "gardening": 8,
+   "nls": 5
+  },
+  "tool_skills": {
+   "gardening": 8,
+   "fishing": 7,
+   "nls": 5
+  }
+ },
+ {
+  "first": "Mara",
+  "last": "Summerdream",
+  "age": "Child",
+  "wiki_skills": {
+   "fishing": 2,
+   "childmental": 2
+  },
+  "tool_skills": {
+   "fishing": 2,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Catarina",
+  "last": "Lynx",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "fishing": 3,
+   "gardening": 4
+  },
+  "tool_skills": {
+   "gardening": 4,
+   "fishing": 3,
+   "homestylecooking": 3
+  }
+ },
+ {
+  "first": "Bartholomew A.",
+  "last": "Bittlebun, Jr.",
+  "age": "Child",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jess",
+  "last": "Sigworth",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "fitness": 5,
+   "handiness": 3
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "charisma": 3,
+   "handiness": 3
+  }
+ },
+ {
+  "first": "Dylan",
+  "last": "Sigworth",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "gardening": 2,
+   "gourmetcooking": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 4,
+   "gardening": 2
+  }
+ },
+ {
+  "first": "Christie",
+  "last": "Sigworth",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 9,
+   "childmotor": 2,
+   "childsocial": 3
+  },
+  "tool_skills": {
+   "childsocial": 3,
+   "childmotor": 2,
+   "childcreativity": 9
+  }
+ },
+ {
+  "first": "Roberto",
+  "last": "Crinkletop",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 4,
+   "nectarmaking": 4,
+   "equestrianskill": 6
+  },
+  "tool_skills": {
+   "equestrianskill": 6,
+   "charisma": 4,
+   "nectarmaking": 4
+  }
+ },
+ {
+  "first": "Lana",
+  "last": "McKinnon",
+  "age": "Adult",
+  "wiki_skills": {
+   "programming": 8,
+   "robotics": 8,
+   "rocketscience": 7
+  },
+  "tool_skills": {
+   "robotics": 8,
+   "programming": 8,
+   "rocketscience": 7
+  }
+ },
+ {
+  "first": "Adekoya",
+  "last": "Darong",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 9,
+   "painting": 4,
+   "swordsmanship": 8,
+   "writing": 10
+  },
+  "tool_skills": {
+   "writing": 10,
+   "painting": 4,
+   "swordsmanship": 8,
+   "charisma": 9
+  }
+ },
+ {
+  "first": "Jawara",
+  "last": "Darong",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 9,
+   "painting": 6,
+   "swordsmanship": 8,
+   "writing": 8
+  },
+  "tool_skills": {
+   "writing": 8,
+   "painting": 6,
+   "swordsmanship": 8,
+   "charisma": 9
+  }
+ },
+ {
+  "first": "Amarachi",
+  "last": "Darong",
+  "age": "Teen",
+  "wiki_skills": {
+   "charisma": 5,
+   "painting": 9,
+   "swordsmanship": 2,
+   "writing": 4
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "writing": 4,
+   "painting": 9,
+   "swordsmanship": 2
+  }
+ },
+ {
+  "first": "Obi",
+  "last": "Darong",
+  "age": "Child",
+  "wiki_skills": {
+   "childmental": 5,
+   "logic": 2,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "childmental": 5,
+   "videogaming": 2,
+   "logic": 2
+  }
+ },
+ {
+  "first": "Ian",
+  "last": "Moody",
+  "age": "Elder",
+  "wiki_skills": {
+   "acting": 4,
+   "charisma": 8,
+   "comedy": 5,
+   "dancing": 4,
+   "handiness": 2,
+   "mischief": 2,
+   "piano": 5,
+   "singing": 6
+  },
+  "tool_skills": {
+   "charisma": 8,
+   "comedy": 5,
+   "handiness": 2,
+   "mischief": 2,
+   "piano": 5,
+   "dancing": 3,
+   "singing": 6,
+   "acting": 4
+  }
+ },
+ {
+  "first": "Derek",
+  "last": "McMillan",
+  "age": "Elder",
+  "wiki_skills": {
+   "homestylecooking": 9,
+   "crossstitch": 4,
+   "gardening": 6,
+   "gourmetcooking": 5,
+   "herbalism": 5,
+   "pettraining": 5,
+   "vampirelore": 2,
+   "writing": 5
+  },
+  "tool_skills": {
+   "crossstitch": 4,
+   "homestylecooking": 9,
+   "gourmetcooking": 5,
+   "writing": 6,
+   "gardening": 6,
+   "herbalism": 5,
+   "pettraining": 5,
+   "vampirelore": 2
+  }
+ },
+ {
+  "first": "Nyssa",
+  "last": "Landry",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 1,
+   "homestylecooking": 8,
+   "gardening": 8,
+   "mischief": 1,
+   "piano": 1,
+   "writing": 5
+  },
+  "tool_skills": {
+   "gardening": 8,
+   "writing": 5,
+   "homestylecooking": 8,
+   "piano": 5
+  }
+ },
+ {
+  "first": "Ava",
+  "last": "Landry",
+  "age": "Adult",
+  "wiki_skills": {
+   "logic": 3,
+   "mischief": 5
+  },
+  "tool_skills": {
+   "mischief": 5,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Eddie",
+  "last": "Landry",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 1,
+   "bartending": 5,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "bartending": 5,
+   "videogaming": 3
+  }
+ },
+ {
+  "first": "Lila",
+  "last": "Landry",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "guitar": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 3,
+   "guitar": 5
+  }
+ },
+ {
+  "first": "Bua",
+  "last": "Bun Ma",
+  "age": "Elder",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Kasem",
+  "last": "Bun Ma",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "programming": 8,
+   "charisma": 3
+  },
+  "tool_skills": {
+   "programming": 8,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Nin",
+  "last": "Bun Ma",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 7
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "fitness": 7
+  }
+ },
+ {
+  "first": "Sud",
+  "last": "Bun Ma",
+  "age": "Toddler",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Cameron",
+  "last": "Fletcher",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "programming": 4,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "programming": 4,
+   "videogaming": 3
+  }
+ },
+ {
+  "first": "Jacques",
+  "last": "Villareal",
+  "age": "Elder",
+  "wiki_skills": {
+   "logic": 9
+  },
+  "tool_skills": {
+   "logic": 9
+  }
+ },
+ {
+  "first": "Luna",
+  "last": "Villareal",
+  "age": "Teen",
+  "wiki_skills": {
+   "charisma": 5
+  },
+  "tool_skills": {
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Hugo",
+  "last": "Villareal",
+  "age": "Teen",
+  "wiki_skills": {
+   "homestylecooking": 7
+  },
+  "tool_skills": {
+   "homestylecooking": 7
+  }
+ },
+ {
+  "first": "Max",
+  "last": "Villareal",
+  "age": "Child",
+  "wiki_skills": {
+   "childmotor": 6
+  },
+  "tool_skills": {
+   "childmotor": 6
+  }
+ },
+ {
+  "first": "Spruce",
+  "last": "Almighty",
+  "age": "Adult",
+  "wiki_skills": {
+   "gardening": 8
+  },
+  "tool_skills": {
+   "gardening": 8
+  }
+ },
+ {
+  "first": "Dirk",
+  "last": "Dreamer",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "logic": 4,
+   "programming": 5,
+   "videogaming": 4
+  },
+  "tool_skills": {
+   "programming": 5,
+   "videogaming": 4,
+   "logic": 4
+  }
+ },
+ {
+  "first": "Janae",
+  "last": "Price",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 5,
+   "programming": 5
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "programming": 5,
+   "fitness": 5
+  }
+ },
+ {
+  "first": "Marcel",
+  "last": "Price",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "logic": 3,
+   "writing": 7
+  },
+  "tool_skills": {
+   "writing": 7,
+   "homestylecooking": 4,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Jayden",
+  "last": "Price",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 2,
+   "childsocial": 2
+  },
+  "tool_skills": {
+   "childsocial": 2,
+   "childcreativity": 2
+  }
+ },
+ {
+  "first": "Savannah",
+  "last": "Price",
+  "age": "Teen",
+  "wiki_skills": {
+   "programming": 3,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "videogaming": 2,
+   "programming": 3
+  }
+ },
+ {
+  "first": "Sidney",
+  "last": "Price",
+  "age": "Teen",
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 3
+  },
+  "tool_skills": {
+   "fitness": 3,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Kevin",
+  "last": "Puri",
+  "age": "Teen",
+  "wiki_skills": {
+   "handiness": 4,
+   "rocketscience": 3
+  },
+  "tool_skills": {
+   "handiness": 4,
+   "rocketscience": 3
+  }
+ },
+ {
+  "first": "Steven",
+  "last": "Pawn",
+  "age": "Elder",
+  "wiki_skills": {
+   "writing": 7
+  },
+  "tool_skills": {
+   "writing": 7
+  }
+ },
+ {
+  "first": "Morgyn",
+  "last": "Ember",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Cletus",
+  "last": "Harris",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fishing": 5,
+   "guitar": 2
+  },
+  "tool_skills": {
+   "fishing": 5,
+   "guitar": 2
+  }
+ },
+ {
+  "first": "Faye",
+  "last": "Harris",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 7,
+   "gourmetcooking": 4,
+   "bartending": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 7,
+   "gourmetcooking": 4,
+   "bartending": 4
+  }
+ },
+ {
+  "first": "Jeb",
+  "last": "Harris",
+  "age": "Teen",
+  "wiki_skills": {
+   "handiness": 3,
+   "piano": 4
+  },
+  "tool_skills": {
+   "piano": 4,
+   "handiness": 3
+  }
+ },
+ {
+  "first": "Gideon",
+  "last": "Harris",
+  "age": "Child",
+  "wiki_skills": {
+   "childsocial": 5
+  },
+  "tool_skills": {
+   "childsocial": 5
+  }
+ },
+ {
+  "first": "Francine",
+  "last": "Spencer",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 7,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "charisma": 7,
+   "mischief": 3
+  }
+ },
+ {
+  "first": "Eva",
+  "last": "Capricciosa",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 5
+  },
+  "tool_skills": {
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Jade",
+  "last": "Rosa",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 6,
+   "dancing": 3
+  },
+  "tool_skills": {
+   "dancing": 3,
+   "charisma": 6
+  }
+ },
+ {
+  "first": "Marcus",
+  "last": "Flex",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 7
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "fitness": 7
+  }
+ },
+ {
+  "first": "Paolo",
+  "last": "Rocca",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 2,
+   "djmixing": 6,
+   "fitness": 3
+  },
+  "tool_skills": {
+   "charisma": 2,
+   "djmixing": 6,
+   "fitness": 3
+  }
+ },
+ {
+  "first": "Akachi",
+  "last": "Onoja",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "fitness": 7,
+   "swordsmanship": 9
+  },
+  "tool_skills": {
+   "swordsmanship": 9,
+   "fitness": 7,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Diego",
+  "last": "Lobo",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 8,
+   "gourmetcooking": 5,
+   "writing": 5
+  },
+  "tool_skills": {
+   "comedy": 8,
+   "gourmetcooking": 5,
+   "writing": 5
+  }
+ },
+ {
+  "first": "Vanesha",
+  "last": "Cahyaputri",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Zhafira",
+  "last": "Cahyaputri",
+  "age": "Teen",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Cecilia",
+  "last": "Kang",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "baking": 3,
+   "homestylecooking": 2,
+   "crossstitch": 2,
+   "gardening": 5,
+   "logic": 6,
+   "programming": 6,
+   "rockclimbing": 2
+  },
+  "tool_skills": {
+   "gardening": 5,
+   "crossstitch": 2,
+   "programming": 6,
+   "logic": 6,
+   "baking": 3,
+   "homestylecooking": 2,
+   "rockclimbing": 2
+  }
+ },
+ {
+  "first": "Kayla",
+  "last": "Flemming",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 3,
+   "fitness": 7
+  },
+  "tool_skills": {
+   "fitness": 7,
+   "charisma": 4,
+   "homestylecooking": 3
+  }
+ },
+ {
+  "first": "Becca",
+  "last": "Clarke",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "programming": 3,
+   "writing": 5
+  },
+  "tool_skills": {
+   "writing": 5,
+   "programming": 3
+  }
+ },
+ {
+  "first": "Julia",
+  "last": "Wright",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "logic": 5
+  },
+  "tool_skills": {
+   "logic": 5,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Sunja",
+  "last": "Lee",
+  "age": "Elder",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Minsung",
+  "last": "Lee",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Daesung",
+  "last": "Lee",
+  "age": "Child",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Yuri",
+  "last": "Lee",
+  "age": "Toddler",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Thi",
+  "last": "Linh",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "logic": 5
+  },
+  "tool_skills": {
+   "logic": 5,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Kyle",
+  "last": "Kyleson",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 6,
+   "knitting": 9
+  },
+  "tool_skills": {
+   "knitting": 9,
+   "comedy": 6
+  }
+ },
+ {
+  "first": "Ekene",
+  "last": "Ananou",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 4,
+   "comedy": 6,
+   "handiness": 10,
+   "mischief": 6
+  },
+  "tool_skills": {
+   "mischief": 6,
+   "handiness": 10,
+   "charisma": 4,
+   "comedy": 6
+  }
+ },
+ {
+  "first": "Afua",
+  "last": "Ananou",
+  "age": "Child",
+  "wiki_skills": {
+   "mischief": 7,
+   "childsocial": 2
+  },
+  "tool_skills": {
+   "mischief": 7,
+   "childsocial": 2
+  }
+ },
+ {
+  "first": "M\u00f3nica",
+  "last": "L\u00f3pez",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "gourmetcooking": 4,
+   "rocketscience": 8,
+   "romance": 3
+  },
+  "tool_skills": {
+   "romance": 3,
+   "gourmetcooking": 4,
+   "homestylecooking": 3,
+   "rocketscience": 8
+  }
+ },
+ {
+  "first": "Carlos",
+  "last": "L\u00f3pez",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 4
+  },
+  "tool_skills": {
+   "fitness": 4
+  }
+ },
+ {
+  "first": "Luz",
+  "last": "L\u00f3pez",
+  "age": "Teen",
+  "wiki_skills": {
+   "painting": 3,
+   "videogaming": 5
+  },
+  "tool_skills": {
+   "videogaming": 5,
+   "painting": 3
+  }
+ },
+ {
+  "first": "Zoe",
+  "last": "Patel",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 2,
+   "mischief": 1
+  },
+  "tool_skills": {
+   "charisma": 2,
+   "mischief": 1
+  }
+ },
+ {
+  "first": "Mitchell",
+  "last": "Kalani",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 2,
+   "bartending": 2
+  },
+  "tool_skills": {
+   "comedy": 2,
+   "bartending": 2
+  }
+ },
+ {
+  "first": "Gavin",
+  "last": "Richards",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "writing": 3
+  },
+  "tool_skills": {
+   "writing": 3
+  }
+ },
+ {
+  "first": "Joaquin",
+  "last": "Le Chien",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "djmixing": 6,
+   "dancing": 5
+  },
+  "tool_skills": {
+   "dancing": 5,
+   "djmixing": 6
+  }
+ },
+ {
+  "first": "Sergio",
+  "last": "Romeo",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 5
+  },
+  "tool_skills": {
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Dara",
+  "last": "Kham",
+  "age": "Teen",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Rita",
+  "last": "Coombes",
+  "age": "Elder",
+  "wiki_skills": {
+   "gardening": 2,
+   "logic": 6,
+   "writing": 5
+  },
+  "tool_skills": {
+   "logic": 6,
+   "writing": 5,
+   "gardening": 2
+  }
+ },
+ {
+  "first": "Venessa",
+  "last": "Jeong",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "acting": 3,
+   "bartending": 4
+  },
+  "tool_skills": {
+   "acting": 3,
+   "bartending": 4
+  }
+ },
+ {
+  "first": "Zain",
+  "last": "Amri",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "djmixing": 2,
+   "guitar": 4,
+   "piano": 4,
+   "singing": 5,
+   "violin": 2,
+   "wellness": 2
+  },
+  "tool_skills": {
+   "guitar": 4,
+   "piano": 4,
+   "charisma": 3,
+   "violin": 2,
+   "singing": 5,
+   "djmixing": 2,
+   "wellness": 2
+  }
+ },
+ {
+  "first": "Buddy",
+  "last": "Scoop",
+  "age": "Child",
+  "wiki_skills": {},
+  "tool_skills": {
+   "childmotor": 7
+  }
+ },
+ {
+  "first": "Yuki",
+  "last": "Behr",
+  "age": "Teen",
+  "wiki_skills": {
+   "videogaming": 6
+  },
+  "tool_skills": {
+   "videogaming": 6
+  }
+ },
+ {
+  "first": "Candy",
+  "last": "Behr",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "djmixing": 6,
+   "dancing": 5
+  },
+  "tool_skills": {
+   "dancing": 5,
+   "djmixing": 6
+  }
+ },
+ {
+  "first": "Lilith",
+  "last": "Vatore",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Caleb",
+  "last": "Vatore",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Nova",
+  "last": "Curious",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 4,
+   "fitness": 4,
+   "logic": 6,
+   "mischief": 3,
+   "programming": 3,
+   "videogaming": 5
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "logic": 6,
+   "programming": 3,
+   "videogaming": 5,
+   "mischief": 3,
+   "homestylecooking": 4,
+   "fitness": 5
+  }
+ },
+ {
+  "first": "Serena",
+  "last": "Bhamra",
+  "age": "Adult",
+  "wiki_skills": {
+   "logic": 8,
+   "programming": 6,
+   "robotics": 7
+  },
+  "tool_skills": {
+   "robotics": 8,
+   "programming": 6,
+   "logic": 8
+  }
+ },
+ {
+  "first": "Katrina",
+  "last": "Caliente",
+  "age": "Adult",
+  "wiki_skills": {
+   "comedy": 2,
+   "fitness": 2,
+   "piano": 2
+  },
+  "tool_skills": {
+   "fitness": 2,
+   "comedy": 2,
+   "piano": 2
+  }
+ },
+ {
+  "first": "Dina",
+  "last": "Caliente",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 2,
+   "bartending": 2
+  },
+  "tool_skills": {
+   "fitness": 2,
+   "bartending": 2
+  }
+ },
+ {
+  "first": "Nina",
+  "last": "Caliente",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "mischief": 2
+  },
+  "tool_skills": {
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Don",
+  "last": "Lothario",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 3
+  },
+  "tool_skills": {
+   "fitness": 3
+  }
+ },
+ {
+  "first": "Luna",
+  "last": "Shadows",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Gretchen",
+  "last": "Wolf",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Rita",
+  "last": "Riviera",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 5,
+   "handiness": 7,
+   "painting": 7
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "painting": 7,
+   "handiness": 7
+  }
+ },
+ {
+  "first": "Memphis",
+  "last": "Waters",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "guitar": 4,
+   "piano": 4
+  },
+  "tool_skills": {
+   "piano": 4,
+   "guitar": 4,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Tina",
+  "last": "Tinker",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fabrication": 7,
+   "handiness": 5
+  },
+  "tool_skills": {
+   "fabrication": 7,
+   "handiness": 5
+  }
+ },
+ {
+  "first": "Yasemin",
+  "last": "Tinker",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "writing": 8
+  },
+  "tool_skills": {
+   "writing": 8,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Olive",
+  "last": "Tinker",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 4,
+   "childmental": 2
+  },
+  "tool_skills": {
+   "childcreativity": 4,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Wolfgang",
+  "last": "Wilder",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 5,
+   "photography": 4,
+   "vampirelore": 2,
+   "writing": 7
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "writing": 7,
+   "photography": 4,
+   "vampirelore": 2
+  }
+ },
+ {
+  "first": "Darin",
+  "last": "Jacobs",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jaycee",
+  "last": "Beyer",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Waylon",
+  "last": "Warez",
+  "age": "Elder",
+  "wiki_skills": {
+   "mischief": 5,
+   "writing": 6
+  },
+  "tool_skills": {
+   "writing": 6,
+   "mischief": 5
+  }
+ },
+ {
+  "first": "Bjorn",
+  "last": "Bjergsen",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 8,
+   "logic": 5
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "fitness": 8,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Clara",
+  "last": "Bjergsen",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 6
+  },
+  "tool_skills": {
+   "homestylecooking": 6
+  }
+ },
+ {
+  "first": "Sofia",
+  "last": "Bjergsen",
+  "age": "Teen",
+  "wiki_skills": {
+   "charisma": 6,
+   "guitar": 8
+  },
+  "tool_skills": {
+   "charisma": 6,
+   "guitar": 8
+  }
+ },
+ {
+  "first": "Elsa",
+  "last": "Bjergsen",
+  "age": "Child",
+  "wiki_skills": {
+   "childmental": 10
+  },
+  "tool_skills": {
+   "childmental": 10
+  }
+ },
+ {
+  "first": "Angela",
+  "last": "Pleasant",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "painting": 5,
+   "writing": 2
+  },
+  "tool_skills": {
+   "writing": 2,
+   "painting": 5,
+   "homestylecooking": 4
+  }
+ },
+ {
+  "first": "Lilith",
+  "last": "Pleasant",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "mischief": 4,
+   "painting": 5
+  },
+  "tool_skills": {
+   "painting": 5,
+   "mischief": 4,
+   "homestylecooking": 3
+  }
+ },
+ {
+  "first": "Ignacio",
+  "last": "Robles",
+  "age": "Elder",
+  "wiki_skills": {
+   "gourmetcooking": 8,
+   "homestylecooking": 8,
+   "logic": 7
+  },
+  "tool_skills": {
+   "gourmetcooking": 8,
+   "logic": 7,
+   "homestylecooking": 8
+  }
+ },
+ {
+  "first": "Bernice",
+  "last": "Robles",
+  "age": "Adult",
+  "wiki_skills": {
+   "comedy": 6,
+   "logic": 5,
+   "piano": 5,
+   "fishing": 8
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "piano": 5,
+   "fishing": 8,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Ian",
+  "last": "Robles",
+  "age": "Adult",
+  "wiki_skills": {
+   "handiness": 6,
+   "writing": 9,
+   "fishing": 7
+  },
+  "tool_skills": {
+   "handiness": 6,
+   "writing": 9,
+   "fishing": 7
+  }
+ },
+ {
+  "first": "Aurelio",
+  "last": "Robles",
+  "age": "Teen",
+  "wiki_skills": {
+   "violin": 6
+  },
+  "tool_skills": {
+   "violin": 6
+  }
+ },
+ {
+  "first": "Cordelia",
+  "last": "Thebe V",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 9,
+   "fishing": 3,
+   "fitness": 6,
+   "handiness": 3,
+   "logic": 6,
+   "mischief": 4,
+   "swordsmanship": 8
+  },
+  "tool_skills": {
+   "fishing": 3,
+   "handiness": 3,
+   "swordsmanship": 8,
+   "mischief": 4,
+   "charisma": 9,
+   "fitness": 6,
+   "logic": 6
+  }
+ },
+ {
+  "first": "Thiago",
+  "last": "Abrantes",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 8,
+   "logic": 7,
+   "swordsmanship": 5
+  },
+  "tool_skills": {
+   "logic": 7,
+   "swordsmanship": 5,
+   "charisma": 8
+  }
+ },
+ {
+  "first": "Erwin",
+  "last": "Pries",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "mischief": 2,
+   "comedy": 6,
+   "logic": 7
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "logic": 7,
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Aloisio",
+  "last": "Romualdo",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "mischief": 8,
+   "swordsmanship": 8
+  },
+  "tool_skills": {
+   "swordsmanship": 8,
+   "mischief": 8
+  }
+ },
+ {
+  "first": "Mateo",
+  "last": "Markovic",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fishing": 6,
+   "piano": 7,
+   "singing": 5
+  },
+  "tool_skills": {
+   "piano": 7,
+   "singing": 5,
+   "fishing": 6
+  }
+ },
+ {
+  "first": "Lucia",
+  "last": "Markovic",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "baking": 5,
+   "guitar": 5,
+   "singing": 6
+  },
+  "tool_skills": {
+   "guitar": 5,
+   "singing": 6,
+   "baking": 5
+  }
+ },
+ {
+  "first": "Tomi",
+  "last": "Markovic",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 5,
+   "childmental": 3,
+   "childmotor": 5
+  },
+  "tool_skills": {
+   "childcreativity": 5,
+   "childmental": 3,
+   "childmotor": 5
+  }
+ },
+ {
+  "first": "Captain",
+  "last": "Whitaker",
+  "age": "Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Dustin",
+  "last": "Broke",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 2,
+   "logic": 4,
+   "mediaproduction": 2,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "logic": 4,
+   "mischief": 3,
+   "mediaproduction": 2,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Amy",
+  "last": "Prescott",
+  "age": "Child",
+  "wiki_skills": {
+   "childmotor": 4,
+   "childsocial": 2
+  },
+  "tool_skills": {
+   "childmotor": 4,
+   "childsocial": 2
+  }
+ },
+ {
+  "first": "Mei",
+  "last": "Prescott",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "logic": 5,
+   "piano": 5
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "piano": 5,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Molly",
+  "last": "Prescott",
+  "age": "Teen",
+  "wiki_skills": {
+   "guitar": 4,
+   "logic": 5,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "guitar": 4,
+   "mischief": 3,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Tai",
+  "last": "Lum",
+  "age": "Elder",
+  "wiki_skills": {
+   "fishing": 4,
+   "handiness": 7
+  },
+  "tool_skills": {
+   "fishing": 4,
+   "handiness": 7
+  }
+ },
+ {
+  "first": "Kado",
+  "last": "Akiyama",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "fishing": 4,
+   "handiness": 5,
+   "rockclimbing": 5
+  },
+  "tool_skills": {
+   "rockclimbing": 5,
+   "homestylecooking": 4,
+   "handiness": 5,
+   "fishing": 4
+  }
+ },
+ {
+  "first": "Jenna",
+  "last": "Akiyama",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 6,
+   "rockclimbing": 4,
+   "snowboarding": 4,
+   "videogaming": 4
+  },
+  "tool_skills": {
+   "snowboarding": 4,
+   "rockclimbing": 4,
+   "fitness": 6,
+   "videogaming": 4
+  }
+ },
+ {
+  "first": "Taku",
+  "last": "Akiyama",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 5,
+   "childmental": 5
+  },
+  "tool_skills": {
+   "childcreativity": 5,
+   "childmental": 5
+  }
+ },
+ {
+  "first": "Miki",
+  "last": "Akiyama",
+  "age": "Child",
+  "wiki_skills": {
+   "childmotor": 5,
+   "childsocial": 5
+  },
+  "tool_skills": {
+   "childmotor": 5,
+   "childsocial": 5
+  }
+ },
+ {
+  "first": "Umber",
+  "last": "Grove",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "gourmetcooking": 4,
+   "guitar": 4,
+   "charisma": 1,
+   "selvadoradianculture": 1
+  },
+  "tool_skills": {
+   "guitar": 4,
+   "gourmetcooking": 4,
+   "homestylecooking": 6
+  }
+ },
+ {
+  "first": "Juniper",
+  "last": "Grove",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 1,
+   "gardening": 2,
+   "fitness": 5,
+   "handiness": 6,
+   "equestrianskill": 6
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "gardening": 2,
+   "handiness": 6,
+   "equestrianskill": 6
+  }
+ },
+ {
+  "first": "Wren",
+  "last": "Grove",
+  "age": "Child",
+  "wiki_skills": {
+   "equestrianskill": 7,
+   "childsocial": 1
+  },
+  "tool_skills": {
+   "equestrianskill": 7
+  }
+ },
+ {
+  "first": "Ermelinda",
+  "last": "Abrantes",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 8,
+   "logic": 7,
+   "swordsmanship": 5
+  },
+  "tool_skills": {
+   "logic": 7,
+   "swordsmanship": 5,
+   "charisma": 8
+  }
+ },
+ {
+  "first": "Sofia",
+  "last": "Abrantes",
+  "age": "Teen",
+  "wiki_skills": {
+   "charisma": 8,
+   "logic": 5,
+   "swordsmanship": 5
+  },
+  "tool_skills": {
+   "logic": 5,
+   "swordsmanship": 5,
+   "charisma": 8
+  }
+ },
+ {
+  "first": "Bess",
+  "last": "Sterling",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 6,
+   "handiness": 3,
+   "juicefizzing": 4,
+   "logic": 5
+  },
+  "tool_skills": {
+   "logic": 5,
+   "handiness": 3,
+   "charisma": 6,
+   "juicefizzing": 4
+  }
+ },
+ {
+  "first": "Jules",
+  "last": "Rico",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "photography": 2,
+   "writing": 4
+  },
+  "tool_skills": {
+   "writing": 4,
+   "photography": 2,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Kim",
+  "last": "Goldbloom",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 6,
+   "homestylecooking": 6,
+   "gardening": 3,
+   "mischief": 2
+  },
+  "tool_skills": {
+   "gardening": 3,
+   "homestylecooking": 6,
+   "charisma": 6,
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Dahlia",
+  "last": "Loden",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "homestylecooking": 3,
+   "logic": 3,
+   "writing": 8
+  },
+  "tool_skills": {
+   "homestylecooking": 3,
+   "writing": 8,
+   "charisma": 3,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Erik",
+  "last": "Loden",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 4,
+   "childmental": 2,
+   "childmotor": 2,
+   "childsocial": 2,
+   "pottery": 2
+  },
+  "tool_skills": {
+   "childcreativity": 4,
+   "childmotor": 2,
+   "childmental": 2,
+   "childsocial": 2,
+   "pottery": 2
+  }
+ },
+ {
+  "first": "Freya",
+  "last": "Loden",
+  "age": "Teen",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "dancing": 5,
+   "fitness": 3,
+   "wellness": 2
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "homestylecooking": 3,
+   "dancing": 5,
+   "wellness": 2
+  }
+ },
+ {
+  "first": "Gramma Hattie",
+  "last": "Loden",
+  "age": "Elder",
+  "wiki_skills": {
+   "baking": 8,
+   "charisma": 3,
+   "homestylecooking": 8,
+   "gourmetcooking": 2,
+   "parenting": 3
+  },
+  "tool_skills": {
+   "gourmetcooking": 2,
+   "charisma": 3,
+   "homestylecooking": 8,
+   "baking": 8,
+   "parenting": 3
+  }
+ },
+ {
+  "first": "Nora",
+  "last": "Loden",
+  "age": "Adult",
+  "wiki_skills": {
+   "baking": 5,
+   "homestylecooking": 5,
+   "gourmetcooking": 5,
+   "handiness": 4,
+   "bartending": 2,
+   "parenting": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "gourmetcooking": 5,
+   "bartending": 2,
+   "parenting": 4,
+   "baking": 5,
+   "handiness": 4
+  }
+ },
+ {
+  "first": "Brytani",
+  "last": "Cho",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 2,
+   "comedy": 6,
+   "mischief": 4
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "mischief": 4,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Joe",
+  "last": "Trader",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 10,
+   "mischief": 7
+  },
+  "tool_skills": {
+   "mischief": 7,
+   "charisma": 10
+  }
+ },
+ {
+  "first": "Felix",
+  "last": "Psyded",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 7,
+   "comedy": 4,
+   "mischief": 3
+  },
+  "tool_skills": {
+   "charisma": 7,
+   "mischief": 3,
+   "comedy": 4
+  }
+ },
+ {
+  "first": "Denzel",
+  "last": "Reevera",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 6
+  },
+  "tool_skills": {
+   "charisma": 6
+  }
+ },
+ {
+  "first": "Lavina",
+  "last": "Chopra",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "homestylecooking": 6,
+   "crossstitch": 2,
+   "handiness": 5,
+   "parenting": 6,
+   "photography": 3
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "homestylecooking": 6,
+   "handiness": 5,
+   "photography": 3,
+   "parenting": 6,
+   "crossstitch": 2
+  }
+ },
+ {
+  "first": "Rahul",
+  "last": "Chopra",
+  "age": "Teen",
+  "wiki_skills": {
+   "baking": 3,
+   "fishing": 2,
+   "fitness": 4,
+   "logic": 2
+  },
+  "tool_skills": {
+   "fitness": 4,
+   "logic": 2,
+   "fishing": 2,
+   "baking": 3
+  }
+ },
+ {
+  "first": "Bob",
+  "last": "Pancakes",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "bartending": 3,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "videogaming": 1,
+   "homestylecooking": 3,
+   "bartending": 3
+  }
+ },
+ {
+  "first": "Eliza",
+  "last": "Pancakes",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 3
+  },
+  "tool_skills": {
+   "fitness": 3
+  }
+ },
+ {
+  "first": "Xochitl",
+  "last": "Luna",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 6,
+   "handiness": 7
+  },
+  "tool_skills": {
+   "handiness": 7,
+   "fitness": 6
+  }
+ },
+ {
+  "first": "Eleanor",
+  "last": "Sullivan",
+  "age": "Elder",
+  "wiki_skills": {
+   "comedy": 6,
+   "mischief": 7
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "mischief": 7
+  }
+ },
+ {
+  "first": "Karmine",
+  "last": "Luna",
+  "age": "Child",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Salim",
+  "last": "Benali",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "videogaming": 4,
+   "writing": 8
+  },
+  "tool_skills": {
+   "writing": 8,
+   "homestylecooking": 3,
+   "videogaming": 4
+  }
+ },
+ {
+  "first": "Eloise",
+  "last": "Hiddlestix",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "entrepreneur": 2
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "entrepreneur": 2
+  }
+ },
+ {
+  "first": "Camille",
+  "last": "Soto",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 5,
+   "crossstitch": 2,
+   "gardening": 3,
+   "logic": 6,
+   "writing": 6
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "crossstitch": 2,
+   "writing": 6,
+   "logic": 6,
+   "gardening": 3
+  }
+ },
+ {
+  "first": "Dominique",
+  "last": "Soto",
+  "age": "Elder",
+  "wiki_skills": {
+   "homestylecooking": 6,
+   "dancing": 3,
+   "handiness": 2,
+   "painting": 8
+  },
+  "tool_skills": {
+   "dancing": 3,
+   "homestylecooking": 6,
+   "painting": 8,
+   "handiness": 2
+  }
+ },
+ {
+  "first": "Teruna",
+  "last": "Zaki",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "logic": 4
+  },
+  "tool_skills": {
+   "logic": 4
+  }
+ },
+ {
+  "first": "Leila",
+  "last": "Anh",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Kennith",
+  "last": "Houston",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Yena",
+  "last": "Azad",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Freeda",
+  "last": "Perry",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 8,
+   "homestylecooking": 8,
+   "fitness": 6,
+   "bartending": 6,
+   "papercraft": 5,
+   "piano": 9
+  },
+  "tool_skills": {
+   "papercraft": 5,
+   "piano": 9,
+   "fitness": 6,
+   "homestylecooking": 8,
+   "charisma": 8,
+   "bartending": 6
+  }
+ },
+ {
+  "first": "Dougie",
+  "last": "Perry",
+  "age": "Child",
+  "wiki_skills": {
+   "childmental": 5
+  },
+  "tool_skills": {
+   "childmental": 5
+  }
+ },
+ {
+  "first": "Thomas",
+  "last": "Jabari",
+  "age": "Elder",
+  "wiki_skills": {
+   "painting": 7,
+   "piano": 7
+  },
+  "tool_skills": {
+   "researchdebate": 8,
+   "painting": 7,
+   "piano": 7
+  }
+ },
+ {
+  "first": "Simeon",
+  "last": "Silversweater",
+  "age": "Adult",
+  "wiki_skills": {
+   "logic": 8,
+   "programming": 8,
+   "videogaming": 8
+  },
+  "tool_skills": {
+   "logic": 8,
+   "videogaming": 8,
+   "programming": 8
+  }
+ },
+ {
+  "first": "Tybalt",
+  "last": "Capp",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 9,
+   "painting": 8,
+   "piano": 6,
+   "swordsmanship": 2
+  },
+  "tool_skills": {
+   "painting": 8,
+   "piano": 6,
+   "swordsmanship": 7,
+   "charisma": 9
+  }
+ },
+ {
+  "first": "Beatrice",
+  "last": "Capp",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 9,
+   "painting": 6,
+   "piano": 9,
+   "swordsmanship": 7,
+   "writing": 5
+  },
+  "tool_skills": {
+   "painting": 6,
+   "piano": 9,
+   "swordsmanship": 7,
+   "charisma": 9,
+   "writing": 5
+  }
+ },
+ {
+  "first": "Celeste",
+  "last": "Capp",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 9,
+   "guitar": 4,
+   "painting": 8,
+   "piano": 6,
+   "swordsmanship": 6,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "painting": 8,
+   "piano": 6,
+   "swordsmanship": 6,
+   "charisma": 9,
+   "guitar": 4,
+   "videogaming": 2
+  }
+ },
+ {
+  "first": "Virgilio",
+  "last": "Capp",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 9,
+   "logic": 2,
+   "mischief": 6,
+   "painting": 2,
+   "piano": 2,
+   "swordsmanship": 5
+  },
+  "tool_skills": {
+   "painting": 2,
+   "piano": 2,
+   "swordsmanship": 5,
+   "charisma": 9,
+   "mischief": 6,
+   "logic": 2
+  }
+ },
+ {
+  "first": "Thorne",
+  "last": "Bailey",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "guitar": 5,
+   "piano": 3,
+   "violin": 3
+  },
+  "tool_skills": {
+   "guitar": 5,
+   "piano": 3,
+   "charisma": 3,
+   "violin": 2
+  }
+ },
+ {
+  "first": "Octavia",
+  "last": "Moon",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 4,
+   "writing": 6
+  },
+  "tool_skills": {
+   "writing": 6,
+   "comedy": 4
+  }
+ },
+ {
+  "first": "Orange",
+  "last": "Bailey-Moon",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 4,
+   "childmental": 2,
+   "childmotor": 3,
+   "childsocial": 6
+  },
+  "tool_skills": {
+   "childsocial": 6,
+   "childcreativity": 4,
+   "childmotor": 3,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Greta",
+  "last": "Laurent",
+  "age": "Teen",
+  "wiki_skills": {
+   "handiness": 6,
+   "painting": 10
+  },
+  "tool_skills": {
+   "painting": 10,
+   "handiness": 6
+  }
+ },
+ {
+  "first": "Hector",
+  "last": "Laurent",
+  "age": "Adult",
+  "wiki_skills": {
+   "djmixing": 5,
+   "dancing": 3,
+   "bartending": 3,
+   "parenting": 6
+  },
+  "tool_skills": {
+   "bartending": 3,
+   "djmixing": 5,
+   "parenting": 6,
+   "dancing": 3
+  }
+ },
+ {
+  "first": "Hilary",
+  "last": "Laurent",
+  "age": "Adult",
+  "wiki_skills": {
+   "baking": 5,
+   "comedy": 2,
+   "homestylecooking": 5,
+   "fishing": 1,
+   "gourmetcooking": 7
+  },
+  "tool_skills": {
+   "gourmetcooking": 7,
+   "baking": 5,
+   "comedy": 2,
+   "homestylecooking": 5
+  }
+ },
+ {
+  "first": "Jace",
+  "last": "Laurent",
+  "age": "Child",
+  "wiki_skills": {
+   "childmental": 5,
+   "childmotor": 2,
+   "childsocial": 3
+  },
+  "tool_skills": {
+   "childmental": 5,
+   "childmotor": 2,
+   "childsocial": 3
+  }
+ },
+ {
+  "first": "Arnessa",
+  "last": "Thebe",
+  "age": "Elder",
+  "wiki_skills": {
+   "painting": 5,
+   "piano": 8
+  },
+  "tool_skills": {
+   "painting": 5,
+   "piano": 8
+  }
+ },
+ {
+  "first": "Toshie",
+  "last": "Akamine",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 7,
+   "fishing": 5,
+   "painting": 5,
+   "writing": 9
+  },
+  "tool_skills": {
+   "fishing": 5,
+   "charisma": 7,
+   "writing": 9,
+   "painting": 5
+  }
+ },
+ {
+  "first": "Lily",
+  "last": "Feng",
+  "age": "Adult",
+  "wiki_skills": {
+   "logic": 9,
+   "mischief": 2,
+   "violin": 3
+  },
+  "tool_skills": {
+   "violin": 3,
+   "logic": 9,
+   "mischief": 2
+  }
+ },
+ {
+  "first": "Victor",
+  "last": "Feng",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 7,
+   "logic": 6
+  },
+  "tool_skills": {
+   "logic": 6,
+   "charisma": 7
+  }
+ },
+ {
+  "first": "Izzy",
+  "last": "Fabulous",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "photography": 2
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "photography": 2
+  }
+ },
+ {
+  "first": "Imran",
+  "last": "Watson",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 5,
+   "childmental": 2,
+   "childmotor": 2
+  },
+  "tool_skills": {
+   "childcreativity": 5,
+   "childmental": 2,
+   "childmotor": 2
+  }
+ },
+ {
+  "first": "Maira",
+  "last": "Watson",
+  "age": "Child",
+  "wiki_skills": {
+   "childmental": 2,
+   "childmotor": 7,
+   "childsocial": 5
+  },
+  "tool_skills": {
+   "childmotor": 7,
+   "childsocial": 5,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Rahmi",
+  "last": "Watson",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 2,
+   "homestylecooking": 8,
+   "gardening": 6,
+   "gourmetcooking": 3,
+   "parenting": 6
+  },
+  "tool_skills": {
+   "gardening": 6,
+   "comedy": 2,
+   "homestylecooking": 8,
+   "gourmetcooking": 3,
+   "parenting": 6
+  }
+ },
+ {
+  "first": "Rashidah",
+  "last": "Watson",
+  "age": "Teen",
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "mischief": 3,
+   "videogaming": 3,
+   "writing": 2
+  },
+  "tool_skills": {
+   "homestylecooking": 2,
+   "mischief": 3,
+   "videogaming": 3,
+   "writing": 2
+  }
+ },
+ {
+  "first": "Thomas",
+  "last": "Watson",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 6,
+   "gardening": 6,
+   "parenting": 2,
+   "singing": 3,
+   "violin": 2
+  },
+  "tool_skills": {
+   "fitness": 6,
+   "gardening": 6,
+   "violin": 2,
+   "singing": 3,
+   "parenting": 2
+  }
+ },
+ {
+  "first": "Knox",
+  "last": "Greenburg",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 5,
+   "gardening": 3
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "gardening": 3
+  }
+ },
+ {
+  "first": "Mary",
+  "last": "Greenburg",
+  "age": "Elder",
+  "wiki_skills": {
+   "gardening": 4,
+   "juicefizzing": 3
+  },
+  "tool_skills": {
+   "gardening": 4,
+   "juicefizzing": 3
+  }
+ },
+ {
+  "first": "Blossom",
+  "last": "Greenburg",
+  "age": "Elder",
+  "wiki_skills": {
+   "painting": 4,
+   "fabrication": 2
+  },
+  "tool_skills": {
+   "fabrication": 2,
+   "painting": 4
+  }
+ },
+ {
+  "first": "Collin",
+  "last": "Robertson",
+  "age": "Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jilliana",
+  "last": "Sage",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Owen",
+  "last": "Sage",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Xavier",
+  "last": "Sage",
+  "age": "Infant",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Zehava",
+  "last": "Sage",
+  "age": "Infant",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Bella",
+  "last": "Goth",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 2,
+   "fitness": 2,
+   "programming": 2
+  },
+  "tool_skills": {
+   "charisma": 2,
+   "fitness": 2,
+   "programming": 2
+  }
+ },
+ {
+  "first": "Mortimer",
+  "last": "Goth",
+  "age": "Adult",
+  "wiki_skills": {
+   "writing": 4
+  },
+  "tool_skills": {
+   "writing": 4
+  }
+ },
+ {
+  "first": "Cassandra",
+  "last": "Goth",
+  "age": "Teen",
+  "wiki_skills": {
+   "violin": 2
+  },
+  "tool_skills": {
+   "violin": 2
+  }
+ },
+ {
+  "first": "Alexander",
+  "last": "Goth",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 1,
+   "childmental": 1,
+   "childmotor": 1,
+   "childsocial": 1
+  },
+  "tool_skills": {}
+ },
+ {
+  "first": "Dominic",
+  "last": "Fyres",
+  "age": "Adult",
+  "wiki_skills": {
+   "djmixing": 8,
+   "dancing": 4
+  },
+  "tool_skills": {
+   "dancing": 3,
+   "djmixing": 6
+  }
+ },
+ {
+  "first": "Moira",
+  "last": "Fyres",
+  "age": "Adult",
+  "wiki_skills": {
+   "gardening": 9
+  },
+  "tool_skills": {
+   "gardening": 5
+  }
+ },
+ {
+  "first": "Siobhan",
+  "last": "Fyres",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 6
+  },
+  "tool_skills": {
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Morgan",
+  "last": "Fyres",
+  "age": "Teen",
+  "wiki_skills": {
+   "mischief": 4
+  },
+  "tool_skills": {
+   "mischief": 4
+  }
+ },
+ {
+  "first": "Ayo",
+  "last": "Ladipo",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "logic": 2,
+   "programming": 8
+  },
+  "tool_skills": {
+   "programming": 8,
+   "charisma": 3,
+   "logic": 2
+  }
+ },
+ {
+  "first": "Flora",
+  "last": "Ladipo",
+  "age": "Adult",
+  "wiki_skills": {
+   "logic": 4,
+   "painting": 7,
+   "programming": 5
+  },
+  "tool_skills": {
+   "programming": 5,
+   "logic": 4,
+   "painting": 7
+  }
+ },
+ {
+  "first": "Penny",
+  "last": "Pizzazz",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 8,
+   "comedy": 7,
+   "homestylecooking": 7,
+   "programming": 5,
+   "videogaming": 7
+  },
+  "tool_skills": {
+   "comedy": 6,
+   "programming": 5,
+   "homestylecooking": 7,
+   "videogaming": 7,
+   "charisma": 8
+  }
+ },
+ {
+  "first": "Celene",
+  "last": "L\u00f3pez",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "homestylecooking": 4,
+   "herbalism": 2,
+   "bartending": 7
+  },
+  "tool_skills": {
+   "bartending": 7,
+   "homestylecooking": 4,
+   "charisma": 3,
+   "herbalism": 2
+  }
+ },
+ {
+  "first": "Lewis",
+  "last": "Sancho",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Lily",
+  "last": "Powers",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 9,
+   "homestylecooking": 5
+  },
+  "tool_skills": {
+   "homestylecooking": 5,
+   "charisma": 9
+  }
+ },
+ {
+  "first": "Randy",
+  "last": "Powers",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 6,
+   "homestylecooking": 4,
+   "logic": 8
+  },
+  "tool_skills": {
+   "homestylecooking": 4,
+   "logic": 8,
+   "charisma": 6
+  }
+ },
+ {
+  "first": "Kennedy",
+  "last": "Powers",
+  "age": "Child",
+  "wiki_skills": {
+   "childsocial": 4
+  },
+  "tool_skills": {
+   "childsocial": 4
+  }
+ },
+ {
+  "first": "Kristopher",
+  "last": "Volkov",
+  "age": "Adult",
+  "wiki_skills": {
+   "fitness": 8,
+   "gardening": 6,
+   "handiness": 3,
+   "logic": 5,
+   "parenting": 3,
+   "programming": 5
+  },
+  "tool_skills": {
+   "fitness": 8,
+   "gardening": 6,
+   "logic": 5,
+   "handiness": 3,
+   "programming": 5,
+   "parenting": 3
+  }
+ },
+ {
+  "first": "Jacob",
+  "last": "Volkov",
+  "age": "Teen",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "fitness": 5,
+   "guitar": 4,
+   "handiness": 2
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "guitar": 4,
+   "homestylecooking": 3,
+   "handiness": 2
+  }
+ },
+ {
+  "first": "Lily",
+  "last": "Zhu",
+  "age": "Elder",
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "fishing": 4,
+   "fitness": 5,
+   "handiness": 3,
+   "vampirelore": 3
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "fishing": 4,
+   "homestylecooking": 4,
+   "vampirelore": 3,
+   "handiness": 3
+  }
+ },
+ {
+  "first": "Aziz",
+  "last": "Nadir",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "romance": 7,
+   "writing": 5
+  },
+  "tool_skills": {
+   "romance": 7,
+   "writing": 5,
+   "homestylecooking": 3
+  }
+ },
+ {
+  "first": "Valentina",
+  "last": "Nadir",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 7,
+   "romance": 6
+  },
+  "tool_skills": {
+   "romance": 6,
+   "charisma": 7
+  }
+ },
+ {
+  "first": "Pruella",
+  "last": "Preener",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 10,
+   "fishing": 10,
+   "handiness": 10,
+   "singing": 10
+  },
+  "tool_skills": {
+   "charisma": 10,
+   "singing": 10,
+   "handiness": 10,
+   "fishing": 10
+  }
+ },
+ {
+  "first": "Enzo",
+  "last": "Alto",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "romance": 2,
+   "swordsmanship": 9
+  },
+  "tool_skills": {
+   "swordsmanship": 9,
+   "charisma": 3,
+   "romance": 2
+  }
+ },
+ {
+  "first": "Zhaleh",
+  "last": "Amani",
+  "age": "Elder",
+  "wiki_skills": {
+   "apothecary": 7,
+   "nls": 7
+  },
+  "tool_skills": {
+   "apothecary": 7,
+   "nls": 7
+  }
+ },
+ {
+  "first": "Supriya",
+  "last": "Delgato",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "piano": 2,
+   "veterinarian": 4
+  },
+  "tool_skills": {
+   "veterinarian": 4,
+   "homestylecooking": 3,
+   "piano": 2
+  }
+ },
+ {
+  "first": "Justin",
+  "last": "Delgato",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "comedy": 3,
+   "logic": 2
+  },
+  "tool_skills": {
+   "logic": 2,
+   "comedy": 3,
+   "charisma": 3
+  }
+ },
+ {
+  "first": "Evie",
+  "last": "Delgato",
+  "age": "Toddler",
+  "wiki_skills": {
+   "toddlercommunication": 2,
+   "toddlermovement": 3,
+   "potty": 3
+  },
+  "tool_skills": {
+   "toddlercommunication": 2,
+   "toddlermovement": 3,
+   "potty": 3
+  }
+ },
+ {
+  "first": "Pierce",
+  "last": "Delgato",
+  "age": "Child",
+  "wiki_skills": {
+   "childmental": 2,
+   "childsocial": 3
+  },
+  "tool_skills": {
+   "childsocial": 3,
+   "childmental": 2
+  }
+ },
+ {
+  "first": "Bartholomew A.",
+  "last": "Bittlebun, Sr.",
+  "age": "Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Mickie",
+  "last": "Yarmellino",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Alex",
+  "last": "Moyer",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 2,
+   "homestylecooking": 3,
+   "handiness": 2
+  },
+  "tool_skills": {
+   "homestylecooking": 3,
+   "handiness": 2,
+   "comedy": 2
+  }
+ },
+ {
+  "first": "Fia",
+  "last": "Acosta",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "archery": 4,
+   "charisma": 5,
+   "fishing": 4,
+   "fitness": 9,
+   "handiness": 5,
+   "mischief": 9,
+   "bartending": 8,
+   "swordsmanship": 10
+  },
+  "tool_skills": {
+   "swordsmanship": 10,
+   "fitness": 9,
+   "bartending": 8,
+   "charisma": 5,
+   "fishing": 4,
+   "handiness": 5,
+   "mischief": 9,
+   "archery": 4
+  }
+ },
+ {
+  "first": "Travis",
+  "last": "Scott",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "programming": 2,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "programming": 2,
+   "videogaming": 2
+  }
+ },
+ {
+  "first": "Liberty",
+  "last": "Lee",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "logic": 2
+  },
+  "tool_skills": {
+   "logic": 2
+  }
+ },
+ {
+  "first": "Summer",
+  "last": "Holiday",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "bartending": 2,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "bartending": 2,
+   "homestylecooking": 2,
+   "videogaming": 1
+  }
+ },
+ {
+  "first": "Kitty",
+  "last": "Lu",
+  "age": "Elder",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jane",
+  "last": "Addam",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "homestylecooking": 8,
+   "fitness": 2,
+   "gourmetcooking": 7,
+   "handiness": 3,
+   "bartending": 5
+  },
+  "tool_skills": {
+   "handiness": 3,
+   "charisma": 3,
+   "fitness": 2,
+   "homestylecooking": 8,
+   "gourmetcooking": 7,
+   "bartending": 5
+  }
+ },
+ {
+  "first": "Star",
+  "last": "Addam",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 7,
+   "fishing": 6,
+   "logic": 6,
+   "piano": 7
+  },
+  "tool_skills": {
+   "charisma": 7,
+   "logic": 6,
+   "fishing": 6,
+   "piano": 7
+  }
+ },
+ {
+  "first": "Skip",
+  "last": "Broke",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 7,
+   "fitness": 7,
+   "gourmetcooking": 8,
+   "handiness": 5,
+   "logic": 6,
+   "violin": 5
+  },
+  "tool_skills": {
+   "handiness": 5,
+   "charisma": 7,
+   "fitness": 7,
+   "violin": 5,
+   "gourmetcooking": 8,
+   "logic": 6
+  }
+ },
+ {
+  "first": "Agora",
+  "last": "Tchotchke",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "homestylecooking": 2,
+   "fishing": 4
+  },
+  "tool_skills": {
+   "fishing": 4,
+   "charisma": 5,
+   "homestylecooking": 2
+  }
+ },
+ {
+  "first": "George",
+  "last": "Cahill",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 2,
+   "writing": 3
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "writing": 3,
+   "fitness": 2
+  }
+ },
+ {
+  "first": "Lou",
+  "last": "Howell",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 3,
+   "fishing": 3,
+   "fitness": 5,
+   "handiness": 2,
+   "mischief": 3,
+   "singing": 2
+  },
+  "tool_skills": {
+   "fitness": 5,
+   "fishing": 3,
+   "handiness": 2,
+   "comedy": 3,
+   "mischief": 3,
+   "singing": 2
+  }
+ },
+ {
+  "first": "Tia",
+  "last": "Bailey",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Haru",
+  "last": "Matsuda",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Marissa",
+  "last": "Tracey",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 6,
+   "charisma": 5,
+   "photography": 3,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "comedy": 6,
+   "photography": 3
+  }
+ },
+ {
+  "first": "Dani",
+  "last": "Davila",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 1,
+   "fishing": 1,
+   "gardening": 7,
+   "violin": 5,
+   "nectarmaking": 3
+  },
+  "tool_skills": {
+   "nectarmaking": 3,
+   "gardening": 7,
+   "violin": 5
+  }
+ },
+ {
+  "first": "Panya",
+  "last": "Li",
+  "age": "Adult",
+  "wiki_skills": {
+   "gardening": 7,
+   "handiness": 6
+  },
+  "tool_skills": {
+   "handiness": 6,
+   "gardening": 7
+  }
+ },
+ {
+  "first": "Sara",
+  "last": "Scott",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 6,
+   "fitness": 5,
+   "flowerarranging": 3,
+   "bartending": 10,
+   "videogaming": 2
+  },
+  "tool_skills": {
+   "bartending": 10,
+   "charisma": 6,
+   "fitness": 5,
+   "videogaming": 2,
+   "flowerarranging": 3
+  }
+ },
+ {
+  "first": "Simon",
+  "last": "Scott",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 6,
+   "comedy": 2,
+   "homestylecooking": 5,
+   "dancing": 3,
+   "bartending": 3
+  },
+  "tool_skills": {
+   "bartending": 3,
+   "homestylecooking": 5,
+   "charisma": 6,
+   "dancing": 3,
+   "comedy": 2
+  }
+ },
+ {
+  "first": "Jay",
+  "last": "Robles",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "gourmetcooking": 7,
+   "logic": 5
+  },
+  "tool_skills": {
+   "gourmetcooking": 7,
+   "logic": 5
+  }
+ },
+ {
+  "first": "Doli",
+  "last": "Ruano",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "bartending": 9
+  },
+  "tool_skills": {
+   "bartending": 9
+  }
+ },
+ {
+  "first": "Tala",
+  "last": "Ruano",
+  "age": "Toddler",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Gert",
+  "last": "Koopman",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 8,
+   "homestylecooking": 3,
+   "handiness": 3,
+   "knitting": 3,
+   "parenting": 5,
+   "pottery": 5
+  },
+  "tool_skills": {
+   "pottery": 5,
+   "parenting": 5,
+   "knitting": 3,
+   "homestylecooking": 3,
+   "handiness": 3,
+   "charisma": 8
+  }
+ },
+ {
+  "first": "Jolanda",
+  "last": "Koopman",
+  "age": "Elder",
+  "wiki_skills": {
+   "flowerarranging": 2,
+   "gardening": 4,
+   "handiness": 4,
+   "pottery": 10
+  },
+  "tool_skills": {
+   "pottery": 10,
+   "handiness": 4,
+   "flowerarranging": 2,
+   "gardening": 4
+  }
+ },
+ {
+  "first": "Nigel",
+  "last": "Chavez-Ralston",
+  "age": "Adult",
+  "wiki_skills": {
+   "archery": 5,
+   "charisma": 8,
+   "diving": 3,
+   "fishing": 5,
+   "guitar": 5,
+   "painting": 5,
+   "papercraft": 4
+  },
+  "tool_skills": {
+   "papercraft": 4,
+   "charisma": 8,
+   "fishing": 5,
+   "painting": 5,
+   "guitar": 5,
+   "archery": 5,
+   "diving": 3
+  }
+ },
+ {
+  "first": "Sara",
+  "last": "Chavez-Ralston",
+  "age": "Adult",
+  "wiki_skills": {
+   "archery": 2,
+   "charisma": 9,
+   "gardening": 6,
+   "handiness": 2,
+   "logic": 8,
+   "painting": 4,
+   "papercraft": 7
+  },
+  "tool_skills": {
+   "handiness": 2,
+   "painting": 4,
+   "papercraft": 7,
+   "gardening": 6,
+   "charisma": 9,
+   "logic": 8,
+   "archery": 2
+  }
+ },
+ {
+  "first": "Aeris",
+  "last": "Chavez-Ralston",
+  "age": "Child",
+  "wiki_skills": {
+   "childcreativity": 4
+  },
+  "tool_skills": {
+   "childcreativity": 4
+  }
+ },
+ {
+  "first": "Erin",
+  "last": "Chavez-Ralston",
+  "age": "Child",
+  "wiki_skills": {
+   "childsocial": 4
+  },
+  "tool_skills": {
+   "childsocial": 4
+  }
+ },
+ {
+  "first": "Raheel",
+  "last": "Kunal",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fishing": 7,
+   "fitness": 5,
+   "handiness": 9,
+   "bartending": 8,
+   "papercraft": 9,
+   "writing": 4
+  },
+  "tool_skills": {
+   "handiness": 9,
+   "writing": 4,
+   "fitness": 5,
+   "fishing": 7,
+   "papercraft": 9,
+   "bartending": 8
+  }
+ },
+ {
+  "first": "Eric",
+  "last": "Lewis",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "logic": 1,
+   "programming": 3,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "programming": 3,
+   "videogaming": 1,
+   "logic": 1
+  }
+ },
+ {
+  "first": "Vivian",
+  "last": "Lewis",
+  "age": "Elder",
+  "wiki_skills": {
+   "comedy": 1,
+   "homestylecooking": 4,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "comedy": 1,
+   "homestylecooking": 4,
+   "videogaming": 1
+  }
+ },
+ {
+  "first": "Alice",
+  "last": "Spencer-Kim",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 1,
+   "comedy": 1,
+   "homestylecooking": 1,
+   "mischief": 1,
+   "painting": 4,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "comedy": 1,
+   "painting": 4,
+   "homestylecooking": 1,
+   "mischief": 1,
+   "videogaming": 1,
+   "charisma": 1
+  }
+ },
+ {
+  "first": "Dennis",
+  "last": "Kim",
+  "age": "Elder",
+  "wiki_skills": {
+   "comedy": 1,
+   "gardening": 4,
+   "videogaming": 1
+  },
+  "tool_skills": {
+   "comedy": 1,
+   "gardening": 4,
+   "videogaming": 1
+  }
+ },
+ {
+  "first": "Mark",
+  "last": "Eggleston",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "gardening": 2,
+   "logic": 4,
+   "painting": 2
+  },
+  "tool_skills": {
+   "painting": 2,
+   "gardening": 2,
+   "logic": 4
+  }
+ },
+ {
+  "first": "Alice",
+  "last": "Martin",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "guitar": 3,
+   "piano": 6,
+   "violin": 6
+  },
+  "tool_skills": {
+   "guitar": 3,
+   "piano": 6,
+   "violin": 6
+  }
+ },
+ {
+  "first": "Leslie",
+  "last": "Holland",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "comedy": 4,
+   "logic": 5,
+   "programming": 5
+  },
+  "tool_skills": {
+   "logic": 5,
+   "comedy": 4,
+   "programming": 5
+  }
+ },
+ {
+  "first": "Carmen",
+  "last": "Ortega",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 6,
+   "romance": 7
+  },
+  "tool_skills": {
+   "charisma": 6,
+   "romance": 7
+  }
+ },
+ {
+  "first": "Elia",
+  "last": "Cruz",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 7,
+   "gourmetcooking": 6,
+   "bartending": 2
+  },
+  "tool_skills": {
+   "gourmetcooking": 6,
+   "homestylecooking": 7,
+   "bartending": 2,
+   "charisma": 4
+  }
+ },
+ {
+  "first": "Manuel",
+  "last": "Aguilar",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "comedy": 3,
+   "fitness": 2,
+   "guitar": 6,
+   "romance": 5
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "comedy": 3,
+   "romance": 5,
+   "guitar": 6,
+   "fitness": 2
+  }
+ },
+ {
+  "first": "Yoltic",
+  "last": "Xicot\u00e9ncatl",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "logic": 4,
+   "piano": 7,
+   "videogaming": 3
+  },
+  "tool_skills": {
+   "logic": 4,
+   "piano": 7,
+   "videogaming": 3
+  }
+ },
+ {
+  "first": "Ekram",
+  "last": "Elderberry",
+  "age": "Elder",
+  "wiki_skills": {
+   "fishing": 8,
+   "handiness": 3
+  },
+  "tool_skills": {
+   "fishing": 8,
+   "handiness": 3
+  }
+ },
+ {
+  "first": "Rohan",
+  "last": "Elderberry",
+  "age": "Teen",
+  "wiki_skills": {
+   "charisma": 2,
+   "writing": 3
+  },
+  "tool_skills": {
+   "writing": 3,
+   "charisma": 2
+  }
+ },
+ {
+  "first": "Aqua",
+  "last": "Song",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Consort",
+  "last": "Capp",
+  "age": "Elder",
+  "wiki_skills": {
+   "painting": 7,
+   "piano": 6,
+   "swordsmanship": 8
+  },
+  "tool_skills": {
+   "piano": 6,
+   "painting": 7,
+   "swordsmanship": 8
+  }
+ },
+ {
+  "first": "Michael",
+  "last": "Bell",
+  "age": "Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "fishing": 5,
+   "gardening": 6,
+   "herbalism": 8,
+   "knitting": 5,
+   "painting": 2,
+   "writing": 4
+  },
+  "tool_skills": {
+   "homestylecooking": 3,
+   "fishing": 5,
+   "gardening": 6,
+   "painting": 2,
+   "writing": 4,
+   "herbalism": 8,
+   "knitting": 5
+  }
+ },
+ {
+  "first": "Naoki",
+  "last": "Ito",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 7,
+   "mischief": 3,
+   "skiing": 9
+  },
+  "tool_skills": {
+   "skiing": 9,
+   "fitness": 7,
+   "mischief": 4
+  }
+ },
+ {
+  "first": "Megumi",
+  "last": "Ito",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 7,
+   "logic": 4,
+   "skiing": 10
+  },
+  "tool_skills": {
+   "skiing": 10,
+   "fitness": 7,
+   "logic": 4
+  }
+ },
+ {
+  "first": "Kiyoshi",
+  "last": "Ito",
+  "age": "Teen",
+  "wiki_skills": {
+   "fitness": 5,
+   "guitar": 5,
+   "snowboarding": 6
+  },
+  "tool_skills": {
+   "snowboarding": 6,
+   "guitar": 5,
+   "fitness": 5
+  }
+ },
+ {
+  "first": "Nanami",
+  "last": "Ito",
+  "age": "Child",
+  "wiki_skills": {
+   "childmotor": 5,
+   "childsocial": 5
+  },
+  "tool_skills": {
+   "childmotor": 5,
+   "childsocial": 5
+  }
+ },
+ {
+  "first": "Connie",
+  "last": "Fidential",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Holly",
+  "last": "Alto",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "handiness": 2,
+   "painting": 6
+  },
+  "tool_skills": {
+   "painting": 6,
+   "handiness": 2
+  }
+ },
+ {
+  "first": "Rory",
+  "last": "Oaklow",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 3,
+   "dancing": 3,
+   "fitness": 9,
+   "handiness": 3,
+   "knitting": 2,
+   "violin": 4
+  },
+  "tool_skills": {
+   "fitness": 9,
+   "charisma": 3,
+   "handiness": 3,
+   "violin": 4,
+   "dancing": 3,
+   "knitting": 2
+  }
+ },
+ {
+  "first": "Anaya",
+  "last": "Jang",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "guitar": 4,
+   "painting": 5,
+   "singing": 5
+  },
+  "tool_skills": {
+   "singing": 5,
+   "guitar": 4,
+   "painting": 5
+  }
+ },
+ {
+  "first": "Baako",
+  "last": "Jang",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "guitar": 4,
+   "piano": 4
+  },
+  "tool_skills": {
+   "piano": 4,
+   "guitar": 4,
+   "charisma": 5
+  }
+ },
+ {
+  "first": "Billie",
+  "last": "Jang",
+  "age": "Child",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Maaike",
+  "last": "Haas",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "writing": 5
+  },
+  "tool_skills": {
+   "writing": 5
+  }
+ },
+ {
+  "first": "Ulrike",
+  "last": "Faust",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "mischief": 5,
+   "painting": 5
+  },
+  "tool_skills": {
+   "painting": 5,
+   "mischief": 5
+  }
+ },
+ {
+  "first": "Esther",
+  "last": "Gomes",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "thanatology": 5,
+   "writing": 9
+  },
+  "tool_skills": {
+   "writing": 9,
+   "thanatology": 5
+  }
+ },
+ {
+  "first": "Zuleika",
+  "last": "Izadi",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "flowerarranging": 7,
+   "gardening": 5,
+   "bartending": 5
+  },
+  "tool_skills": {
+   "gardening": 5,
+   "bartending": 5,
+   "flowerarranging": 7
+  }
+ },
+ {
+  "first": "Brant",
+  "last": "Hecking",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 4,
+   "fitness": 4,
+   "bartending": 3,
+   "photography": 2
+  },
+  "tool_skills": {
+   "charisma": 4,
+   "fitness": 4,
+   "bartending": 3,
+   "photography": 2
+  }
+ },
+ {
+  "first": "Brent",
+  "last": "Hecking",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "fitness": 3,
+   "handiness": 3,
+   "painting": 4,
+   "pettraining": 2
+  },
+  "tool_skills": {
+   "fitness": 3,
+   "painting": 4,
+   "handiness": 3,
+   "pettraining": 2
+  }
+ },
+ {
+  "first": "Anjelo",
+  "last": "Morlind",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "guitar": 2,
+   "logic": 4,
+   "painting": 3,
+   "programming": 4
+  },
+  "tool_skills": {
+   "logic": 4,
+   "guitar": 2,
+   "painting": 3,
+   "programming": 4
+  }
+ },
+ {
+  "first": "Ch\u00e1nh",
+  "last": "Linh",
+  "age": "Elder",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Arturo",
+  "last": "Linh",
+  "age": "Elder",
+  "wiki_skills": {
+   "fitness": 2,
+   "logic": 3
+  },
+  "tool_skills": {
+   "fitness": 2,
+   "logic": 3
+  }
+ },
+ {
+  "first": "Li\u00ean",
+  "last": "Sadya",
+  "age": "Adult",
+  "wiki_skills": {
+   "charisma": 6,
+   "painting": 5,
+   "writing": 7
+  },
+  "tool_skills": {
+   "painting": 5,
+   "charisma": 6,
+   "writing": 7
+  }
+ },
+ {
+  "first": "Alon",
+  "last": "Sadya",
+  "age": "Adult",
+  "wiki_skills": {
+   "programming": 5
+  },
+  "tool_skills": {
+   "programming": 5
+  }
+ },
+ {
+  "first": "Cam",
+  "last": "Sadya",
+  "age": "Child",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Jing",
+  "last": "Fen",
+  "age": "Elder",
+  "wiki_skills": {
+   "violin": 8,
+   "writing": 8
+  },
+  "tool_skills": {
+   "researchdebate": 7,
+   "violin": 8,
+   "writing": 8
+  }
+ },
+ {
+  "first": "Cassidy",
+  "last": "Purdue",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Ollie",
+  "last": "Purdue",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Andre",
+  "last": "DaSilva",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Babs",
+  "last": "L'Amour",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Steve",
+  "last": "Fogel",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "June",
+  "last": "Kay",
+  "age": "Young Adult",
+  "wiki_skills": {},
+  "tool_skills": {}
+ },
+ {
+  "first": "Grace",
+  "last": "Anansi",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 3,
+   "logic": 2,
+   "mischief": 2,
+   "bartending": 2
+  },
+  "tool_skills": {
+   "mischief": 2,
+   "homestylecooking": 3,
+   "bartending": 2,
+   "logic": 2
+  }
+ },
+ {
+  "first": "Tomax",
+  "last": "Collette",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 2,
+   "fishing": 3,
+   "gardening": 2,
+   "writing": 2
+  },
+  "tool_skills": {
+   "writing": 2,
+   "fishing": 3,
+   "gardening": 2,
+   "homestylecooking": 2
+  }
+ },
+ {
+  "first": "Minerva",
+  "last": "Charm",
+  "age": "Elder",
+  "wiki_skills": {
+   "charisma": 4,
+   "homestylecooking": 2,
+   "handiness": 2,
+   "logic": 6,
+   "writing": 2
+  },
+  "tool_skills": {
+   "logic": 6,
+   "charisma": 4,
+   "homestylecooking": 2,
+   "handiness": 2,
+   "writing": 2
+  }
+ },
+ {
+  "first": "Gemma",
+  "last": "Charm",
+  "age": "Teen",
+  "wiki_skills": {
+   "charisma": 3,
+   "comedy": 2,
+   "logic": 2,
+   "mischief": 5,
+   "painting": 3
+  },
+  "tool_skills": {
+   "charisma": 3,
+   "comedy": 2,
+   "logic": 2,
+   "mischief": 5,
+   "painting": 3
+  }
+ },
+ {
+  "first": "Darrel",
+  "last": "Charm",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "charisma": 5,
+   "homestylecooking": 4,
+   "fishing": 2,
+   "fitness": 4
+  },
+  "tool_skills": {
+   "charisma": 5,
+   "fitness": 4,
+   "fishing": 2,
+   "homestylecooking": 4
+  }
+ },
+ {
+  "first": "Emilia",
+  "last": "Ernest",
+  "age": "Young Adult",
+  "wiki_skills": {
+   "homestylecooking": 4,
+   "logic": 2,
+   "bartending": 4,
+   "videogaming": 3,
+   "violin": 4
+  },
+  "tool_skills": {
+   "bartending": 4,
+   "homestylecooking": 4,
+   "logic": 2,
+   "videogaming": 3,
+   "violin": 4
+  }
+ }
+]

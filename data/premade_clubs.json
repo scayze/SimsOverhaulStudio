@@ -1,0 +1,109 @@
+{
+ "source": "PremadeSimTemplate.clubs",
+ "clubs": [
+  {
+   "seed": 124259,
+   "name": "Upper Crusts",
+   "members": [
+    "ClaraBjergsen",
+    "MilaMunch",
+    "HugoVillareal"
+   ]
+  },
+  {
+   "seed": 123887,
+   "name": "Powerhouse",
+   "members": [
+    "ClaraBjergsen",
+    "ThorKnutson",
+    "MarcusFlex"
+   ]
+  },
+  {
+   "seed": 126140,
+   "name": "Partihaus",
+   "members": [
+    "EvaCapricciosa",
+    "JadeRosa",
+    "ThorKnutson",
+    "MarcusFlex"
+   ]
+  },
+  {
+   "seed": 128517,
+   "name": "Knights of the Hedge",
+   "members": [
+    "JacquesVillareal",
+    "YukiBehr",
+    "WolfgangMunch"
+   ]
+  },
+  {
+   "seed": 126142,
+   "name": "The Good Timers",
+   "members": [
+    "JacquesVillareal",
+    "MilaMunch",
+    "BjornBjergsen",
+    "DominicFyres"
+   ]
+  },
+  {
+   "seed": 126138,
+   "name": "League of Adventurers",
+   "members": [
+    "LucasMunch",
+    "MaxVillareal",
+    "ElsaBjergsen"
+   ]
+  },
+  {
+   "seed": 126139,
+   "name": "Garden Gnomes",
+   "members": [
+    "LucasMunch",
+    "BjornBjergsen",
+    "MoiraFyres"
+   ]
+  },
+  {
+   "seed": 123889,
+   "name": "Paragons",
+   "members": [
+    "SergioRomeo",
+    "LunaVillareal",
+    "SofiaBjergsen",
+    "SiobhanFyres"
+   ]
+  },
+  {
+   "seed": 126137,
+   "name": "Renegades",
+   "members": [
+    "MaxVillareal",
+    "WolfgangMunch",
+    "MorganFyres",
+    "UlrikeFaust"
+   ]
+  },
+  {
+   "seed": 123888,
+   "name": "Avant Gardes",
+   "members": [
+    "YukiBehr",
+    "GuntherMunch",
+    "HugoVillareal",
+    "MaaikeHaas"
+   ]
+  },
+  {
+   "seed": 126141,
+   "name": "Spin Masters",
+   "members": [
+    "CandyBehr",
+    "JoaquinLeChien",
+    "DominicFyres"
+   ]
+  }
+ ]
+}
