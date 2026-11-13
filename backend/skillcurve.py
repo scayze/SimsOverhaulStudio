@@ -43,11 +43,23 @@ def thresholds_for(level_type: str = "adult") -> list[int]:
 
 
 def level_for_xp(xp: float, level_type: str = "adult") -> int:
-    if xp is None or xp <= 0:
-        return 1
-    thresholds = thresholds_for(level_type)
-    level = 0
-    for index, threshold in enumerate(thresholds):
-        if xp >= threshold:
-            level = index
-    return max(1, min(len(thresholds) - 1, level))
+    from sims4_sdk.skills import (ADULT_CURVE, CHILD_CURVE, TODDLER_CURVE,
+                                  VAMPIRE_LORE_CURVE, convert_skill_xp)
+    curve = {"adult": ADULT_CURVE, "child": CHILD_CURVE,
+             "toddler": TODDLER_CURVE, "vampire": VAMPIRE_LORE_CURVE}.get(level_type, ADULT_CURVE)
+    return convert_skill_xp(max(0, float(xp or 0)), curve).level or 1
+
+
+def level_for_skill(xp: float, skill_id: int, name: str, catalog=None) -> int:
+    """Prefer the SDK's explicit tuning and curve, then the legacy estimate."""
+    from . import sdk
+    from sims4_sdk.skills import convert_skill_xp
+    definition = catalog.statistic(skill_id) if catalog and hasattr(catalog, "statistic") else None
+    if definition is not None and definition.is_skill is True and definition.skill_level_type:
+        discovery = sdk.skill_curves()
+        curve = discovery.for_skill(definition) if discovery is not None else None
+        if curve is not None:
+            level = convert_skill_xp(float(xp), curve).level
+            if level is not None:
+                return level
+    return level_for_xp(xp, level_type_for_tuning(name))

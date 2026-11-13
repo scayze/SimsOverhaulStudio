@@ -23,9 +23,7 @@ _RICH_CACHE: dict[tuple[str, float], list[dict]] = {}
 def _sdk_rich(path: Path) -> list[dict]:
     """Read a ``.householdbinary`` with the SDK's schema-driven Tray reader.
 
-    The SDK currently raises ``TypeError`` for some Tray files whose float
-    fields are varint-encoded (see docs/sdk-migration.md); callers fall back to
-    the supplemental generic decoder when this returns ``[]``.
+    Callers use a names-only fallback if a household cannot be decoded.
     """
     workspace = sdk.workspace()
     catalog = sdk.catalog()
@@ -236,20 +234,27 @@ def _prepare(ident: str, rich_sims: list[dict]) -> list[dict]:
     return prepared
 
 
-def _name_only(ident: str, hb: Path) -> list[dict]:
+def _name_only(ident: str, hb: Path, summary=None) -> list[dict]:
+    from sims4_sdk.save.tray_summary import read_household_summary
     try:
-        data = hb.read_bytes()
-    except OSError:
-        return []
-    payload = data[8:] if len(data) > 8 else data
+        summary = summary or read_household_summary(hb)
+        names = [(sim.first_name, sim.last_name) for sim in summary.sims if sim.first_name]
+    except Exception:
+        # Some older or damaged variants are outside the SDK summary schema.
+        try:
+            data = hb.read_bytes()
+        except OSError:
+            return []
+        payload = data[8:] if len(data) > 8 else data
+        names = [(sim.first, sim.last) for sim in fast_sim_names(payload)]
     sims = []
-    for index, s in enumerate(fast_sim_names(payload)):
+    for index, (first, last) in enumerate(names):
         sims.append(
             {
-                "key": f"tray:{ident}:{index}:{s.first}|{s.last}",
-                "first": s.first,
-                "last": s.last,
-                "household": s.last,
+                "key": f"tray:{ident}:{index}:{first}|{last}",
+                "first": first,
+                "last": last,
+                "household": last,
                 "source": "tray",
                 "source_ref": ident,
                 "household_key": f"tray:{ident}",
@@ -280,39 +285,23 @@ def _scan_groups() -> tuple[dict[str, dict], float]:
     if _GROUPS and _CACHE.get("mtime") == mtime:
         return _GROUPS, mtime
 
+    from sims4_sdk.save.tray import list_tray_households
+    listing = list_tray_households(paths.tray, lightweight=True)
     groups: dict[str, dict] = {}
-    for p in paths.tray.iterdir():
-        if not p.is_file():
-            continue
-        name = p.name
-        if "!" not in name:
-            continue
-        ident = name.split("!", 1)[1].split(".", 1)[0]
+    for group in listing.groups:
+        ident = group.identifier
         if not ident.startswith("0x"):
             continue
-        group = groups.setdefault(
-            ident,
-            {
-                "id": ident,
-                "files": [],
-                "householdbinary": None,
-                "trayitem": None,
-                "sgi": [],
-                "modified": 0,
-            },
-        )
-        group["files"].append(name)
-        lower = name.lower()
-        try:
-            group["modified"] = max(group["modified"], p.stat().st_mtime)
-        except OSError:
-            pass
-        if lower.endswith(".householdbinary"):
-            group["householdbinary"] = p
-        elif lower.endswith(".trayitem"):
-            group["trayitem"] = p
-        elif lower.endswith(".sgi"):
-            group["sgi"].append(p)
+        files = group.household_files + group.item_files + group.household_images + group.sim_images
+        groups[ident] = {
+            "id": ident,
+            "files": [p.name for p in files],
+            "householdbinary": group.household_files[0] if len(group.household_files) == 1 else None,
+            "trayitem": group.item_files[0] if len(group.item_files) == 1 else None,
+            "sgi": group.sim_images,
+            "modified": group.modified or 0,
+            "summary": group.summary,
+        }
     _GROUPS.clear()
     _GROUPS.update(groups)
     _CACHE.clear()
@@ -330,7 +319,7 @@ def list_tray(force: bool = False) -> list[dict]:
         hb: Path | None = group["householdbinary"]
         if hb is None:
             continue
-        sims = _name_only(ident, hb)
+        sims = _name_only(ident, hb, group.get("summary"))
         if not sims:
             continue
         items.append(
@@ -401,7 +390,7 @@ def get_household(ident: str) -> dict | None:
             _apply_trayitem_aspirations(group["trayitem"], sims)
         quality = "full"
     else:
-        sims = _name_only(ident, hb)
+        sims = _name_only(ident, hb, group.get("summary"))
         quality = "names"
     return {
         "id": ident,

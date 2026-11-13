@@ -15,45 +15,26 @@ import struct
 import zlib
 from pathlib import Path
 
-from .settings import APP_DIR, paths
+from .settings import APP_DIR
 
 IMAGE_DIR = APP_DIR / "data" / "premade_images"
 MANIFEST = IMAGE_DIR / "_extracted.json"
 CROPS_FILE = IMAGE_DIR / "portrait_crops.json"
-THUMB_TYPE = 0x3BD45407
-JPEG_MAGIC = b"\xff\xd8\xff"
 _CHECKED = {"done": False}
 _CROPS: dict | None = None
 
 
-def _valid_portrait(data: bytes) -> bool:
-    return data.startswith(JPEG_MAGIC) and (b"ALFA" in data or b"ALFJ" in data)
-
-
 def find_portraits(template_ids: set[int]) -> dict[int, bytes]:
-    """Return the largest valid household JPEG for each requested template id."""
-    if not paths.game or not paths.game.is_dir():
+    """Return SDK-indexed household artwork using game package precedence."""
+    from . import sdk
+    installation = sdk.installation()
+    if installation is None:
         return {}
-    from .dbpf import DBPF, DBPFError
+    from sims4_sdk.premade_artwork import PremadeCompositeIndex
 
-    best: dict[int, bytes] = {}
-    for package_path in paths.game.rglob("*.package"):
-        try:
-            package = DBPF(package_path)
-        except (DBPFError, OSError):
-            continue
-        for entry in package.entries:
-            if entry.type != THUMB_TYPE or entry.instance not in template_ids:
-                continue
-            try:
-                data = package.read_entry(entry)
-            except Exception:
-                continue
-            if not _valid_portrait(data):
-                continue
-            if entry.instance not in best or len(data) > len(best[entry.instance]):
-                best[entry.instance] = data
-    return best
+    result = PremadeCompositeIndex(installation).read(template_ids)
+    return {template_id: image.artwork.jpeg for template_id in template_ids
+            if (image := result.largest(template_id)) is not None}
 
 
 def ensure_premade_images(force: bool = False) -> dict:

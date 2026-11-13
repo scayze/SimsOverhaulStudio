@@ -35,6 +35,8 @@ CACHE_DIR = DATA_DIR / "sdk_cache"
 
 _WORKSPACE: Any = None
 _STATIC: Any = None
+_SKILL_CURVES: Any = None
+_SKILL_CURVES_CHECKED = False
 
 
 def workspace(refresh: bool = False):
@@ -81,9 +83,26 @@ def catalog(refresh: bool = False):
 
 def reset() -> None:
     """Drop the cached workspace/static data so the next call re-reads the game."""
-    global _WORKSPACE, _STATIC
+    global _WORKSPACE, _STATIC, _SKILL_CURVES, _SKILL_CURVES_CHECKED
     _WORKSPACE = None
     _STATIC = None
+    _SKILL_CURVES = None
+    _SKILL_CURVES_CHECKED = False
+
+
+def skill_curves():
+    """Discover the installation's skill curves once per workspace refresh."""
+    global _SKILL_CURVES, _SKILL_CURVES_CHECKED
+    if not _SKILL_CURVES_CHECKED:
+        _SKILL_CURVES_CHECKED = True
+        install = installation()
+        if install is not None:
+            try:
+                from sims4_sdk.skill_discovery import discover_skill_curves
+                _SKILL_CURVES = discover_skill_curves(install.packages)
+            except (OSError, ValueError):
+                _SKILL_CURVES = None
+    return _SKILL_CURVES
 
 
 def installation():

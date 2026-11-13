@@ -7,9 +7,9 @@ overhaul mod.
 
 Built with Python, Pillow and a Clean UI style web frontend.
 Game/save/Tray extraction is powered by the bundled, unmodified
-[SimsDataSDK](SimsDataSDK/) checkout; see
-[`docs/sdk-migration.md`](docs/sdk-migration.md) for the coverage map and the
-precise list of features still implemented locally.
+[SimsDataSDK](SimsDataSDK/) checkout. The studio retains supplemental catalog
+scans, premade data and fallback estimates where the SDK cannot yet supply the
+required data.
 
 ---
 

@@ -5,7 +5,7 @@ from typing import Any, Iterable
 
 from .catalog import pretty
 from .settings import PACK_NAMES
-from .skillcurve import level_for_xp, level_type_for_tuning
+from .skillcurve import level_for_skill
 
 AGE_LABELS = {
     "BABY": "Baby",
@@ -103,7 +103,7 @@ def skill_payload(skill, catalog=None, label: str | None = None) -> dict:
     level = getattr(skill, "level", None)
     if level is None and value is not None:
         try:
-            level = level_for_xp(float(value), level_type_for_tuning(name))
+            level = level_for_skill(float(value), getattr(skill, "skill_id", 0), name, catalog)
         except Exception:
             level = None
     payload = {

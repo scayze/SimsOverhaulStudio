@@ -23,7 +23,7 @@ from .dbpf import DBPF, DBPFError
 from .settings import DATA_DIR, PACK_NAMES, paths
 
 CACHE_FILE = DATA_DIR / "catalog_cache.json"
-CACHE_VERSION = 29
+CACHE_VERSION = 30
 
 #: Definition kinds the SDK's ``Catalog`` models directly.
 SDK_KINDS = {
@@ -731,6 +731,14 @@ def _build_from_sdk(
             item = _sdk_item("preferences", model)
             if item:
                 add(item)
+    # The SDK can identify explicit skill definitions, while some generic
+    # statistics still have unknown classification and need the local scan.
+    for model in getattr(catalog, "statistics", {}).values():
+        if model.is_skill is True:
+            item = _sdk_item("skills", model)
+            if item:
+                item["class"] = model.tuning_class
+                add(item)
     return True
 
 
@@ -747,14 +755,20 @@ def build_catalog(progress: Callable[[str, int, int], None] | None = None) -> di
     # The SDK catalog covers traits, preferences, aspirations (+tracks),
     # careers (+tracks), milestones and relationship bits for the game and mods.
     used_sdk = _build_from_sdk(buckets, add, progress)
+    sdk_skill_ids = set(buckets["skills"])
     wanted = SUPPLEMENTAL_KINDS if used_sdk else None
+
+    def add_supplemental(item: dict) -> None:
+        if item["kind"] == "skills" and item["id"] in sdk_skill_ids:
+            return
+        add(item)
 
     game_packages = _game_packages()
     total = len(game_packages)
     for i, path in enumerate(game_packages, 1):
         if progress:
             progress(f"Reading {path.parent.name}/{path.name}", i, total + 1)
-        _scan_simdata_package(path, add, wanted)
+        _scan_simdata_package(path, add_supplemental, wanted)
 
     mod_packages = list(_iter_mod_packages())
     total_mods = len(mod_packages)
@@ -762,7 +776,7 @@ def build_catalog(progress: Callable[[str, int, int], None] | None = None) -> di
         if progress and (i % 25 == 0 or i == total_mods):
             progress(f"Scanning mods {i}/{total_mods}", total + 1, total + total_mods + 1)
         try:
-            _scan_mod_package(path, add, paths.mods, wanted)
+            _scan_mod_package(path, add_supplemental, paths.mods, wanted)
         except Exception:
             continue
 

@@ -4,9 +4,8 @@ The SDK now exposes both the static ``PremadeBundle`` and every decoded
 ``0xB3C438F0`` household resource through ``StaticData.world``.  This module
 converts those models into the studio's household JSON.
 
-Only one small supplemental parser remains: some household resources store a
-Sim's first/last name as STBL keys (fields 55/56) instead of inline strings,
-which the SDK does not resolve yet.  See ``docs/sdk-migration.md``.
+The SDK resolves localized member names; this module combines its models with
+studio-specific display rules and supplemental premade datasets.
 
 Nothing here writes to the game install.  The result is cached in
 ``backend/premade_world_complete.json``.
@@ -20,7 +19,6 @@ from typing import Callable, Iterable
 
 from . import sdk
 from .catalog import _display_label, pretty
-from .protobuf import iter_fields
 from .sdkconvert import (
     AGE_LABELS,
     GENDER_LABELS,
@@ -29,11 +27,10 @@ from .sdkconvert import (
     title_enum,
 )
 from .settings import APP_DIR, PACK_NAMES
-from .skillcurve import level_for_xp, level_type_for_tuning
+from .skillcurve import level_for_skill
 
 COMPLETE_FILE = APP_DIR / "backend" / "premade_world_complete.json"
 
-STBL_CACHE: dict | None = None
 DYNASTY_TUNING: list[dict] | None = None
 LEGACY_ANCESTORS: dict[str, dict] | None = None
 
@@ -79,66 +76,6 @@ FAMILY_KIND_LABELS = {
 # ------------------------------------------------------------------ helpers
 def _norm(value: str) -> str:
     return re.sub(r"[^a-z0-9]", "", (value or "").lower())
-
-
-def _family_payload(data: bytes) -> bytes | None:
-    if not data:
-        return None
-    version = int.from_bytes(data[:4], "little") if len(data) >= 4 else 0
-    preferred = (16,) if version == 2 else (8,)
-    seen: set[int] = set()
-    for offset in (*preferred, 8, 16, 12, 4, 0):
-        if offset in seen or not 0 <= offset < len(data):
-            continue
-        seen.add(offset)
-        family = next(
-            (f.value for f in iter_fields(data[offset:]) if f.number == 1 and f.wire == 2),
-            None,
-        )
-        if family is not None:
-            return family
-    return None
-
-
-def _read_names(data: bytes) -> dict[int, tuple[int | None, int | None]]:
-    """Return ``{sim_id: (first_key, last_key)}`` for resources using STBL keys."""
-    family = _family_payload(data)
-    if family is None:
-        return {}
-    found: dict[int, tuple[int | None, int | None]] = {}
-    for member_field in iter_fields(family):
-        if member_field.number != 6 or member_field.wire != 2:
-            continue
-        sim_id = None
-        first_key = last_key = None
-        for item in iter_fields(member_field.value):
-            if item.number == 1:
-                sim_id = item.value if isinstance(item.value, int) else int.from_bytes(item.value, "little")
-            elif item.number == 55 and isinstance(item.value, int):
-                first_key = item.value
-            elif item.number == 56 and isinstance(item.value, int):
-                last_key = item.value
-        if sim_id:
-            found[sim_id] = (first_key, last_key)
-    return found
-
-
-def _fill_member_names(record) -> None:
-    """Resolve first/last names stored as STBL keys (SDK gap: fields 55/56)."""
-    if not record.members or not record.raw:
-        return
-    if all(member.first_name and member.last_name for member in record.members):
-        return
-    names = _read_names(record.raw)
-    if not names:
-        return
-    strings = stbl_index()
-    for member in record.members:
-        first_key, last_key = names.get(member.sim_id, (None, None))
-        if not member.first_name and first_key:
-            member.first_name = strings.get(first_key, "")
-        if not member.last_name and last_key:
-            member.last_name = strings.get(last_key, "")
 
 
 def _legacy_ancestor_details() -> dict[str, dict]:
@@ -216,17 +153,6 @@ def _ancestor_rows(bundle, premade, catalog) -> list[dict]:
         row.setdefault("surname", (node.full_name or "").split()[-1] if node.full_name else "")
         rows.setdefault(row["sim"], row)
     return list(rows.values())
-
-
-# --------------------------------------------------------------- SDK catalog
-def stbl_index() -> dict:
-    """The SDK's merged English string table."""
-    global STBL_CACHE
-    if STBL_CACHE is not None:
-        return STBL_CACHE
-    catalog = sdk.catalog()
-    STBL_CACHE = dict(catalog.strings) if catalog is not None else {}
-    return STBL_CACHE
 
 
 def dynasty_tuning() -> list[dict]:
@@ -364,7 +290,7 @@ def _merge_skills(catalog, premade_skills, world_skills) -> list[dict]:
         label = pretty(name[len("skill_"):]) if name.lower().startswith("skill_") else pretty(name)
         level = skill.level
         if level is None and skill.value is not None:
-            level = level_for_xp(float(skill.value), level_type_for_tuning(name))
+            level = level_for_skill(float(skill.value), skill.skill_id, name, catalog)
         rows[skill.skill_id] = {
             "id": skill.skill_id,
             "label": label if name else f"Skill {skill.skill_id}",
@@ -389,7 +315,7 @@ def _merge_skills(catalog, premade_skills, world_skills) -> list[dict]:
             "modded": False,
             "pack": "",
             "xp": round(float(value), 1),
-            "level": level_for_xp(float(value), level_type_for_tuning(name)),
+            "level": level_for_skill(float(value), skill_id, name, catalog),
         }
     return list(rows.values())
 
@@ -616,8 +542,8 @@ def build_complete_dataset(progress: Callable[[str], None] | None = None) -> dic
     bundle = static.premades
     world = getattr(static, "world", None)
     records = list(world.households.values()) if world is not None else []
-    for record in records:
-        _fill_member_names(record)
+    if world is not None:
+        world.resolve_names(catalog.strings)
 
     # Match SDK tuning households to their 0xB3C438F0 resource by member names.
     record_by_members: dict[frozenset[str], object] = {}

@@ -57,7 +57,7 @@ def _decode_wrapper(data: bytes) -> "Artwork":
 
 def read_artwork(path: Path) -> "Artwork":
     try:
-        return read_tray_image(path)
+        return read_tray_image(path, tolerate_missing_end=True)
     except Exception:
         return _decode_wrapper(path.read_bytes())
 
