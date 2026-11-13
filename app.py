@@ -319,7 +319,9 @@ class Handler(BaseHTTPRequestHandler):
         if route == "/api/tray/image":
             instance = (qs.get("instance") or [""])[0]
             kind = (qs.get("kind") or ["sim"])[0]
-            target = images.image_path(instance, kind if kind == "sim" else "household")
+            kind = kind if kind == "sim" else "household"
+            target = images.png_path(instance, kind) if (qs.get("format") or [""])[0] == "png" else None
+            target = target or images.image_path(instance, kind)
             if target is None:
                 return _json(self, {"error": "not found"}, 404)
             return self._file(target)
@@ -336,7 +338,8 @@ class Handler(BaseHTTPRequestHandler):
             template = (qs.get("template") or [""])[0].lower().removeprefix("0x").zfill(16)
             if not all(c in "0123456789abcdef" for c in template):
                 return _json(self, {"error": "bad template"}, 400)
-            target = (APP_DIR / "data" / "premade_images" / f"{template}.jpg").resolve()
+            target = images.premade_png_path(template) if (qs.get("format") or [""])[0] == "png" else None
+            target = (target or (APP_DIR / "data" / "premade_images" / f"{template}.jpg")).resolve()
             images_dir = (APP_DIR / "data" / "premade_images").resolve()
             if images_dir not in target.parents or not target.is_file():
                 return _json(self, {"error": "not found"}, 404)

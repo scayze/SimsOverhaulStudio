@@ -44,6 +44,15 @@ def _jpeg_data_url(raw: bytes | None) -> str | None:
     return "data:image/jpeg;base64," + base64.b64encode(raw).decode("ascii")
 
 
+def _artwork_data_url(artwork) -> str | None:
+    if artwork is None:
+        return None
+    try:
+        return "data:image/png;base64," + base64.b64encode(artwork.to_png()).decode("ascii")
+    except (ValueError, OSError, ImportError):
+        return _jpeg_data_url(artwork.jpeg)
+
+
 def parse_save(filename: str) -> dict:
     if not paths.saves:
         raise FileNotFoundError("Saves folder not found")
@@ -75,18 +84,18 @@ def parse_save(filename: str) -> dict:
 
     sims.sort(key=lambda item: (item["last"].lower(), item["first"].lower()))
 
-    thumbnail = _jpeg_data_url(save.thumbnail)
+    thumbnail = _artwork_data_url(save.thumbnail_image) or _jpeg_data_url(save.thumbnail)
     artwork = [
-        image.jpeg
+        image
         for image in save.artwork.values()
         if image.jpeg and image.jpeg != save.thumbnail
     ]
-    artwork.sort(key=len, reverse=True)
+    artwork.sort(key=lambda image: len(image.jpeg), reverse=True)
     result = {
         "file": filename,
         "slot": path.stem,
         "thumbnail": thumbnail,
-        "house_thumbnails": [_jpeg_data_url(raw) for raw in artwork[:3]],
+        "house_thumbnails": [_artwork_data_url(image) for image in artwork[:3]],
         "sims": sims,
         "households": [
             {

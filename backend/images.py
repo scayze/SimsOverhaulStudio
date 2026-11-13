@@ -214,6 +214,38 @@ def has_image(instance: str, kind: str) -> bool:
     return instance in _index("sim" if kind == "sim" else "household")
 
 
+def png_path(instance: str, kind: str) -> Path | None:
+    """Convert Tray artwork with its embedded alpha to a cached SDK PNG."""
+    if not INSTANCE_RE.fullmatch(instance or ""):
+        return None
+    kind = "sim" if kind == "sim" else "household"
+    source = _index(kind).get(instance)
+    if source is None:
+        return None
+    return _artwork_png_path(source, CACHE_DIR / f"{instance}_{kind}_sdk.png", tray=True)
+
+
+def _artwork_png_path(source: Path, target: Path, *, tray: bool = False) -> Path | None:
+    try:
+        if target.is_file() and target.stat().st_mtime_ns >= source.stat().st_mtime_ns:
+            return target
+        artwork = read_artwork(source) if tray else decode_artwork(source.read_bytes())
+        target.write_bytes(artwork.to_png())
+        return target
+    except (ArtworkError, OSError, ValueError, ImportError):
+        return None
+
+
+def premade_png_path(template: str) -> Path | None:
+    template = (template or "").lower().removeprefix("0x").zfill(16)
+    if len(template) != 16 or not all(c in "0123456789abcdef" for c in template):
+        return None
+    source = DATA_DIR / "premade_images" / f"{template}.jpg"
+    if not source.is_file():
+        return None
+    return _artwork_png_path(source, source.with_name(f"{template}_sdk.png"))
+
+
 def mask_path(instance: str, kind: str) -> Path | None:
     kind = "sim" if kind == "sim" else "household"
     target = CACHE_DIR / f"{instance}_{kind}_mask.png"
@@ -278,6 +310,8 @@ def has_mask(instance: str, kind: str) -> bool:
 
 
 def mask_url_if_any(instance: str, kind: str) -> str:
+    if png_path(instance, kind) is not None:
+        return ""
     return mask_url(instance, kind) if has_mask(instance, kind) else ""
 
 
@@ -287,16 +321,18 @@ def premade_mask_url(template: str) -> str:
 
 def premade_mask_url_if_any(template: str) -> str:
     clean = (template or "").lower().removeprefix("0x").zfill(16)
+    if premade_png_path(clean) is not None:
+        return ""
     return premade_mask_url(clean) if premade_mask_path(clean) else ""
 
 
 def sim_image_url(sim_id) -> str:
     if not sim_id:
         return ""
-    return f"/api/tray/image?kind=sim&instance=0x{sim_id:016x}"
+    return f"/api/tray/image?kind=sim&instance=0x{sim_id:016x}&format=png"
 
 
 def household_image_url(ident: str) -> str:
     if not ident:
         return ""
-    return f"/api/tray/image?kind=household&instance={ident}"
+    return f"/api/tray/image?kind=household&instance={ident}&format=png"

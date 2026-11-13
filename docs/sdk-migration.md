@@ -27,9 +27,9 @@ studio. The SDK's own cache lives in `data/sdk_cache/`.
 | `backend/households.py` | reduced to the name resolver used by supplemental datasets |
 | `backend/setups.py` | **removed**; replaced by `Catalog.premade_relationships` |
 | `backend/tray.py` | `read_household_binary()` and the new `TrayLibrary.errors` handling |
-| `backend/images.py` | `sims4_sdk.save.artwork` for JPEG/alpha decoding; a wrapper fallback remains for a Tray header variant |
+| `backend/images.py` | `sims4_sdk.save.artwork` for decoding and PNG conversion; wrapper and JPEG/mask fallbacks remain for unsupported Tray images |
 | `backend/premade_art.py` | `sims4_sdk.core.dbpf.DBPF` and `save.artwork.decode_artwork()` for household composite masks |
-| `backend/gameicons.py` | `Sims4Workspace.icon_for()` + `sims4_sdk.core.images` (DST/DDS unshuffling); local DXT→PNG fallback keeps the studio stdlib-only |
+| `backend/gameicons.py` | `Sims4Workspace.icon_for()` + `GameImage.to_png()`; local DXT→PNG conversion remains as a fallback |
 
 The studio still owns UI-facing enrichment: compatibility labels, career branch
 rules, aspiration track labels, relationship labels, dynasties, secrets, clubs,

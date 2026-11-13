@@ -495,7 +495,7 @@ def seed_premade_world():
         template_id = hh.get("template_id")
         tpl_hex = f"{template_id:016x}"
         image_file = APP_DIR / "data" / "premade_images" / f"{tpl_hex}.jpg"
-        hh_image = f"/api/premade/image?template={tpl_hex}" if image_file.is_file() else ""
+        hh_image = f"/api/premade/image?template={tpl_hex}&format=png" if image_file.is_file() else ""
         hh_mask = premade_mask_url_if_any(tpl_hex) if hh_image else ""
         dynasty = hh.get("game_dynasty")
 

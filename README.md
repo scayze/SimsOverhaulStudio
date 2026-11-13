@@ -5,7 +5,7 @@ or Tray library, edit their relationships, skills, traits, careers, funds,
 occults, degrees and milestones, then export the whole thing as a new-save
 overhaul mod.
 
-Built with Python (standard library only) and a Clean UI style web frontend.
+Built with Python, Pillow and a Clean UI style web frontend.
 Game/save/Tray extraction is powered by the bundled, unmodified
 [SimsDataSDK](SimsDataSDK/) checkout; see
 [`docs/sdk-migration.md`](docs/sdk-migration.md) for the coverage map and the
@@ -16,6 +16,9 @@ precise list of features still implemented locally.
 ## Start the studio
 
 Double-click **`Start Studio.bat`**.
+
+Install the bundled SDK's Python dependency with `python -m pip install Pillow`
+if Pillow is not already available. The SDK uses it to convert game images to PNG.
 
 The studio opens in an Edge/Chrome app window at `http://127.0.0.1:8765`.
 Keep the console window open while you work; closing it stops the studio.

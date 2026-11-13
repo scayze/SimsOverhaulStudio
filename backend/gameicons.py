@@ -1,12 +1,7 @@
 """Serve tuning icons extracted by SimsDataSDK as browser-friendly PNGs.
 
-The SDK resolves a tuning ``icon`` key to a ``GameImage`` (usually DXT1/DXT5 DDS
-from the matching ``0x00B2D882`` resource).  The studio is stdlib-only, so this
-module decodes the DXT blocks and writes RGBA PNGs itself.  Results are cached
-under ``data/icon_cache``.
-
-The SDK's optional ``GameImage.to_png()`` uses Pillow; this module is used as a
-dependency-free fallback.
+The SDK resolves and converts tuning icons to PNG. A local decoder remains as
+a fallback for environments where the SDK conversion is unavailable.
 """
 from __future__ import annotations
 
@@ -59,7 +54,7 @@ def icon_path(icon_key: str) -> Path | None:
     """Return a cached PNG for an SDK icon key, or ``None`` when unavailable."""
     if not icon_key:
         return None
-    target = CACHE_DIR / f"{_key_name(icon_key)}.png"
+    target = CACHE_DIR / f"sdk_{_key_name(icon_key)}.png"
     if target.is_file():
         return target
     if not _READY:
@@ -77,12 +72,12 @@ def icon_path(icon_key: str) -> Path | None:
     if image is None or not image.data:
         return None
     try:
-        if image.is_png:
-            png = image.data
-        else:
-            png = _dds_to_png(image.data)
+        png = image.to_png()
     except Exception:
-        return None
+        try:
+            png = image.data if image.is_png else _dds_to_png(image.data)
+        except Exception:
+            return None
     if not png:
         return None
     target.write_bytes(png)
