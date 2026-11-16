@@ -460,17 +460,20 @@ _WORLD_CACHE: dict | None = None
 def seed_premade_world():
     """Return the clean premade households, fully decoded from the game files."""
     global _WORLD_CACHE
-    if _WORLD_CACHE is not None:
-        return _WORLD_CACHE
     from . import gamedata, premade_art
     from .templatedata import load_complete_dataset
 
+    dataset = load_complete_dataset()
+    cache_key = (dataset.get("meta", {}).get("built"), tuple(dataset.get("meta", {}).get("installed_packs") or ()))
+    if _WORLD_CACHE is not None and _WORLD_CACHE.get("_cache_key") == cache_key:
+        return _WORLD_CACHE
+
     try:
+        premade_art._CHECKED["done"] = False
         premade_art.ensure_premade_images()
     except Exception:
         pass
     aspirations = load_catalog()["catalog"].get("aspirations", [])
-    dataset = load_complete_dataset()
     households = dataset.get("households", [])
     all_ids = {}
     for hh in households:
@@ -721,7 +724,7 @@ def seed_premade_world():
                              if not (t.get("tuning") or "").lower().startswith("trait_gender")]
         _add_icons(sim)
 
-    _WORLD_CACHE = {"sims": sims, "households": len(households), "save": None, "save_label": "game premades"}
+    _WORLD_CACHE = {"sims": sims, "households": len(households), "save": None, "save_label": "game premades", "_cache_key": cache_key}
     return _WORLD_CACHE
 
 

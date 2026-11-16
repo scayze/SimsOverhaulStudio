@@ -249,6 +249,10 @@ family) from real install-vs-wiki differences.
   that ship only binary tuning will show up as EA content, not as MOD.
 - **Clean premade sims come from the game's household templates.** They are
   read-only and use the game's own starting data, not your Tray or saves.
+  The studio estimates owned packs from the main pack folders in the game
+  install (not Delta folders) and includes only Sims the SDK can attribute to
+  those packs or the base game. This is an installation estimate, not a check
+  of launcher ownership; Sims with unknown pack attribution are excluded.
 - **Some data is genuinely absent from the install.** The audit's remaining
   flags are mostly: specific aspirations (only tracks are stored), ancestor
   parent edges (not encoded for every dynasty), reward/aspiration traits that
@@ -345,6 +349,8 @@ family) from real install-vs-wiki differences.
   exists and contains `.save` files.
 - **Catalog looks empty** — click *Scan Content* and wait for the progress bar.
   First scan takes about a minute on a large Mods folder.
+- **Scan says SimsDataSDK is missing** — from the repository folder, run
+  `git submodule update --init --recursive`, then restart the studio and scan again.
 - **The game does not see the mod** — enable *Script Mods Allowed* in
   Options → Game Options → Other, and keep `.ts4script` no deeper than one
   subfolder in Mods.

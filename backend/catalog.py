@@ -744,6 +744,13 @@ def _build_from_sdk(
 
 def build_catalog(progress: Callable[[str, int, int], None] | None = None) -> dict:
     started = time.time()
+    if not sdk.SDK_AVAILABLE or sdk.Sims4Workspace is None:
+        raise RuntimeError("SimsDataSDK is missing or could not be loaded. Initialize the SimsDataSDK submodule and restart the studio.")
+    if not paths.game or not paths.game.is_dir():
+        raise RuntimeError("The Sims 4 installation could not be found. Check the game path and restart the studio.")
+    game_packages = _game_packages()
+    if not game_packages:
+        raise RuntimeError(f"No simulation packages were found in {paths.game}.")
     buckets = _reset_buckets()
 
     def add(item: dict) -> None:
@@ -763,7 +770,6 @@ def build_catalog(progress: Callable[[str, int, int], None] | None = None) -> di
             return
         add(item)
 
-    game_packages = _game_packages()
     total = len(game_packages)
     for i, path in enumerate(game_packages, 1):
         if progress:
@@ -783,6 +789,8 @@ def build_catalog(progress: Callable[[str, int, int], None] | None = None) -> di
     catalog = {}
     for kind, items in buckets.items():
         catalog[kind] = sorted(items.values(), key=lambda x: x["label"].lower())
+    if not any(catalog[kind] for kind in ("traits", "skills", "careers", "aspirations")):
+        raise RuntimeError("No game content could be read from the simulation packages. Check that the game files are accessible and SimsDataSDK is working.")
 
     sdk_catalog = sdk.catalog() if used_sdk else None
     sdk_diagnostics = getattr(sdk_catalog, "diagnostics", []) if sdk_catalog is not None else []

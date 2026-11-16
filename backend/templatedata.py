@@ -533,11 +533,13 @@ def _build_sim(catalog, premade, world_member, household_name, dynasty_name) -> 
 # ------------------------------------------------------------------- builder
 def build_complete_dataset(progress: Callable[[str], None] | None = None) -> dict:
     started = time.time()
+    packs = sdk.installed_packs()
+    workspace = sdk.workspace()
+    if workspace is not None:
+        workspace.owned_packs = frozenset(packs) if packs is not None else None
     static = sdk.static_data()
     if static is None:
-        payload = {"households": [], "dynasties": [], "meta": {"error": "SimsDataSDK unavailable"}}
-        COMPLETE_FILE.write_text(json.dumps(payload), encoding="utf-8")
-        return payload
+        raise RuntimeError("SimsDataSDK unavailable; cannot filter premades by installed packs")
     catalog = static.catalog
     bundle = static.premades
     world = getattr(static, "world", None)
@@ -559,7 +561,10 @@ def build_complete_dataset(progress: Callable[[str], None] | None = None) -> dic
         if record.name:
             record_by_name.setdefault(_norm(record.name), record)
 
-    premade_by_id = {sim.id: sim for sim in bundle.sims}
+    scenario_ids = {sim.id for sim in workspace.find_sims(ownership="owned", origin="scenario")}
+    normal_ids = {sim.id for sim in workspace.find_sims(ownership="owned", origin="normal")}
+    premade_by_id = {sim.id: sim for sim in workspace.find_sims(ownership="owned")
+                     if sim.id not in scenario_ids or sim.id in normal_ids}
     dynasty_names = {_norm(row["name"]): row["name"] for row in dynasty_tuning()}
     lots_by_id = {lot.id: lot for lot in bundle.lots}
     lots_by_household = {
@@ -692,6 +697,9 @@ def build_complete_dataset(progress: Callable[[str], None] | None = None) -> dic
             "household_resources": len(records),
             "sdk_diagnostics": len(getattr(world, "diagnostics", []) or []),
             "sdk": True,
+            "ownership_filter": 1,
+            "scenario_filter": 1,
+            "installed_packs": packs,
         },
     }
     try:
@@ -816,11 +824,17 @@ def households_sims(households: list[dict]) -> list[dict]:
 
 
 def load_complete_dataset() -> dict:
+    packs = sdk.installed_packs()
     if COMPLETE_FILE.exists():
         try:
-            return json.loads(COMPLETE_FILE.read_text(encoding="utf-8"))
+            data = json.loads(COMPLETE_FILE.read_text(encoding="utf-8"))
+            meta = data.get("meta", {})
+            if (meta.get("ownership_filter") == 1 and meta.get("scenario_filter") == 1
+                    and meta.get("installed_packs") == packs):
+                return data
         except (OSError, ValueError):
             pass
+    sdk.reset()
     return build_complete_dataset()
 
 

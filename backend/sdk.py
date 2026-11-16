@@ -110,6 +110,15 @@ def installation():
     return ws.installation if ws is not None else None
 
 
+def installed_packs() -> list[str] | None:
+    """Estimate available DLC from main pack folders, never Delta folders."""
+    ws = workspace()
+    if ws is None or ws.installation is None:
+        return None
+    from sims4_sdk.paths import iter_pack_root_folders
+    return sorted(p.name.upper() for p in iter_pack_root_folders(ws.installation.install_dir))
+
+
 def available() -> bool:
     return workspace() is not None
 

@@ -63,10 +63,11 @@ def _run_scan() -> None:
         # Household composites and the full household-template dataset live in
         # client packages the catalog does not scan. Refresh them here too.
         try:
-            art = premade_art.ensure_premade_images()
-            SCAN_STATE["premade_images"] = art
             from backend import templatedata
             SCAN_STATE["templates"] = templatedata.build_complete_dataset()["meta"]
+            premade_art._CHECKED["done"] = False
+            art = premade_art.ensure_premade_images()
+            SCAN_STATE["premade_images"] = art
             premade_art.build_crops(force=True)
             gameicons.warm()
         except Exception:
