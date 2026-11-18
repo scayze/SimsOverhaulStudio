@@ -634,6 +634,12 @@ input[type="range"]::-webkit-slider-thumb {
 .cat-icon-empty { display: inline-block; width: 32px; height: 32px; }
 .cat-meta { font-size: 10.5px; color: var(--muted); margin-top: 2px; }
 .cat-desc { font-size: 11px; color: var(--ink-2); margin-top: 3px; line-height: 1.4; max-width: 640px; }
+.cat-aspiration-details { margin-top: 6px; font-size: 11px; font-weight: 400; color: var(--ink-2); line-height: 1.4; }
+.cat-aspiration-details summary { cursor: pointer; font-weight: 600; }
+.cat-aspiration-stage { margin-top: 6px; }
+.cat-aspiration-stage ul { margin: 3px 0 0; padding-left: 18px; }
+.cat-aspiration-stage li { margin-bottom: 4px; }
+.cat-aspiration-skill { display: block; color: var(--muted); }
 
 .progress-wrap { display: flex; flex-direction: column; gap: 10px; }
 .progress-bar { height: 9px; border-radius: 999px; background: #e7edf5; overflow: hidden; }

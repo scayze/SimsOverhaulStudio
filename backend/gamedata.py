@@ -156,6 +156,12 @@ def compatible_ages(item: dict, kind: str) -> list[str] | None:
     url = _icon(item)
     tuning = (item.get("tuning") or "").lower()
     hint = item.get("age_hint")
+    if kind == "aspirations":
+        aspiration_ages = {"Teen Or Older": TEEN_UP, "Teen Only": ["Teen"], "Child Only": ["Child"]}
+        listed = item.get("ages") or ([hint] if hint else [])
+        expanded = [age for value in listed for age in aspiration_ages.get(value, [value]) if age in ALL_AGES]
+        if expanded:
+            return list(dict.fromkeys(expanded))
     if hint and hint in ALL_AGES:
         return [hint]
     # The SDK catalog carries the tuning's real age list; use it before the
@@ -198,8 +204,6 @@ def compatible_ages(item: dict, kind: str) -> list[str] | None:
             return ["Child"]
         return ADULT_UP
     elif kind == "aspirations":
-        if hint:
-            return [hint]
         if "child" in tuning:
             return ["Child"]
         if "teen" in tuning:
@@ -628,7 +632,19 @@ def relationship_bit_hint(item: dict) -> str:
 # 6. Frontend payload
 # ---------------------------------------------------------------------------
 def build_payload(catalog: dict) -> dict:
+    tracks_by_id = {}
+    tracks_by_label = {}
+    for track in catalog.get("aspiration_tracks", []):
+        label, name = track.get("label"), track.get("display_name")
+        if not label:
+            continue
+        if name:
+            tracks_by_id[str(track["id"])] = name
+        tracks_by_label.setdefault(label, []).append(name)
     return {
+        "aspiration_tracks_by_id": tracks_by_id,
+        "aspiration_tracks_by_label": {label: names[0] for label, names in tracks_by_label.items()
+                                       if len(names) == 1 and names[0]},
         "condition_guide": condition_guide(),
         "career_groups": CAREER_GROUPS,
         "majors": MAJORS,

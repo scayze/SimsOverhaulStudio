@@ -249,6 +249,7 @@ def tray_sim_payload(sim, catalog, key: str, source_ref: str, household: str | N
         "career_history": [],
         "aspiration": None,
         "aspiration_track": None,
+        "aspiration_track_id": None,
         "milestones": [],
         "relationships": [],
         "family": [],
@@ -264,6 +265,7 @@ def tray_sim_payload(sim, catalog, key: str, source_ref: str, household: str | N
     track = getattr(sim, "aspiration_track", None)
     if track is not None:
         payload["aspiration_track"] = getattr(track, "display_name", None) or pretty(track.name)
+        payload["aspiration_track_id"] = getattr(track, "id", None)
         # A save stores the track only; the specific aspiration is not encoded.
     payload["milestones"] = [
         milestone
@@ -327,6 +329,7 @@ def premade_sim_payload(sim, catalog, key: str, household: str, source_ref: str)
             if getattr(sim, "aspiration_track", None) is not None
             else None
         ),
+        "aspiration_track_id": getattr(getattr(sim, "aspiration_track", None), "id", None),
         "milestones": [],
         "relationships": [],
         "family": [],

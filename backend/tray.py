@@ -370,7 +370,8 @@ def _apply_trayitem_aspirations(path: Path, sims: list[dict]) -> None:
             sim = next((s for s in sims if not s.get("aspiration")), None)
         if sim and not sim.get("aspiration"):
             sim["aspiration"] = {
-                "id": item["id"],
+                "id": item.get("aspiration_id", item["id"]),
+                "track_id": item["id"] if item.get("aspiration_id") else None,
                 "label": item["label"],
                 "modded": item.get("modded", False),
                 "pack": item.get("pack_label", ""),
@@ -557,6 +558,7 @@ def seed_premade_world():
                 "lot_description": hh.get("lot_description", ""),
                 "aspiration": aspiration,
                 "aspiration_track": track,
+                "aspiration_track_id": raw_asp.get("id") if raw_asp.get("track") else None,
                 "likes": s.get("likes") or [],
                 "dislikes": s.get("dislikes") or [],
                 "career_track": s.get("career_track"),

@@ -171,6 +171,14 @@ def _apply_career(sim_info, career_data):
 
 def _apply_aspiration(sim_info, aspiration_data):
     try:
+        track_id = aspiration_data.get('track_id')
+        if track_id:
+            track = _get_instance(Types.ASPIRATION_TRACK, track_id)
+            if track is None:
+                _log('aspiration track unavailable %s' % track_id)
+                return
+            sim_info._primary_aspiration = track
+            return
         aspiration = _get_instance(Types.ASPIRATION, aspiration_data.get('id'))
         if aspiration is None:
             return

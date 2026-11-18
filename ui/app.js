@@ -629,23 +629,10 @@ function traitChips(list, kind) {
     .join("")}</div>`;
 }
 
-function aspirationTrackHint(track) {
-  const family = (track || "").split(" ")[0];
-  const examples = {
-    Popularity: "Friend of the World, Party Animal, Neighborhood Confidante",
-    Knowledge: "Renaissance Sim, Computer Whiz, Nerd Brain",
-    Creativity: "Painter Extraordinaire, Bestselling Author, Musical Genius",
-    Love: "Soulmate, Serial Romantic, Player",
-    Romance: "Soulmate, Serial Romantic, Player",
-    Family: "Successful Lineage, Big Happy Family, Super Parent",
-    Fortune: "Fabulously Wealthy, Mansion Baron, Business Savvy",
-    Athletic: "Bodybuilder, Fitness Nut",
-    Nature: "Freelance Botanist, The Curator, Angling Ace",
-    Food: "Master Chef, Master Mixologist",
-    Deviance: "Public Enemy, Chief of Mischief, Sleight of Hand",
-    Mental: "Whiz Kid / child mental aspirations",
-  };
-  return examples[family] || "";
+function aspirationTrackName(sim) {
+  return state.gamedata?.aspiration_tracks_by_id?.[sim.aspiration_track_id]
+    || state.gamedata?.aspiration_tracks_by_label?.[sim.aspiration_track]
+    || sim.aspiration_track;
 }
 
 function renderTraits(sim) {
@@ -672,7 +659,7 @@ function renderTraits(sim) {
     <div class="card full">
       <h3>Aspiration</h3>
       <p class="hint">One aspiration per sim. Replaces the sim's current aspiration when the mod runs.</p>
-      ${sim.aspiration ? `<div class="chips"><span class="chip ${sim.aspiration.modded ? "modded" : ""}">${sim.aspiration.icon ? `<img class="chip-ico" src="${esc(sim.aspiration.icon)}" alt="" />` : ""}${esc(sim.aspiration.label)}${sim.aspiration.modded ? ` <img class="mod-icon" src="/icons/x_mods.png" title="Modded content" alt="MOD" />` : ""}<button class="x" data-remove="aspiration:0">✕</button></span></div>` : sim.aspiration_track ? `<div class="chip-empty">Aspiration track: <strong>${esc(sim.aspiration_track)}</strong>. The install files store the track only, not the specific aspiration.${aspirationTrackHint(sim.aspiration_track) ? ` Track options: ${esc(aspirationTrackHint(sim.aspiration_track))}.` : ""}</div>` : `<div class="chip-empty">No aspiration selected.</div>`}
+      ${sim.aspiration ? `<div class="chips"><span class="chip ${sim.aspiration.modded ? "modded" : ""}">${sim.aspiration.icon ? `<img class="chip-ico" src="${esc(sim.aspiration.icon)}" alt="" />` : ""}${esc(sim.aspiration.label)}${sim.aspiration.modded ? ` <img class="mod-icon" src="/icons/x_mods.png" title="Modded content" alt="MOD" />` : ""}<button class="x" data-remove="aspiration:0">✕</button></span></div>` : sim.aspiration_track ? `<div class="chip-empty">Aspiration: <strong>${esc(aspirationTrackName(sim))}</strong></div>` : `<div class="chip-empty">No aspiration selected.</div>`}
       <div class="add-line"><button class="btn sm" data-add="aspirations">Choose aspiration</button></div>
     </div>
   </div>`;
@@ -1991,7 +1978,7 @@ function applyRewardEffects(sim, item, added) {
   const eff = item.reward_effects;
   if (!eff) return;
   if (eff.aspiration_id && !sim.aspiration) {
-    sim.aspiration = { id: eff.aspiration_id, label: eff.aspiration, modded: false };
+    sim.aspiration = { id: eff.aspiration_id, track_id: eff.aspiration_track_id, label: eff.aspiration, modded: false };
     added.push(`aspiration ${eff.aspiration}`);
   }
   if (eff.career_id) {
@@ -2108,7 +2095,7 @@ function handleAdd(kind) {
       sim.traits.push({ id: item.id, label: item.label, modded: item.modded, pack: item.pack_label, icon: item.icon });
       applyRewardEffects(sim, item, added);
     } else if (kind === "remove_traits") sim.remove_traits.push({ id: item.id, label: item.label, modded: item.modded, pack: item.pack_label, icon: item.icon });
-    else if (kind === "aspirations") sim.aspiration = { id: item.id, label: item.label, modded: item.modded, pack: item.pack_label, icon: item.icon };
+    else if (kind === "aspirations") sim.aspiration = { id: item.aspiration_id, track_id: item.id, label: item.label, modded: item.modded, pack: item.pack_label, icon: item.icon };
     else if (kind === "skills") {
       if (!sim.skills.some((s) => s.id === item.id)) sim.skills.push({ id: item.id, label: item.label, modded: item.modded, level: 1, icon: item.icon });
     } else if (kind === "careers") {
@@ -2745,6 +2732,17 @@ function catalogRow(item, kind) {
   const condHtml = cond
     ? `<div class="cat-cond">${esc(cond.label)} · ${esc(cond.source)} — ${esc(cond.detail)}</div>`
     : "";
+  const objectiveText = (text) => /^0x[0-9a-f]+$/i.test(text || "") ? "" : (text || "").replace(/\{[^{}]+\}/g, "…");
+  const stages = item.aspiration_stages || [];
+  const stagesHtml = kind === "aspirations" && stages.length ? `<details class="cat-aspiration-details">
+    <summary>Milestones and objectives</summary>
+    <div>… indicates a value not available in the extracted text. Skill thresholds do not include every completion condition.</div>
+    ${stages.map((stage) => `<div class="cat-aspiration-stage"><strong>${esc(stage.name)}</strong><ul>${stage.objectives.map((objective) => `<li>
+      ${esc(objectiveText(objective.text) || "Objective details unavailable")}
+      ${objective.skill && objective.skill_level != null ? `<span class="cat-aspiration-skill">${esc(objective.skill)} skill threshold: ${esc(String(objective.skill_level))}</span>` : ""}
+      ${objective.tooltip ? `<div>${esc(objectiveText(objective.tooltip))}</div>` : ""}
+    </li>`).join("")}</ul></div>`).join("")}
+  </details>` : "";
   return `<div class="cat-row">
     ${item.icon ? `<img class="cat-icon" src="${esc(item.icon)}" alt="" />` : `<span class="cat-icon cat-icon-empty"></span>`}
     <div class="label">${esc(item.label)} ${item.modded ? `<img class="mod-icon" src="/icons/x_mods.png" title="Modded content" alt="MOD" />` : ""}
@@ -2755,6 +2753,7 @@ function catalogRow(item, kind) {
       ${itemDescription(item) ? `<div class="cat-desc">${esc(itemDescription(item))}</div>` : ""}
       ${item.hint ? `<div class="cat-desc">${esc(item.hint)}</div>` : ""}
       ${condHtml}
+      ${stagesHtml}
       <div class="tuning">${esc(item.tuning)}</div>
     </div>
     <span class="pack">${esc(item.pack_label || item.pack || "")}</span>

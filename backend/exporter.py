@@ -48,6 +48,8 @@ def export_config(project: dict) -> dict:
             entry["career_track"] = sim["career_track"]
         if sim.get("aspiration") and sim["aspiration"].get("id") and not sim["aspiration"].get("track"):
             entry["aspiration"] = {"id": sim["aspiration"]["id"], "label": sim["aspiration"].get("label")}
+            if sim["aspiration"].get("track_id"):
+                entry["aspiration"]["track_id"] = sim["aspiration"]["track_id"]
         if sim.get("funds") is not None:
             entry["funds"] = int(sim["funds"])
         if sim.get("occult"):

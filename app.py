@@ -133,7 +133,8 @@ def _catalog_payload(kind: str, query: str, source: str, include_batuu: bool = F
                     "career": effects["career"]["label"] if effects.get("career") else None,
                     "career_id": effects["career"]["id"] if effects.get("career") else None,
                     "aspiration": effects["aspiration"]["label"] if effects.get("aspiration") else None,
-                    "aspiration_id": effects["aspiration"]["id"] if effects.get("aspiration") else None,
+                    "aspiration_id": effects["aspiration"].get("aspiration_id", effects["aspiration"]["id"]) if effects.get("aspiration") else None,
+                    "aspiration_track_id": effects["aspiration"]["id"] if effects.get("aspiration") and effects["aspiration"].get("aspiration_id") else None,
                     "skills": [{"id": s["id"], "label": s["label"]} for s in effects.get("skills", [])],
                 }
         else:

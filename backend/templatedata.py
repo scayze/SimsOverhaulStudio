@@ -535,8 +535,6 @@ def build_complete_dataset(progress: Callable[[str], None] | None = None) -> dic
     started = time.time()
     packs = sdk.installed_packs()
     workspace = sdk.workspace()
-    if workspace is not None:
-        workspace.owned_packs = frozenset(packs) if packs is not None else None
     static = sdk.static_data()
     if static is None:
         raise RuntimeError("SimsDataSDK unavailable; cannot filter premades by installed packs")
@@ -561,10 +559,12 @@ def build_complete_dataset(progress: Callable[[str], None] | None = None) -> dic
         if record.name:
             record_by_name.setdefault(_norm(record.name), record)
 
-    scenario_ids = {sim.id for sim in workspace.find_sims(ownership="owned", origin="scenario")}
-    normal_ids = {sim.id for sim in workspace.find_sims(ownership="owned", origin="normal")}
-    premade_by_id = {sim.id: sim for sim in workspace.find_sims(ownership="owned")
-                     if sim.id not in scenario_ids or sim.id in normal_ids}
+    scenario_ids = {sim.id for sim in workspace.find_sims(origin="scenario")}
+    normal_ids = {sim.id for sim in workspace.find_sims(origin="normal")}
+    available_packs = {"BASE", *(packs or [])}
+    premade_by_id = {sim.id: sim for sim in workspace.find_sims()
+                     if sim.pack_id in available_packs
+                     and (sim.id not in scenario_ids or sim.id in normal_ids)}
     dynasty_names = {_norm(row["name"]): row["name"] for row in dynasty_tuning()}
     lots_by_id = {lot.id: lot for lot in bundle.lots}
     lots_by_household = {

@@ -66,6 +66,14 @@ def icon_path(icon_key: str) -> Path | None:
     if workspace is None:
         return None
     try:
+        from sims4_sdk.core.images import parse_image_key
+        from sims4_sdk.core.resource_types import ICON_IMAGE_TYPE_IDS
+
+        key = parse_image_key(icon_key)
+        if (key is not None and key.type_id in ICON_IMAGE_TYPE_IDS
+                and workspace.installation is not None
+                and workspace.installation.find_image_entry(key.group, key.instance) is None):
+            return None
         image = workspace.icon_for(icon_key)
     except Exception:
         return None

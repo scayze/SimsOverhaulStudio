@@ -23,7 +23,7 @@ from .dbpf import DBPF, DBPFError
 from .settings import DATA_DIR, PACK_NAMES, paths
 
 CACHE_FILE = DATA_DIR / "catalog_cache.json"
-CACHE_VERSION = 30
+CACHE_VERSION = 34
 
 #: Definition kinds the SDK's ``Catalog`` models directly.
 SDK_KINDS = {
@@ -674,10 +674,10 @@ def _sdk_item(kind: str, model) -> dict | None:
     occults = getattr(model, "occults", None) or []
     if occults:
         item["occult_hint"] = str(occults[0]).replace("_", " ").title()
-    if kind == "aspirations":
-        tier = _aspiration_tier(name)
-        if tier is not None and tier > 1:
-            return None
+    if kind == "aspiration_tracks":
+        display_name = getattr(model, "display_name", None)
+        if display_name and not re.fullmatch(r"0x[0-9a-f]+", display_name, re.I):
+            item["display_name"] = display_name
     if kind == "traits":
         item["trait_type"] = getattr(model, "trait_type", "") or ""
     return item
@@ -707,7 +707,6 @@ def _build_from_sdk(
     collections = {
         "traits": catalog.traits.values(),
         "preferences": catalog.preferences.values(),
-        "aspirations": catalog.aspirations.values(),
         "aspiration_tracks": catalog.aspiration_tracks.values(),
         "careers": catalog.careers.values(),
         "career_tracks": catalog.career_tracks.values(),
@@ -723,6 +722,43 @@ def _build_from_sdk(
                 progress(f"Reading SDK catalog {done}/{total}", done, total + 1)
             item = _sdk_item(kind, model)
             if item:
+                if kind == "aspiration_tracks" and model.category_id is not None:
+                    track = model
+                    stage = next((catalog.aspirations.get(stage_id) for stage_id in track.aspiration_ids
+                                  if catalog.aspirations.get(stage_id) is not None), None)
+                    aspiration_item = _sdk_item("aspirations", stage) if stage is not None else None
+                    if aspiration_item is None:
+                        add(item)
+                        continue
+                    aspiration_item["id"] = track.id
+                    aspiration_item["aspiration_id"] = stage.id
+                    aspiration_item["label"] = item.get("display_name") or _display_label("aspirations", stage.name)
+                    aspiration_item["pack"], aspiration_item["pack_label"], aspiration_item["modded"], aspiration_item["source"] = _sdk_source(track.source)
+                    icon_key = _sdk_icon_key(track)
+                    if icon_key:
+                        aspiration_item["icon_key"] = icon_key
+                    stages = []
+                    for stage_id in getattr(track, "aspiration_ids", []):
+                        stage = catalog.aspirations.get(stage_id)
+                        if stage is None:
+                            continue
+                        objectives = []
+                        for objective_id in stage.objective_ids:
+                            objective = catalog.aspiration_objectives.get(objective_id)
+                            if objective is None:
+                                continue
+                            skill = catalog.statistics.get(objective.skill_id)
+                            objectives.append({
+                                "text": objective.display_text,
+                                "tooltip": objective.tooltip,
+                                "skill": (skill.display_name or pretty(skill.name)) if skill else None,
+                                "skill_level": objective.skill_level,
+                            })
+                        if objectives:
+                            stages.append({"name": stage.display_name or _display_label("aspirations", stage.name),
+                                           "objectives": objectives})
+                    aspiration_item["aspiration_stages"] = stages
+                    add(aspiration_item)
                 add(item)
     # Some packs ship likes/dislikes as ``Trait`` resources rather than
     # ``Preference`` resources.  The SDK catalog keeps them under traits.
@@ -847,6 +883,8 @@ def _merge_xml_items(payload: dict) -> dict:
             # trait_type (PERSONALITY / ASPIRATION / HIDDEN).
             if item.get("trait_type"):
                 existing["trait_type"] = item["trait_type"]
+            continue
+        if kind == "aspirations":
             continue
         bucket = catalog.setdefault(kind, [])
         bucket.append(item)
